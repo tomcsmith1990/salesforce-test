@@ -2,10 +2,6 @@
     <custom>true</custom>
     <userLicense>Salesforce</userLicense>
     <classAccesses>
-        <apexClass>BotController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>BotField</apexClass>
         <enabled>true</enabled>
     </classAccesses>
