@@ -51,7 +51,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>EinsteinVisionController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>EinsteinVisionControllerTest</apexClass>
