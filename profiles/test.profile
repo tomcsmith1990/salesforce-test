@@ -39,7 +39,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>DemoController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>DemoControllerTests</apexClass>
