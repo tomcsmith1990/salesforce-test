@@ -3,7 +3,7 @@
     <userLicense>Analytics Cloud Integration User</userLicense>
     <classAccesses>
         <apexClass>BotController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>BotField</apexClass>
