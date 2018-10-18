@@ -346,34 +346,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Country__c</fullName>
-        <externalId>false</externalId>
-        <label>Country</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>a</fullName>
-                    <default>false</default>
-                    <label>a</label>
-                </value>
-                <value>
-                    <fullName>b</fullName>
-                    <default>false</default>
-                    <label>b</label>
-                </value>
-                <value>
-                    <fullName>c</fullName>
-                    <default>false</default>
-                    <label>c</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>State__c</fullName>
         <externalId>false</externalId>
         <label>State</label>
@@ -409,7 +381,7 @@
                 <valueName>2</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>c</controllingFieldValue>
+                <controllingFieldValue>b</controllingFieldValue>
                 <valueName>3</valueName>
             </valueSettings>
         </valueSet>
