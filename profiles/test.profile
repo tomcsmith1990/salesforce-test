@@ -1,10 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <userLicense>Analytics Cloud Integration User</userLicense>
-    <classAccesses>
-        <apexClass>BotController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <classAccesses>
         <apexClass>BotField</apexClass>
         <enabled>true</enabled>
@@ -196,6 +192,10 @@
     <classAccesses>
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BotController</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
@@ -573,17 +573,6 @@
         <field>AssetRelationship.RelationshipType</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ActualCost</field>
@@ -944,8 +933,6 @@
         <field>Contact.Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MailingAddress</field>
@@ -971,7 +958,6 @@
         <field>Contact.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ReportsToId</field>
@@ -1097,8 +1083,6 @@
         <field>Event.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
@@ -1234,7 +1218,6 @@
         <field>Lead.Website</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Metric.OrigMetricId__c</field>
@@ -1525,31 +1508,6 @@
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
@@ -1754,8 +1712,6 @@
         <object>Asset</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    
-    
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1801,7 +1757,6 @@
         <object>Document</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1811,7 +1766,6 @@
         <object>DuplicateRecordSet</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1857,8 +1811,6 @@
         <object>Metric</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    
-    
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1895,7 +1847,6 @@
         <object>Product2</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1941,7 +1892,6 @@
         <object>StreamingChannel</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>

@@ -11,14 +11,6 @@
     </classAccesses>
     <classAccesses>
     <enabled>false</enabled>
-    <apexClass>BotController</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>BotField</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
     <apexClass>BotHandler</apexClass>
 </classAccesses>
     <classAccesses>
@@ -197,6 +189,14 @@
     <enabled>false</enabled>
     <apexClass>SlackOpportunityPublisherTest</apexClass>
 </classAccesses>
+    <classAccesses>
+        <apexClass>BotController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BotField</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>false</enabled>

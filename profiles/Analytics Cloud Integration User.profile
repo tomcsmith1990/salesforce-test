@@ -2,10 +2,6 @@
     <custom>false</custom>
     <userLicense>Analytics Cloud Integration User</userLicense>
     <classAccesses>
-        <apexClass>BotController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>DemoController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -17,10 +13,6 @@
         <apexClass>HelloApex</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>BotField</apexClass>
-</classAccesses>
     <classAccesses>
     <enabled>false</enabled>
     <apexClass>BotHandler</apexClass>
@@ -197,6 +189,14 @@
     <enabled>false</enabled>
     <apexClass>SlackOpportunityPublisherTest</apexClass>
 </classAccesses>
+    <classAccesses>
+        <apexClass>BotController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BotField</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>false</enabled>
