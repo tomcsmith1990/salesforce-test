@@ -2,42 +2,6 @@
     <custom>false</custom>
     <userLicense>Authenticated Website</userLicense>
     <classAccesses>
-        <apexClass>BotController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotField</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotItem</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessage</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessageButton</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotRecord</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotResponse</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>DemoController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -46,173 +10,209 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>DreamHouseSampleDataController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>EinsteinVisionController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>EinsteinVisionControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerAddTwoNumbers</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerCostCenter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerEmployeeId</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFileUpload</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindAccount</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindContact</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindProperties</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerHello</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerHelp</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerHelpTopic</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerImageBasedSearch</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerMyOpenCases</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerNext</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerPipeline</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerQuarter</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerSOQL</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTopOpportunities</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTravelApproval</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>HelloApex</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>HttpFormBuilder</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotController</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>JWT</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotField</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>JWTBearerFlow</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotHandler</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>LIFXController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotItem</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>LIFXControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotMessage</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PostPriceChangeToSlack</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotMessageButton</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PostPriceChangeToSlackTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotRecord</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PropertyController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotResponse</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PropertyControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>BotTest</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PropertyPagedResult</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>DreamHouseSampleDataController</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PushPriceChangeNotification</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>EinsteinVisionController</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>PushPriceChangeNotificationTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>EinsteinVisionControllerTest</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>RejectDuplicateFavoriteTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerAddTwoNumbers</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>SlackOpportunityPublisher</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerCostCenter</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>SlackOpportunityPublisherTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerEmployeeId</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerFileUpload</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerFindAccount</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerFindContact</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerFindProperties</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerHello</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerHelp</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerHelpTopic</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerImageBasedSearch</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerMyOpenCases</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerNext</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerPipeline</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerQuarter</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerSOQL</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerTopOpportunities</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HandlerTravelApproval</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>HttpFormBuilder</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>JWT</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>JWTBearerFlow</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>LIFXController</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>LIFXControllerTest</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PostPriceChangeToSlack</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PostPriceChangeToSlackTest</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PropertyController</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PropertyControllerTest</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PropertyPagedResult</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PushPriceChangeNotification</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>PushPriceChangeNotificationTest</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>RejectDuplicateFavoriteTest</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>SlackOpportunityPublisher</apexClass>
+</classAccesses>
+    <classAccesses>
+    <enabled>false</enabled>
+    <apexClass>SlackOpportunityPublisherTest</apexClass>
+</classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>DreamHouseSampleData</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>DreamHouseSampleData</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <pageAccesses>
-        <apexPage>HeatMap</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>HeatMap</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <pageAccesses>
-        <apexPage>HeatMapMock</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>HeatMapMock</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -578,17 +578,6 @@
         <field>AssetRelationship.RelationshipType</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ActualCost</field>
@@ -949,8 +938,6 @@
         <field>Contact.Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MailingAddress</field>
@@ -976,7 +963,6 @@
         <field>Contact.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ReportsToId</field>
@@ -1102,8 +1088,6 @@
         <field>Event.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
@@ -1239,7 +1223,6 @@
         <field>Lead.Website</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Metric.OrigMetricId__c</field>
@@ -1530,31 +1513,6 @@
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
     </fieldPermissions>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>SocialPersona.SourceApp</field>
