@@ -50,7 +50,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Vehicle</label>
+    <label>VEhicle</label>
     <nameField>
         <label>PRoperty Name</label>
         <type>Text</type>
