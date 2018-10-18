@@ -3,7 +3,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>tom-dev@gearset.com</assignedTo>
+            <assignedTo>test-nb71zhegzjwg@example.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -12,7 +12,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>tom-dev@gearset.com</assignedTo>
+            <assignedTo>test-nb71zhegzjwg@example.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
