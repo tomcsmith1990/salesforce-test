@@ -1,5 +1,5 @@
 @isTest
-public class PropertyControllerTest {
+public class PropertyControllerTest132 {
     
     static testMethod void simple() {
         System.assert(true);
