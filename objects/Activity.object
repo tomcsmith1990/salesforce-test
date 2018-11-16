@@ -31,6 +31,22 @@
         <actionName>ViewAll</actionName>
         <type>Default</type>
     </actionOverrides>
+    <fields>
+        <fullName>LID__Date_Sent__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Date Sent</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>LID__URL__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>

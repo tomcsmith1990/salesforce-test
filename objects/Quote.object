@@ -89,10 +89,6 @@
         <fullName>Name</fullName>
     </fields>
     <fields>
-        <fullName>OpportunityId</fullName>
-        <type>MasterDetail</type>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
         <type>Lookup</type>
     </fields>
@@ -131,6 +127,10 @@
     <fields>
         <fullName>TotalPrice</fullName>
     </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>MasterDetail</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
@@ -161,4 +161,15 @@
         <searchResultsAdditionalFields>QUOTE.TOTALPRICE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <listViews>
+        <fullName>mine</fullName>
+        <columns>QUOTE.NAME</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>QUOTE.ISSYNCING</columns>
+        <columns>QUOTE.EXPIRATIONDATE</columns>
+        <columns>QUOTE.SUBTOTAL</columns>
+        <columns>QUOTE.TOTALPRICE</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Quotes</label>
+    </listViews>
 </CustomObject>
