@@ -39,12 +39,21 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <fields>
+        <fullName>test__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>test</label>
+        
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
@@ -53,10 +62,17 @@
     <label>VEhicle</label>
     <nameField>
         <label>PRoperty Name</label>
+        
         <type>Text</type>
     </nameField>
     <pluralLabel>Vehicles</pluralLabel>
+    
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <recordTypes>
+        <fullName>record_type</fullName>
+        <active>true</active>
+        <label>record type</label>
+    </recordTypes>
 </CustomObject>
