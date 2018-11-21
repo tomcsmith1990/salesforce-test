@@ -62,11 +62,11 @@
     <label>VEhicle</label>
     <nameField>
         <label>PRoperty Name</label>
-        
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Vehicles</pluralLabel>
-    
+    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
