@@ -29,7 +29,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Mobile__c</field>
+                <field>State__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

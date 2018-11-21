@@ -31,10 +31,6 @@
                 <behavior>Edit</behavior>
                 <field>LeadSource</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Opportunity_Stage_Number__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

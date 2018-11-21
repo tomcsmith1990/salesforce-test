@@ -53,20 +53,18 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>VEhicle</label>
+    <label>Vehicle</label>
     <nameField>
         <label>PRoperty Name</label>
-        <trackFeedHistory>true</trackFeedHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Vehicles</pluralLabel>
-    <recordTypeTrackFeedHistory>true</recordTypeTrackFeedHistory>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -14,7 +14,7 @@
     <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
     <enableExternalMediaContent>true</enableExternalMediaContent>
     <enableKnowledge>true</enableKnowledge>
-    <enableLightningKnowledge>false</enableLightningKnowledge>
+    <enableLightningKnowledge>true</enableLightningKnowledge>
     <showArticleSummariesCustomerPortal>false</showArticleSummariesCustomerPortal>
     <showArticleSummariesInternalApp>false</showArticleSummariesInternalApp>
     <showArticleSummariesPartnerPortal>false</showArticleSummariesPartnerPortal>

@@ -2574,7 +2574,7 @@
         <layout>TopLevelToBeDependedOn__c-TopLevelToBeDependedOn Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>VEhicle__c-VEhicle Layout</layout>
+        <layout>Vehicle__c-VEhicle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>VEhicle__c-VEhicle Layout</layout>

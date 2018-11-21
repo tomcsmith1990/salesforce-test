@@ -7,7 +7,10 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <field>ArticleBody__c</field>
+                <field>Title</field>
+            </layoutItems>
+            <layoutItems>
+                <field>UrlName</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>

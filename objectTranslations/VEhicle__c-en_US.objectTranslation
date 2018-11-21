@@ -5,7 +5,7 @@
     </fields>
     <caseValues>
         <plural>false</plural>
-        <value>VEhicle</value>
+        <value>Vehicle</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>

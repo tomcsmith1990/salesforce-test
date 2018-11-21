@@ -176,11 +176,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Ownership</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -316,23 +311,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>AccountSource</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>AnnualRevenue</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>ChannelProgramLevelName</fullName>
     </fields>
     <fields>
         <fullName>ChannelProgramName</fullName>
-    </fields>
-    <fields>
-        <fullName>CleanStatus</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Country__c</fullName>
@@ -418,10 +400,27 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CleanStatus</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
@@ -435,7 +434,6 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Mobile__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>

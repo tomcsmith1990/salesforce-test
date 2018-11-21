@@ -22,7 +22,7 @@
     </preferences>
     <preferences>
         <settingName>NetworksEnabled</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>AnalyticsSharingEnable</settingName>
@@ -45,10 +45,6 @@
         <settingValue>false</settingValue>
     </preferences>
     <preferences>
-        <settingName>Packaging2</settingName>
-        <settingValue>true</settingValue>
-    </preferences>
-    <preferences>
         <settingName>DeleteMonitoringDataEnabled</settingName>
         <settingValue>false</settingValue>
     </preferences>
@@ -65,12 +61,8 @@
         <settingValue>true</settingValue>
     </preferences>
     <preferences>
-        <settingName>ExpandedSourceTrackingPref</settingName>
-        <settingValue>false</settingValue>
-    </preferences>
-    <preferences>
         <settingName>ScratchOrgManagementPref</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>RemoveThemeBrandBanner</settingName>
@@ -130,7 +122,7 @@
     </preferences>
     <preferences>
         <settingName>Translation</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>LocalNames</settingName>
@@ -170,7 +162,7 @@
     </preferences>
     <preferences>
         <settingName>NotesReservedPref01</settingName>
-        <settingValue>true</settingValue>
+        <settingValue>false</settingValue>
     </preferences>
     <preferences>
         <settingName>ApexApprovalLockUnlock</settingName>

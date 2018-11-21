@@ -3565,11 +3565,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Mobile__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.State__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3878,7 +3873,6 @@
         <field>Opportunity.LID__LinkedIn_Company_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Quote.AccountId</field>
@@ -4784,6 +4778,11 @@
     <readable>false</readable>
     <field>WorkType.ServiceReportTemplateId</field>
 </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Mobile__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -5085,7 +5084,7 @@
         <layout>TopLevelToBeDependedOn__c-TopLevelToBeDependedOn Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>VEhicle__c-VEhicle Layout</layout>
+        <layout>Vehicle__c-VEhicle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>VEhicle__c-VEhicle Layout</layout>

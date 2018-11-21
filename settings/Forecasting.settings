@@ -192,10 +192,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -232,40 +228,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -292,7 +280,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -302,15 +289,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -431,10 +416,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -471,40 +452,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -531,7 +504,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -541,15 +513,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -674,10 +644,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -714,40 +680,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -775,7 +733,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -785,15 +742,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -914,10 +869,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -954,40 +905,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1014,7 +957,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1024,15 +966,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1157,10 +1097,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1197,40 +1133,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1258,7 +1186,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1268,15 +1195,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1397,10 +1322,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1437,40 +1358,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1497,7 +1410,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1507,15 +1419,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1636,10 +1546,6 @@
             <label>Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Quote Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1676,40 +1582,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1736,7 +1634,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1746,15 +1643,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1875,10 +1770,6 @@
             <label>Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Quote Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1915,40 +1806,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1975,7 +1858,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1985,15 +1867,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2118,10 +1998,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2158,40 +2034,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2219,7 +2087,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2229,15 +2096,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2358,10 +2223,6 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Synced Quote</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2398,40 +2259,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2458,7 +2311,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2468,15 +2320,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2597,10 +2447,6 @@
             <label>Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Quote Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2637,40 +2483,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2697,7 +2535,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2707,15 +2544,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2836,10 +2671,6 @@
             <label>Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>SYNCEDQUOTE.NAME</field>
-            <label>Quote Name</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2876,40 +2707,32 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOR</field>
+            <field>00N1t000007MOlD</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOS</field>
+            <field>00N1t000007MOlE</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdB</field>
+            <field>00N1t00000BBixT</field>
             <label>Is_Influenced</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000AmZdC</field>
+            <field>00N1t00000BBixU</field>
             <label>LinkedIn Company Id</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOT</field>
+            <field>00N1t000007MOlF</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t00000EC6Cr</field>
-            <label>Opportunity_Stage_Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOU</field>
+            <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N1t000007MLOV</field>
+            <field>00N1t000007MOlH</field>
             <label>Tracking Number</label>
-        </opportunityListFieldsLabelMappings>
-        <opportunityListFieldsLabelMappings>
-            <field>PARTNER.NAME</field>
-            <label>Account Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2936,7 +2759,6 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
-            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2946,15 +2768,13 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N1t000007MLOR</field>
-            <field>00N1t000007MLOS</field>
-            <field>00N1t00000AmZdB</field>
-            <field>00N1t00000AmZdC</field>
-            <field>00N1t000007MLOT</field>
-            <field>00N1t00000EC6Cr</field>
-            <field>00N1t000007MLOU</field>
-            <field>00N1t000007MLOV</field>
-            <field>PARTNER.NAME</field>
+            <field>00N1t000007MOlD</field>
+            <field>00N1t000007MOlE</field>
+            <field>00N1t00000BBixT</field>
+            <field>00N1t00000BBixU</field>
+            <field>00N1t000007MOlF</field>
+            <field>00N1t000007MOlG</field>
+            <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
