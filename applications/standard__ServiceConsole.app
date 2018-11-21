@@ -180,7 +180,11 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
+    <tabs>MyCustomObject__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>MyCustomObject__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
