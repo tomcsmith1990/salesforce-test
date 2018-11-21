@@ -1843,7 +1843,6 @@
         <field>Opportunity.LID__LinkedIn_Company_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Quote.AccountId</field>
@@ -2002,6 +2001,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.LID__URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>MyCustomObject__c.SomeNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Opportunity_Stage_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
