@@ -45,11 +45,7 @@
         <label>tdgdrg</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>test</valueSetName>
-        </valueSet>
+        <type>Date</type>
     </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
@@ -65,7 +61,7 @@
     <label>Custom Object</label>
     <nameField>
         <label>Custom Object Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Custom Objects</pluralLabel>
     <searchLayouts />
