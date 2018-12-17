@@ -483,6 +483,24 @@
         <trackHistory>false</trackHistory>
         <type>Location</type>
     </fields>
+    <fields>
+        <fullName>AFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRUE</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AFormula</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OwnerIsActive__c</fullName>
+        <externalId>false</externalId>
+        <formula>Name = "TestAccount"</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OwnerIsActive</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>

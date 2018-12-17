@@ -2205,6 +2205,10 @@
         <apexClass>TempTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>aaaaaaaabbbbbbbbbbbbccccccccccccccc</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>true</enabled>
@@ -4819,6 +4823,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.compound_geolocation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.AFormula__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.OwnerIsActive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
