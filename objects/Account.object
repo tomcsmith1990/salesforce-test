@@ -501,6 +501,24 @@
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Recent_accounts_for_textiles_department__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner.Department = 'Textiles' &amp;&amp; LastActivityDate &gt; DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY()) - 7)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Recent accounts for textiles department</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>blah__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner.Department = 'Textiles' &amp;&amp; LastActivityDate &gt; DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY()) - 7)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>blah</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
