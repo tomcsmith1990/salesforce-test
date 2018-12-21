@@ -3,6 +3,14 @@
         <label><!-- tdgdrg --></label>
         <name>tdgdrg__c</name>
     </fields>
+    <fields>
+        <label><!-- boolean2 --></label>
+        <name>boolean2__c</name>
+    </fields>
+    <fields>
+        <label><!-- boolean --></label>
+        <name>boolean__c</name>
+    </fields>
     <caseValues>
         <plural>false</plural>
         <value>Custom Object</value>

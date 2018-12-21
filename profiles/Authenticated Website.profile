@@ -1554,11 +1554,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Asset.LocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
     <field>WorkOrder.DurationInMinutes</field>
@@ -1580,17 +1575,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Quote.AdditionalAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Quote.AdditionalName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Quote.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1645,17 +1630,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Quote.QuoteToAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Quote.QuoteToName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Quote.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2273,6 +2248,31 @@
     <readable>false</readable>
     <field>WorkType.RecommendedCrewSize</field>
 </fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Asset.LocationId</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.AdditionalAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.BillingAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.QuoteToAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.ShippingAddress</field>
+</fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -2844,6 +2844,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-SocialPersona</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Knowledge__kav</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyCustomObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userPermissions>

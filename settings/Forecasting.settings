@@ -248,6 +248,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -294,6 +298,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -472,6 +477,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -518,6 +527,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -700,6 +710,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -747,6 +761,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -925,6 +940,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -971,6 +990,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1153,6 +1173,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1200,6 +1224,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1378,6 +1403,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1424,6 +1453,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1602,6 +1632,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1648,6 +1682,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1826,6 +1861,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1872,6 +1911,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2054,6 +2094,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2101,6 +2145,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2279,6 +2324,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2325,6 +2374,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2503,6 +2553,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2549,6 +2603,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2727,6 +2782,10 @@
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N1t00000GwTSs</field>
+            <label>Opportunity_Stage_Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N1t000007MOlG</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2773,6 +2832,7 @@
             <field>00N1t00000BBixT</field>
             <field>00N1t00000BBixU</field>
             <field>00N1t000007MOlF</field>
+            <field>00N1t00000GwTSs</field>
             <field>00N1t000007MOlG</field>
             <field>00N1t000007MOlH</field>
         </opportunityListFieldsUnselectedSettings>

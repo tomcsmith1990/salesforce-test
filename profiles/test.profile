@@ -1553,11 +1553,7 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Country__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.State__c</field>
@@ -1631,11 +1627,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Prequalified__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Custom_Object__c.tdgdrg__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1788,16 +1779,8 @@
         <field>Quote.Property_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TopLevelDepender__c.TopLevelToBeDependedOn__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>VEhicle__c.test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.LID__LinkedIn_Company_Id__c</field>
@@ -1855,17 +1838,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Quote.AdditionalAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Quote.AdditionalName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Quote.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1920,17 +1893,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Quote.QuoteToAddress</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Quote.QuoteToName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Quote.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2010,69 +1973,79 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Mobile__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>MyCustomObject__c.SomeNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.Opportunity_Stage_Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.boolean__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
-        <field>Custom_Object__c.boolean__c</field>
+        <field>Custom_Object__c.boolean2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.boolean__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Account.AFormula__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.compound_geolocation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Account.compound_geolocation__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AFormula__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Account.Mobile__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.OwnerIsActive__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Account.OwnerIsActive__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Recent_accounts_for_textiles_department__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Custom_Object__c.boolean__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.blah__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Custom_Object__c.tdgdrg__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.a_date_field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>MyCustomObject__c.boolean__c</field>
+</fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.a_date_time_field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Opportunity.Opportunity_Stage_Number__c</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.AdditionalAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.BillingAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.QuoteToAddress</field>
+</fieldPermissions>
+    <fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Quote.ShippingAddress</field>
+</fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -2440,15 +2413,6 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
-        <object>SocialPersona</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>Solution</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -2477,15 +2441,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Broker__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>Dreamhouse_Settings__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -2542,6 +2497,24 @@
         <object>blah__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+    <object>Dreamhouse_Settings__c</object>
+    <allowCreate>false</allowCreate>
+    <allowDelete>false</allowDelete>
+    <allowEdit>false</allowEdit>
+    <allowRead>false</allowRead>
+    <modifyAllRecords>false</modifyAllRecords>
+    <viewAllRecords>false</viewAllRecords>
+</objectPermissions>
+    <objectPermissions>
+    <object>SocialPersona</object>
+    <allowCreate>false</allowCreate>
+    <allowDelete>false</allowDelete>
+    <allowEdit>false</allowEdit>
+    <allowRead>false</allowRead>
+    <modifyAllRecords>false</modifyAllRecords>
+    <viewAllRecords>false</viewAllRecords>
+</objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -2728,6 +2701,14 @@
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>Knowledge__kav</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyCustomObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>ApexRestServices</name>
@@ -2743,10 +2724,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CampaignInfluence2</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -2792,4 +2769,8 @@
         <enabled>true</enabled>
         <name>WorkDotComUserPerm</name>
     </userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>CampaignInfluence2</name>
+</userPermissions>
 </Profile>

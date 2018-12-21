@@ -7,12 +7,12 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>tdgdrg__c</field>
+                <field>boolean2__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

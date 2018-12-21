@@ -230,10 +230,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>test__c</fullName>
         <externalId>false</externalId>
         <label>t</label>
