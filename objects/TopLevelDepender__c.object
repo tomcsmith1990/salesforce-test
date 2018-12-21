@@ -40,39 +40,35 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>test__c</fullName>
-        <defaultValue>false</defaultValue>
+        <fullName>TopLevelToBeDependedOn__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>test</label>
-        
+        <label>TopLevelToBeDependedOn</label>
+        <referenceTo>TopLevelToBeDependedOn__c</referenceTo>
+        <relationshipLabel>TopLevelDependers</relationshipLabel>
+        <relationshipName>TopLevelDependers</relationshipName>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
+        <type>Lookup</type>
     </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>VEhicle</label>
+    <label>TopLevelDepender</label>
     <nameField>
-        <label>PRoperty Name</label>
-        
+        <label>TopLevelDepender Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Vehicles</pluralLabel>
-    
+    <pluralLabel>TopLevelDependers</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <recordTypes>
-        <fullName>record_type</fullName>
-        <active>true</active>
-        <label>record type</label>
-    </recordTypes>
 </CustomObject>

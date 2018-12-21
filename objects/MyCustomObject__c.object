@@ -87,6 +87,12 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <validationRules>
+        <fullName>SomeNumber_less_than_10</fullName>
+        <active>true</active>
+        <errorConditionFormula>SomeNumber__c &gt;= 10</errorConditionFormula>
+        <errorMessage>SomeNumber should be less than 10</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>hello</fullName>
         <availability>online</availability>
