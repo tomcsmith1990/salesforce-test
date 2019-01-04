@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>WorkOrder</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>WorkOrder</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>WorkOrder</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>WorkOrder</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>
