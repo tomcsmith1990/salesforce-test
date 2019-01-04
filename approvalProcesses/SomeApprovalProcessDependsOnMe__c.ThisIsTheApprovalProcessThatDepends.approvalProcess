@@ -12,7 +12,7 @@
     <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
     <entryCriteria>
         <criteriaItems>
-            <field>SomeApprovalProcessDependsOnMe__c.Name</field>
+            <field>SomeApprovalProcessDependsOnMe__c.MyField</field>
             <operation>equals</operation>
             <value>TestName</value>
         </criteriaItems>
