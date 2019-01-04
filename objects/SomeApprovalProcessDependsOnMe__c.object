@@ -39,6 +39,16 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <fields>
+        <fullName>MyField__c</fullName>
+        <externalId>false</externalId>
+        <label>MyField</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
