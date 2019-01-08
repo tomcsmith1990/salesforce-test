@@ -1653,6 +1653,11 @@
         <field>SomeApprovalProcessDependsOnMe__c.MyField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Custom_Object__c.auto__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

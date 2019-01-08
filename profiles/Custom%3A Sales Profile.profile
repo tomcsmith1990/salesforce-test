@@ -2648,6 +2648,11 @@
         <field>SomeApprovalProcessDependsOnMe__c.MyField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Custom_Object__c.auto__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments>
