@@ -81,6 +81,18 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>NewObjectLookup__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>NewObjectLookup</label>
+        <referenceTo>NewObjectLookup__c</referenceTo>
+        <relationshipLabel>MyCustomObjects</relationshipLabel>
+        <relationshipName>MyCustomObjects</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
