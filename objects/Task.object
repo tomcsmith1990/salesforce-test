@@ -546,4 +546,28 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <validationRules>
+        <fullName>LID__cannot_edit_Priority_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <description>Validation Rule not in use</description>
+        <errorConditionFormula>false</errorConditionFormula>
+        <errorDisplayField>Priority</errorDisplayField>
+        <errorMessage>You cannot edit the Priority field on LInkedin Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_assigned_on_Linkedin_Tasks</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(RecordType.Name = "inMail", RecordType.Name = "Messages", RecordType.Name = "PointDrive Presentation Created", RecordType.Name = "PointDrive Presentation Viewed", RecordType.Name = "LinkedIn_Call")
+&amp;&amp; (ISCHANGED( OwnerId ))</errorConditionFormula>
+        <errorDisplayField>Status</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LID__cannot_edit_status_on_Linkedin_Tasks</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(RecordType.Name = "inMail", RecordType.Name = "Messages", RecordType.Name = "PointDrive Presentation Created", RecordType.Name = "PointDrive Presentation Viewed", RecordType.Name = "LinkedIn_Call")
+&amp;&amp; (ISCHANGED( Status ))</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>You cannot edit the Assigned To field on LinkedIn Tasks</errorMessage>
+    </validationRules>
 </CustomObject>
