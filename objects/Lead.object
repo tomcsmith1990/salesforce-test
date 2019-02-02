@@ -266,6 +266,7 @@
     </fields>
     <fields>
         <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>

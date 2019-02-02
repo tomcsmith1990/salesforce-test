@@ -245,12 +245,13 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
+        <fullName>SyncedQuoteId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SyncedQuoteId</fullName>
+        <fullName>PartnerAccountId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
