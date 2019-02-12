@@ -2213,6 +2213,10 @@
         <apexClass>zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyControllerTest68zzzzzzzzzzzzzzzz</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>true</enabled>
