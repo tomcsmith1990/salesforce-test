@@ -67,6 +67,15 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+        <fields>
+        <fullName>new_recommendation_field2__c</fullName>
+        <externalId>false</externalId>
+        <label>new recommendation field2</label>
+        <length>22</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
