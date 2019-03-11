@@ -2491,11 +2491,6 @@
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
-    <field>Quote.Property_ID__c</field>
-</fieldPermissions>
-    <fieldPermissions>
-    <editable>false</editable>
-    <readable>false</readable>
     <field>Quote.QuoteToName</field>
 </fieldPermissions>
     <fieldPermissions>
@@ -2686,6 +2681,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>LoopB__c.LoopA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Property_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>

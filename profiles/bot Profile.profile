@@ -1556,6 +1556,11 @@
         <field>VEhicle__c.test__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Quote.Property_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
