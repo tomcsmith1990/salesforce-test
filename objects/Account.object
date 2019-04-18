@@ -516,6 +516,12 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>blah2__c</fullName>
+        <externalId>false</externalId>
+        <label>blah</label>
+        <type>AutoNumber</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
