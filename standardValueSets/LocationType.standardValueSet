@@ -31,4 +31,9 @@
         <default>false</default>
         <label>new</label>
     </standardValue>
+    <standardValue>
+        <fullName>Virtual</fullName>
+        <default>false</default>
+        <label>Virtual</label>
+    </standardValue>
 </StandardValueSet>

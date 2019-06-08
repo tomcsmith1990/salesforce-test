@@ -105,6 +105,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Custom Object</label>
     <nameField>
         <label>Custom Object Name</label>

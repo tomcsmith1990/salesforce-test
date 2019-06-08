@@ -51,6 +51,7 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <label>webhook</label>
     <nameField>
         <label>webhook Name</label>

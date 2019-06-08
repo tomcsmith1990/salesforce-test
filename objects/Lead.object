@@ -269,6 +269,11 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>IndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
