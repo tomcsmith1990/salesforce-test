@@ -36,11 +36,6 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>RelatedRecordId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>MasterDetail</type>
-    </fields>
-    <fields>
         <fullName>SkillId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -48,6 +43,15 @@
     <fields>
         <fullName>SkillLevel</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsAdditionalSkill</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RelatedRecordId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>

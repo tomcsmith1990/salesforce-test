@@ -92,6 +92,13 @@
         <fullName>WorkItemId</fullName>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>CapacityModel</fullName>
+    </fields>
+    <fields>
+        <fullName>PreferredUserId</fullName>
+        <type>Lookup</type>
+    </fields>
     <enableFeeds>false</enableFeeds>
     <sharingModel>Read</sharingModel>
 </CustomObject>
