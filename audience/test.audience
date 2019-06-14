@@ -10,5 +10,5 @@
         <operator>Equal</operator>
         <type>Profile</type>
     </criterion>
-    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <formulaFilterType>AnyCriterionMatches</formulaFilterType>
 </Audience>
