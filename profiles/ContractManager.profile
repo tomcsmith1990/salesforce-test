@@ -2698,6 +2698,51 @@
         <field>Account.blah2__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Aardvark__c.picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.ExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.SourceExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.filter_me__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ProductInterest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.ExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.external_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Product2.test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -3005,6 +3050,76 @@
         <layout>VEhicle__c-VEhicle Layout</layout>
         <recordType>VEhicle__c.record_type</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Master1__c-Master1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>A_Master2__c-Master2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Aardvark__c-Aardvark Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Account %28Marketing%29 Layout</layout>
+        <recordType>Account.Test</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Junction__c-Junction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_A__c-Loop_A Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_B__c-Loop_B Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_C__c-Loop_C Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_D__c-Loop_D Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_E__c-Loop_E Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_F__c-Loop_F Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_G__c-Loop_G Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_H__c-Loop_H Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_I__c-Loop_I Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_J__c-Loop_J Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loop_K__c-Loop_K Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TomQuoteLine__c-TomQuoteLine Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TomQuote__c-TomQuote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>custom_metadata__mdt-custom metadata Layout</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -3018,11 +3133,6 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -3053,6 +3163,16 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>VEhicle__c.record_type</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
@@ -3279,6 +3399,74 @@
         <tab>MyCustomObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <tabVisibilities>
+        <tab>Aardvark__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Junction__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_A__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_B__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_C__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_D__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_E__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_F__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_G__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_H__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_I__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_J__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Loop_K__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TomQuoteLine__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TomQuote__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Recommendation</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateContract</name>
@@ -3466,5 +3654,9 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransactionalEmailSend</name>
     </userPermissions>
 </Profile>

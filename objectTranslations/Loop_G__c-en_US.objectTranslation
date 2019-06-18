@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Loop_F --></label>
+        <name>Loop_F__c</name>
+        <relationshipLabel><!-- Loop_G --></relationshipLabel>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Loop_G</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Loop_G</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

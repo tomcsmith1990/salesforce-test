@@ -74,6 +74,16 @@
     <fields>
         <fullName>UnitPrice</fullName>
     </fields>
+    <fields>
+        <fullName>ExternalId__c</fullName>
+        <externalId>false</externalId>
+        <label>ExternalId</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
 </CustomObject>
