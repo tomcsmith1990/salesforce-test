@@ -5584,7 +5584,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -5878,7 +5878,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Recommendation</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>

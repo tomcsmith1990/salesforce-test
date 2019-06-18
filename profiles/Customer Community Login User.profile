@@ -2706,7 +2706,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
