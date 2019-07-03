@@ -31,4 +31,9 @@
         <default>false</default>
         <label>test</label>
     </standardValue>
+    <standardValue>
+        <fullName>DemoValueForMe</fullName>
+        <default>false</default>
+        <label>DemoValueForMe</label>
+    </standardValue>
 </StandardValueSet>
