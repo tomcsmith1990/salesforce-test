@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <userLicense>Chatter Free</userLicense>
     <classAccesses>
@@ -9,10 +9,7 @@
         <apexClass>HandlerHelpTopic</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerNext</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>HandlerPipeline</apexClass>
         <enabled>false</enabled>
@@ -21,26 +18,17 @@
         <apexClass>HandlerQuarter</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerSOQL</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>JWTBearerFlow</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTopOpportunities</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>LIFXController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTravelApproval</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>HelloApex</apexClass>
         <enabled>false</enabled>
@@ -93,10 +81,7 @@
         <apexClass>PropertyControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerImageBasedSearch</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>JWT</apexClass>
         <enabled>false</enabled>
@@ -105,26 +90,11 @@
         <apexClass>HandlerHelp</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerMyOpenCases</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotField</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
+    
+    
+    
+    
     <classAccesses>
         <apexClass>BotItem</apexClass>
         <enabled>false</enabled>
@@ -141,10 +111,7 @@
         <apexClass>BotMessageButton</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotRecord</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>BotResponse</apexClass>
         <enabled>false</enabled>
@@ -173,26 +140,11 @@
         <apexClass>HandlerCostCenter</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFileUpload</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindAccount</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindContact</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindProperties</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    
+    
+    
+    
+    
     <classAccesses>
         <apexClass>EinsteinVisionController</apexClass>
         <enabled>false</enabled>

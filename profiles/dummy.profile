@@ -1,14 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <userLicense>Salesforce</userLicense>
-    <classAccesses>
-        <apexClass>BotField</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
     <classAccesses>
         <apexClass>BotItem</apexClass>
         <enabled>true</enabled>
@@ -21,18 +15,12 @@
         <apexClass>BotMessageButton</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotRecord</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>DemoController</apexClass>
         <enabled>true</enabled>
@@ -65,26 +53,11 @@
         <apexClass>HandlerEmployeeId</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFileUpload</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindAccount</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindContact</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindProperties</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
+    
+    
+    
     <classAccesses>
         <apexClass>HandlerHello</apexClass>
         <enabled>true</enabled>
@@ -97,18 +70,9 @@
         <apexClass>HandlerHelpTopic</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerImageBasedSearch</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerMyOpenCases</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerNext</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
+    
     <classAccesses>
         <apexClass>HandlerPipeline</apexClass>
         <enabled>true</enabled>
@@ -117,18 +81,9 @@
         <apexClass>HandlerQuarter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerSOQL</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTopOpportunities</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>HandlerTravelApproval</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
+    
     <classAccesses>
         <apexClass>HelloApex</apexClass>
         <enabled>true</enabled>
