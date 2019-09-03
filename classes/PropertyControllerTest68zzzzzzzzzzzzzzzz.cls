@@ -20,5 +20,9 @@ public class PropertyControllerTest68zzzzzzzzzzzzzzzz {
     static testMethod void simple5() {
         System.assert(true);
     }
+    
+    static testMethod void simple6() {
+        System.assert(false);
+    }
 
 }
