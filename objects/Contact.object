@@ -466,34 +466,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Loan_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Loan Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Location__c</fullName>
-        <displayLocationInDecimal>true</displayLocationInDecimal>
-        <externalId>false</externalId>
-        <label>Location</label>
-        <required>false</required>
-        <scale>7</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Location</type>
-    </fields>
-    <fields>
-        <fullName>Prequalified__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Prequalified?</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>LID__LinkedIn_Company_Id__c</fullName>
         <deprecated>false</deprecated>
         <description>LinkedIn Id of the company</description>
@@ -525,7 +497,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>

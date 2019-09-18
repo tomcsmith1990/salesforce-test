@@ -41,22 +41,6 @@
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ExternalId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>SourceExternalId__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>filter_me__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Account_Name__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -445,7 +429,7 @@
     <relatedLists>
         <fields>ASSET.NAME</fields>
         <fields>ASSET.SERIAL_NUMBER</fields>
-        <fields>ASSET.INSTALL_DATE</fields>
+        <fields>ASSET.PURCHASE_DATE</fields>
         <fields>ASSET.QUANTITY</fields>
         <fields>CONTACT.NAME</fields>
         <fields>ASSET.STATUS</fields>

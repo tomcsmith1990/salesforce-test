@@ -201,27 +201,30 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewCustomerPortalUser</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>WebsiteHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>ViewCustomerPortalUser</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>ViewCustomerPortalUser</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>WebsiteHighlightAction</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>WebsiteHighlightAction</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <fields>
         <fullName>LID__LinkedIn_Company_Id__c</fullName>
@@ -237,30 +240,8 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ChannelProgramLevelName</fullName>
-    </fields>
-    <fields>
-        <fullName>ChannelProgramName</fullName>
-    </fields>
-    <fields>
-        <fullName>IsCustomerPortal</fullName>
-    </fields>
-    <fields>
-        <fullName>AFormula__c</fullName>
-        <externalId>false</externalId>
-        <formula>TRUE</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>AFormula</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>AccountSource</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-        <type>Picklist</type>
     </fields>
     <fields>
         <fullName>Active__c</fullName>
@@ -286,77 +267,8 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>AnnualRevenue</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>CleanStatus</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Country__c</fullName>
-        <externalId>false</externalId>
-        <label>Country</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>a</fullName>
-                    <default>false</default>
-                    <label>a</label>
-                </value>
-                <value>
-                    <fullName>b</fullName>
-                    <default>false</default>
-                    <label>b</label>
-                </value>
-                <value>
-                    <fullName>c</fullName>
-                    <default>false</default>
-                    <label>c</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer Priority</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>High</fullName>
-                    <default>false</default>
-                    <label>High</label>
-                </value>
-                <value>
-                    <fullName>Low</fullName>
-                    <default>false</default>
-                    <label>Low</label>
-                </value>
-                <value>
-                    <fullName>Medium</fullName>
-                    <default>false</default>
-                    <label>Medium</label>
-                </value>
-                <value>
-                    <fullName>hello</fullName>
-                    <default>false</default>
-                    <label>hello</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>DandbCompanyId</fullName>
@@ -381,20 +293,8 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>IsPartner</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>Jigsaw</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Mobile__c</fullName>
-        <externalId>false</externalId>
-        <label>Mobile</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Phone</type>
     </fields>
     <fields>
         <fullName>NaicsCode</fullName>
@@ -424,22 +324,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>OperatingHoursId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>OwnerIsActive__c</fullName>
-        <externalId>false</externalId>
-        <formula>Name = "TestAccount"</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>OwnerIsActive</label>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Ownership</fullName>
@@ -459,14 +346,6 @@
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Recent_accounts_for_textiles_department__c</fullName>
-        <externalId>false</externalId>
-        <formula>Owner.Department = 'Textiles' &amp;&amp; LastActivityDate &gt; DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY()) - 7)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Recent accounts for textiles department</label>
-        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
@@ -536,35 +415,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>State__c</fullName>
-        <externalId>false</externalId>
-        <label>State</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -612,102 +462,6 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>a_date_field__c</fullName>
-        <externalId>false</externalId>
-        <label>a date field</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>a_date_time_field__c</fullName>
-        <externalId>false</externalId>
-        <label>a date time field</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>blah__c</fullName>
-        <externalId>false</externalId>
-        <formula>Owner.Department = 'Textiles' &amp;&amp; LastActivityDate &gt; DATE(YEAR(TODAY()), MONTH(TODAY()), DAY(TODAY()) - 7)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>blah</label>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>boolean__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>boolean</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>compound_geolocation__c</fullName>
-        <displayLocationInDecimal>false</displayLocationInDecimal>
-        <externalId>false</externalId>
-        <label>compound geolocation</label>
-        <required>false</required>
-        <scale>3</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Location</type>
-    </fields>
-    <fields>
-        <fullName>ExternalId__c</fullName>
-        <externalId>true</externalId>
-        <label>ExternalId</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test__c</fullName>
-        <externalId>false</externalId>
-        <label>test</label>
-        <length>1</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>blah2__c</fullName>
-        <externalId>false</externalId>
-        <label>blah</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>Account_Name__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <externalId>true</externalId>
-        <label>Account Name</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
-    <fields>
-        <fullName>SourceExternalId__c</fullName>
-        <externalId>true</externalId>
-        <label>SourceExternalId</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
-        <fullName>filter_me__c</fullName>
-        <externalId>false</externalId>
-        <label>__filter me</label>
-        <length>100</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>SBQQ__CoTerminationEvent__c</fullName>
@@ -914,11 +668,50 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CleanStatus</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerPriority__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Priority</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ReadWrite</externalSharingModel>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
@@ -932,7 +725,6 @@
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Mobile__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
@@ -1651,12 +1443,6 @@
         <errorDisplayField>LID__LinkedIn_Company_Id__c</errorDisplayField>
         <errorMessage>CompanyId should be a numeric value</errorMessage>
     </validationRules>
-    <validationRules>
-        <fullName>test</fullName>
-        <active>false</active>
-        <errorConditionFormula>true</errorConditionFormula>
-        <errorMessage>blah</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
@@ -1675,24 +1461,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>blah_search_layout</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>blah search layout</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>{!Account.Id}</url>
     </webLinks>
 </CustomObject>

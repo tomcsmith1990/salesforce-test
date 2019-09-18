@@ -410,12 +410,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>test__c</fullName>
-        <externalId>false</externalId>
-        <label>t</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>LID__LinkedIn_Company_Id__c</fullName>
         <deprecated>false</deprecated>
         <description>LinkedIn Id of the company</description>
@@ -443,11 +437,6 @@
         <fullName>LeadSource</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>IndividualId</fullName>

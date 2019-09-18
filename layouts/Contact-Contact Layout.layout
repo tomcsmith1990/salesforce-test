@@ -185,6 +185,11 @@
             <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>NewNote</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>5</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewEvent</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>6</sortOrder>
@@ -208,11 +213,6 @@
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>NewNote</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>5</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Submit</actionName>
@@ -245,6 +245,11 @@
             <sortOrder>16</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>ChangeRecordType</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>17</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>SendEmail</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>18</sortOrder>
@@ -253,11 +258,6 @@
             <actionName>RequestUpdate</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>19</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>ChangeRecordType</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>17</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>XClean</actionName>

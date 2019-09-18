@@ -3,13 +3,4 @@
         <label><!-- number --></label>
         <name>number__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Test</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Test</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

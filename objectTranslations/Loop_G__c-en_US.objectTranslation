@@ -4,13 +4,4 @@
         <name>Loop_F__c</name>
         <relationshipLabel><!-- Loop_G --></relationshipLabel>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Loop_G</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Loop_G</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -11,15 +11,6 @@
             <translation><!-- c --></translation>
         </picklistValues>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Aardvark</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Aardvarks</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
     <validationRules>
         <errorMessage><!-- This validation rule always fails --></errorMessage>
         <name>validation_rule</name>

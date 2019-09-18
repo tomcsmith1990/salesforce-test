@@ -279,11 +279,6 @@
             <sortOrder>12</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>FeedItem.QuestionPost</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>13</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>14</sortOrder>
@@ -317,6 +312,11 @@
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>20</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>FeedItem.QuestionPost</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>13</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedContent>

@@ -136,8 +136,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <fields>
         <fullName>AccountId</fullName>
@@ -332,31 +335,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Opportunity_Stage_Number__c</fullName>
-        <description>fdgdfggf</description>
-        <externalId>false</externalId>
-        <formula>CASE(  StageName  , "foo", "bar", "boo" )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>sdgsdgsd</inlineHelpText>
-        <label>Opportunity_Stage_Number</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SyncedQuoteId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>SBQQ__QuotePricebookId__c</fullName>
         <deprecated>false</deprecated>
         <description>Custom pricebook ID field that updates the standard Pricebook2Id field. Use to automatically drive pricebook selection from workflow rules.</description>
@@ -477,7 +455,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>

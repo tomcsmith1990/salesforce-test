@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
     <userLicense>Guest</userLicense>
     <pageAccesses>
@@ -61,11 +61,7 @@
         <apexPage>BandwidthExceeded</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Favorite__c.User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Primary__c</field>
@@ -111,36 +107,20 @@
         <field>Lead.LeadSource</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.Opportunity_Stage_Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.NextStep</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contract.ContractTerm</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Phone__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.NumberOfEmployees</field>
@@ -191,36 +171,12 @@
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.datetime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.an_external_id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.percent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.boolean__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>LoopB__c.LoopA__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.MainCompetitors__c</field>
@@ -231,11 +187,7 @@
         <field>Opportunity.CampaignId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MyCustomObject__c.SomeNumber__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.SICCode__c</field>
@@ -266,16 +218,8 @@
         <field>Event.Description</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Custom_Object__c.tdgdrg__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Custom_Object__c.boolean__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.AnnualRevenue</field>
@@ -286,11 +230,7 @@
         <field>Lead.Address</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Custom_Object__c.Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contract.StartDate</field>
@@ -351,16 +291,8 @@
         <field>Event.WhatId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Custom_Object__c.boolean2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Custom_Object__c.auto__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>OpportunityLineItem.Description</field>
@@ -431,61 +363,25 @@
         <field>Opportunity.TotalOpportunityQuantity</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Date_Listed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Date_Contracted__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Date_Closed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Date_Agreement__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.City__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Broker__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
+    
+    
+    
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.ListPrice</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Favorite__c.Property__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Event.LID__URL__c</field>
@@ -506,76 +402,32 @@
         <field>Contact.LID__LinkedIn_Member_Token__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Zip__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.SLAViolation__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Location__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Thumbnail_IMG__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Picture_IMG__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>VEhicle__c.test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Assessed_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Record_Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Price__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Picture__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SomeApprovalProcessDependsOnMe__c.MyField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhatId</field>
@@ -601,31 +453,15 @@
         <field>Quote.Property_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Thumbnail__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Date_Pre_Market__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Address__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.PoDate</field>
@@ -701,11 +537,7 @@
         <field>Opportunity.TrackingNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TopLevelDepender__c.TopLevelToBeDependedOn__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.OrderReferenceNumber</field>
@@ -731,11 +563,7 @@
         <field>Product2.QuantityUnitOfMeasure</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Days_On_Market__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Family</field>
@@ -846,31 +674,11 @@
         <field>Asset.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.compound_geolocation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Bot_Command__c.Sample_Utterance__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Bot_Command__c.Pattern__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.a_date_time_field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.a_date_field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
+    
+    
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
@@ -896,11 +704,7 @@
         <field>Account.Type</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Bot_Command__c.Apex_Class__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.CustomerPriority__c</field>
@@ -916,11 +720,7 @@
         <field>Order.TotalAmount</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Bot_Command__c.Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>AssetRelationship.RelationshipType</field>
@@ -971,16 +771,8 @@
         <field>Asset.Description</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.boolean__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.blah__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.IsInternal</field>
@@ -996,11 +788,7 @@
         <field>Account.DandbCompanyId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Country__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.ShippingAddress</field>
@@ -1051,11 +839,7 @@
         <field>Contract.CustomerSignedTitle</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contract.Description</field>
@@ -1086,16 +870,8 @@
         <field>Account.DunsNumber</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Last_Sale__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.OwnerIsActive__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Site</field>
@@ -1136,16 +912,8 @@
         <field>Account.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AFormula__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Mobile__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Sic</field>
@@ -1171,21 +939,13 @@
         <field>Account.SLAExpirationDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Recent_accounts_for_textiles_department__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Solution.IsPublishedInPublicKb</field>
@@ -1201,11 +961,7 @@
         <field>Account.NumberOfEmployees</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Picture_IMG__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.HomePhone</field>
@@ -1326,11 +1082,7 @@
         <field>Contact.ReportsToId</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Prequalified__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Phone</field>
@@ -1356,16 +1108,8 @@
         <field>Campaign.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Location__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Loan_Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Level__c</field>
@@ -1391,36 +1135,16 @@
         <field>OpportunityLineItem.ProductCode</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Baths__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Beds__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Property__c.Tags__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.IsCompetitorProduct</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Mobile_Phone__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.NumberOfWonOpportunities</field>
@@ -1541,11 +1265,7 @@
         <field>Contact.MailingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Broker__c.Picture__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.NumberSent</field>

@@ -196,11 +196,6 @@
             <sortOrder>8</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>ChangeRecordType</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>11</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>FeedItem.QuestionPost</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>9</sortOrder>
@@ -209,6 +204,11 @@
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>ChangeRecordType</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>11</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Submit</actionName>
@@ -309,6 +309,7 @@
         <fields>Product2</fields>
         <fields>Quantity</fields>
         <fields>UnitPrice</fields>
+        <fields>TotalPrice</fields>
         <fields>ServiceDate</fields>
         <fields>Description</fields>
         <relatedList>RelatedLineItemList</relatedList>

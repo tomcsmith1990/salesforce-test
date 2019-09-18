@@ -9,13 +9,4 @@
         <name>Master2__c</name>
         <relationshipLabel><!-- Junctions --></relationshipLabel>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Junction</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Junctions</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

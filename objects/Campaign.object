@@ -263,10 +263,6 @@
         <fullName>Type</fullName>
         <type>Picklist</type>
     </fields>
-    <fields>
-        <fullName>CampaignImageId</fullName>
-        <type>Lookup</type>
-    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>

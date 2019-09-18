@@ -5,5 +5,4 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>MyCustomObject__c</tabs>
 </CustomApplication>

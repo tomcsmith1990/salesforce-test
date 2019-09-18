@@ -4,13 +4,4 @@
         <name>TomQuote__c</name>
         <relationshipLabel><!-- TomQuoteLine --></relationshipLabel>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>TomQuoteLine</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>TomQuoteLine</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

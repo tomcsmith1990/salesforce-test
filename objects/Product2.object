@@ -122,8 +122,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Training_Product_Page</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <fields>
         <fullName>Description</fullName>
@@ -167,28 +170,6 @@
     <fields>
         <fullName>StockKeepingUnit</fullName>
         <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>external_id__c</fullName>
-        <externalId>false</externalId>
-        <formula>Id</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>external id</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>test__c</fullName>
-        <externalId>false</externalId>
-        <formula>ProductCode</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>test</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>SBQQ__QuantityEditable__c</fullName>
@@ -1159,11 +1140,4 @@
         <filterScope>Everything</filterScope>
         <label>All Products</label>
     </listViews>
-    <validationRules>
-        <fullName>ProductCode_not_empty</fullName>
-        <active>true</active>
-        <errorConditionFormula>ProductCode  = ''</errorConditionFormula>
-        <errorDisplayField>ProductCode</errorDisplayField>
-        <errorMessage>The Product Code cannot be empty</errorMessage>
-    </validationRules>
 </CustomObject>
