@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- picklist --></label>
+        <name>picklist__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- This validation rule always fails --></errorMessage>
+        <name>validation_rule</name>
+    </validationRules>
+</CustomObjectTranslation>

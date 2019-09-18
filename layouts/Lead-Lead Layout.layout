@@ -98,6 +98,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>ProductInterest__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>SICCode__c</field>
             </layoutItems>
             <layoutItems>

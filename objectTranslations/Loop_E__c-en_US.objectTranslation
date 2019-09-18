@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Loop_D --></label>
+        <name>Loop_D__c</name>
+        <relationshipLabel><!-- Loop_E --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

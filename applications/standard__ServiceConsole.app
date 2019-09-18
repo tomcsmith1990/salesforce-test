@@ -179,12 +179,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>standard-Knowledge</tabs>
-    <tabs>MyCustomObject__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>MyCustomObject__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -195,9 +190,6 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Knowledge</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>
