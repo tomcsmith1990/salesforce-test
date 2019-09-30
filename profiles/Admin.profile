@@ -2313,6 +2313,10 @@
         <apexClass>TempTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>CloneOpportunityObject</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
         <apexPage>SiteTemplate</apexPage>
         <enabled>true</enabled>
