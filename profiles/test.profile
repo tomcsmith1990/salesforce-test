@@ -2292,14 +2292,8 @@
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>Knowledge__kav</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MyCustomObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
+    
     <tabVisibilities>
         <tab>standard-MaintenancePlan</tab>
         <visibility>Hidden</visibility>

@@ -7,6 +7,10 @@
         <label><!-- GIFter: GIFs2Chatter --></label>
         <name>GIFter</name>
     </customApplications>
+    <customApplications>
+        <label><!-- GIFter: GIFs2Chatter --></label>
+        <name>GIFter2</name>
+    </customApplications>
     <customTabs>
         <label><!-- Command Center --></label>
         <name>Command_Center</name>
@@ -38,6 +42,10 @@
     <customTabs>
         <label><!-- Search --></label>
         <name>GIFter</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LinkedIn Activity --></label>
+        <name>LinkedIn_Activity</name>
     </customTabs>
     <quickActions>
         <label><!-- LogACall --></label>
@@ -83,4 +91,965 @@
         <label><!-- SendEmail --></label>
         <name>SendEmail</name>
     </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Case_PrechatQuickAction_08h1t000000TO1a --></label>
+        <name>Snapins_Case_PrechatQuickAction_08h1t000000TO1a</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Snapins_Contact_PrechatQuickAction_08h1t000000TO1a --></label>
+        <name>Snapins_Contact_PrechatQuickAction_08h1t000000TO1a</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- CDN Usage --></description>
+        <label><!-- CDN Usage --></label>
+        <name>CDN_Usage</name>
+        <sections>
+            <label><!-- Domains --></label>
+            <name>Domains</name>
+        </sections>
+        <sections>
+            <label><!-- Limit Usage Histories --></label>
+            <name>Limit Usage Histories</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Activity 1.0 --></description>
+        <label><!-- Chatter Activity 1.0 --></label>
+        <name>Chatter_Activity_1_0</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Activity Daily Metrics 1.0 --></description>
+        <label><!-- Chatter Activity Daily Metrics 1.0 --></label>
+        <name>Chatter_Activity_Daily_Metrics_1_0</name>
+        <sections>
+            <label><!-- Network Activity Daily Metrics --></label>
+            <name>Network Activity Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Edits 1.0 --></description>
+        <label><!-- Chatter Edits 1.0 --></label>
+        <name>Chatter_Edits_1_0</name>
+        <sections>
+            <label><!-- Feed Revisions --></label>
+            <name>Feed Revisions</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Group Members 1.0 --></description>
+        <label><!-- Chatter Group Members 1.0 --></label>
+        <name>Chatter_Group_Members_1_0</name>
+        <sections>
+            <label><!-- Group Members --></label>
+            <name>Group Members</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Groups Activity 1.0 --></description>
+        <label><!-- Chatter Groups Activity 1.0 --></label>
+        <name>Chatter_Groups_Activity_1_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Group Feed --></label>
+            <name>Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Knowledgeable Users 1.0 --></description>
+        <label><!-- Chatter Knowledgeable Users 1.0 --></label>
+        <name>Chatter_Knowledgeable_Users_1_0</name>
+        <sections>
+            <label><!-- Knowledgeable Users --></label>
+            <name>Knowledgeable Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Topic Assignments 1.0 --></description>
+        <label><!-- Chatter Topic Assignments 1.0 --></label>
+        <name>Chatter_Topic_Assignments_1_0</name>
+        <sections>
+            <label><!-- Topic Assignments --></label>
+            <name>Topic Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Topics 1.0 --></description>
+        <label><!-- Chatter Topics 1.0 --></label>
+        <name>Chatter_Topics_1_0</name>
+        <sections>
+            <label><!-- Topics --></label>
+            <name>Topics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter Unique Contributor Daily Metrics 1.0 --></description>
+        <label><!-- Chatter Unique Contributor Daily Metrics 1.0 --></label>
+        <name>Chatter_Unique_Contributor_Daily_Metrics_1_0</name>
+        <sections>
+            <label><!-- Network Unique Contributor Daily Metrics --></label>
+            <name>Network Unique Contributor Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Chatter User Activity 1.0 --></description>
+        <label><!-- Chatter User Activity 1.0 --></label>
+        <name>Chatter_User_Activity_1_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- User Feed --></label>
+            <name>User Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Community Searches 1.0 --></description>
+        <label><!-- Community Searches 1.0 --></label>
+        <name>Community_Searches_1_0</name>
+        <sections>
+            <label><!-- Network Search Query Frequency --></label>
+            <name>Network Search Query Frequency</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Community Searches 2.0 --></description>
+        <label><!-- Community Searches 2.0 --></label>
+        <name>Community_Searches_2_0</name>
+        <sections>
+            <label><!-- Network Search Query Frequency --></label>
+            <name>Network Search Query Frequency</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Unique Contributor Daily Metrics 2.0 --></description>
+        <label><!-- Network Unique Contributor Daily Metrics 2.0 --></label>
+        <name>NetworkUniqueContributorMetrics</name>
+        <sections>
+            <label><!-- Network Unique Contributor Daily Metrics --></label>
+            <name>Network Unique Contributor Daily Metrics</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Activity Audit 1.0 --></description>
+        <label><!-- Network Activity Audit 1.0 --></label>
+        <name>Network_Activity_Audit_1_0</name>
+        <sections>
+            <label><!-- Network Audits --></label>
+            <name>Network Audits</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Activity Daily Metrics 2.0 --></description>
+        <label><!-- Network Activity Daily Metrics 2.0 --></label>
+        <name>Network_Activity_Daily_Metrics_20</name>
+        <sections>
+            <label><!-- Network Activity Daily Metrics --></label>
+            <name>Network Activity Daily Metrics</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Cases 1.0 --></description>
+        <label><!-- Network Cases 1.0 --></label>
+        <name>Network_Case_1_0</name>
+        <sections>
+            <label><!-- Case Feed --></label>
+            <name>Case Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Cases --></label>
+            <name>Cases</name>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Chatter Edits 1.0 --></description>
+        <label><!-- Network Chatter Edits 1.0 --></label>
+        <name>Network_Chatter_Edits_1_0</name>
+        <sections>
+            <label><!-- Feed Revisions --></label>
+            <name>Feed Revisions</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Comments Pending Approval 1.0 --></description>
+        <label><!-- Network Comments Pending Approval 1.0 --></label>
+        <name>Network_Comments_Pending_Approval_1_0</name>
+        <sections>
+            <label><!-- Feed Comments --></label>
+            <name>Feed Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Unpublished Feed Entities --></label>
+            <name>Unpublished Feed Entities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Custom Recommendations 1.0 --></description>
+        <label><!-- Network Custom Recommendations 1.0 --></label>
+        <name>Network_Custom_Recommendations_1_0</name>
+        <sections>
+            <label><!-- Recommendation Metrics --></label>
+            <name>Recommendation Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Feed Activity --></description>
+        <label><!-- Network Feed Activity --></label>
+        <name>Network_Feed_Activity</name>
+        <sections>
+            <label><!-- Feed Item --></label>
+            <name>Feed Item</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Frozen Members 1.0 --></description>
+        <label><!-- Network Frozen Members 1.0 --></label>
+        <name>Network_Frozen_Members_1_0</name>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- User Login --></label>
+            <name>User Login</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Frozen Members 2.0 --></description>
+        <label><!-- Network Frozen Members 2.0 --></label>
+        <name>Network_Frozen_Members_2_0</name>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- User Login --></label>
+            <name>User Login</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Groups Activity 2.0 --></description>
+        <label><!-- Network Groups Activity 2.0 --></label>
+        <name>Network_Group_Activity_2_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Group Feed --></label>
+            <name>Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Group Membership 2.0 --></description>
+        <label><!-- Network Group Membership 2.0 --></label>
+        <name>Network_Group_Members_20</name>
+        <sections>
+            <label><!-- Group Members --></label>
+            <name>Group Members</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Group Membership 3.0 --></description>
+        <label><!-- Network Group Membership 3.0 --></label>
+        <name>Network_Group_Members_30</name>
+        <sections>
+            <label><!-- Group Members --></label>
+            <name>Group Members</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Groups Activity 3.0 --></description>
+        <label><!-- Network Groups Activity 3.0 --></label>
+        <name>Network_Groups_Activity_3_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Group Feed --></label>
+            <name>Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Groups Q&amp;A Activity 1.0 --></description>
+        <label><!-- Network Groups Q&amp;A Activity 1.0 --></label>
+        <name>Network_Groups_Q_A_Activity_1_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Group Feed --></label>
+            <name>Group Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Login History 2.0 --></description>
+        <label><!-- Network Login History 2.0 --></label>
+        <name>Network_Login_History_20</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Login History 3.0 --></description>
+        <label><!-- Network Login History 3.0 --></label>
+        <name>Network_Login_History_3_0</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Login History 4.0 --></description>
+        <label><!-- Network Login History 4.0 --></label>
+        <name>Network_Login_History_40</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Login History 5.0 --></description>
+        <label><!-- Network Login History 5.0 --></label>
+        <name>Network_Login_History_5_0</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Member Activity 1.0 --></description>
+        <label><!-- Network Member Activity 1.0 --></label>
+        <name>Network_Member_Activity_1_0</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Members 2.0 --></description>
+        <label><!-- Network Members 2.0 --></label>
+        <name>Network_Members_20</name>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Members 3.0 --></description>
+        <label><!-- Network Members 3.0 --></label>
+        <name>Network_Members_30</name>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Membership Daily Metrics 2.0 --></description>
+        <label><!-- Network Membership Daily Metrics 2.0 --></label>
+        <name>Network_Membership_Daily_Metrics</name>
+        <sections>
+            <label><!-- Network Membership Daily Metrics --></label>
+            <name>Network Membership Daily Metrics</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Pending 1.0 --></description>
+        <label><!-- Network Moderation Pending 1.0 --></label>
+        <name>Network_Moderation_1_0</name>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation 2.0 --></description>
+        <label><!-- Network Moderation 2.0 --></label>
+        <name>Network_Moderation_20</name>
+        <sections>
+            <label><!-- Network Audits --></label>
+            <name>Network Audits</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Comments 1.0 --></description>
+        <label><!-- Network Moderation Flagged Comments 1.0 --></label>
+        <name>Network_Moderation_Flagged_Comments_1_0</name>
+        <sections>
+            <label><!-- Feed Comments --></label>
+            <name>Feed Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Comments 2.0 --></description>
+        <label><!-- Network Moderation Flagged Comments 2.0 --></label>
+        <name>Network_Moderation_Flagged_Comments_2_0</name>
+        <sections>
+            <label><!-- Feed Comments --></label>
+            <name>Feed Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Direct Messages 1.0 --></description>
+        <label><!-- Network Moderation Flagged Direct Messages 1.0 --></label>
+        <name>Network_Moderation_Flagged_Direct_Messages_1_0</name>
+        <sections>
+            <label><!-- Direct Messages --></label>
+            <name>Direct Messages</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Files 1.0 --></description>
+        <label><!-- Network Moderation Flagged Files 1.0 --></label>
+        <name>Network_Moderation_Flagged_Files_1_0</name>
+        <sections>
+            <label><!-- Content Documents --></label>
+            <name>Content Documents</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Files 2.0 --></description>
+        <label><!-- Network Moderation Flagged Files 2.0 --></label>
+        <name>Network_Moderation_Flagged_Files_2_0</name>
+        <sections>
+            <label><!-- Content Documents --></label>
+            <name>Content Documents</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Messages 1.0 --></description>
+        <label><!-- Network Moderation Flagged Messages 1.0 --></label>
+        <name>Network_Moderation_Flagged_Messages_1_0</name>
+        <sections>
+            <label><!-- Chatter Messages --></label>
+            <name>Chatter Messages</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Messages 2.0 --></description>
+        <label><!-- Network Moderation Flagged Messages 2.0 --></label>
+        <name>Network_Moderation_Flagged_Messages_2_0</name>
+        <sections>
+            <label><!-- Chatter Messages --></label>
+            <name>Chatter Messages</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Posts 1.0 --></description>
+        <label><!-- Network Moderation Flagged Posts 1.0 --></label>
+        <name>Network_Moderation_Flagged_Posts_1_0</name>
+        <sections>
+            <label><!-- Feed Posts --></label>
+            <name>Feed Posts</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Moderation Flagged Posts 2.0 --></description>
+        <label><!-- Network Moderation Flagged Posts 2.0 --></label>
+        <name>Network_Moderation_Flagged_Posts_2_0</name>
+        <sections>
+            <label><!-- Feed Posts --></label>
+            <name>Feed Posts</name>
+        </sections>
+        <sections>
+            <label><!-- Network Moderations --></label>
+            <name>Network Moderations</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Posts Pending Approval 1.0 --></description>
+        <label><!-- Network Posts Pending Approval 1.0 --></label>
+        <name>Network_Posts_Pending_Approval_1_0</name>
+        <sections>
+            <label><!-- Feed Posts --></label>
+            <name>Feed Posts</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Unpublished Feed Entities --></label>
+            <name>Unpublished Feed Entities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Posts Pending Approval 2.0 --></description>
+        <label><!-- Network Posts Pending Approval 2.0 --></label>
+        <name>Network_Posts_Pending_Approval_2_0</name>
+        <sections>
+            <label><!-- Feed Posts --></label>
+            <name>Feed Posts</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Unpublished Feed Entities --></label>
+            <name>Unpublished Feed Entities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Private Messages 2.0 --></description>
+        <label><!-- Network Private Messages 2.0 --></label>
+        <name>Network_Private_Messages_20</name>
+        <sections>
+            <label><!-- Chatter Messages --></label>
+            <name>Chatter Messages</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Private Messages 3.0 --></description>
+        <label><!-- Network Private Messages 3.0 --></label>
+        <name>Network_Private_Messages_30</name>
+        <sections>
+            <label><!-- Chatter Messages --></label>
+            <name>Chatter Messages</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Public Usage Daily Metrics 2.0 --></description>
+        <label><!-- Network Public Usage Daily Metrics 2.0 --></label>
+        <name>Network_Public_Usage_Daily_Metrics_20</name>
+        <sections>
+            <label><!-- Network Public Usage Daily Metrics --></label>
+            <name>Network Public Usage Daily Metrics</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Tenant Usage Entitlement WeeklyMetrics 2.0 --></description>
+        <label><!-- Network Tenant Usage Entitlement WeeklyMetrics 2.0 --></label>
+        <name>Network_Tenant_Usage_Entitlement_Weekly_Metrics</name>
+        <sections>
+            <label><!-- Network Tenant Usage Entitlement Weekly Metrics --></label>
+            <name>Network Tenant Usage Entitlement Weekly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Topic Assignments 2.0 --></description>
+        <label><!-- Network Topic Assignments 2.0 --></label>
+        <name>Network_Topic_Assignments_2_0</name>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Topic Assignments --></label>
+            <name>Topic Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Topic Assignments 3.0 --></description>
+        <label><!-- Network Topic Assignments 3.0 --></label>
+        <name>Network_Topic_Assignments_3_0</name>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Topic Assignments --></label>
+            <name>Topic Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Topics 2.0 --></description>
+        <label><!-- Network Topics 2.0 --></label>
+        <name>Network_Topics_2_0</name>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Topics --></label>
+            <name>Topics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network Topics 3.0 --></description>
+        <label><!-- Network Topics 3.0 --></label>
+        <name>Network_Topics_3_0</name>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- Topic Feed --></label>
+            <name>Topic Feed</name>
+        </sections>
+        <sections>
+            <label><!-- Topics --></label>
+            <name>Topics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network User Activity 2.0 --></description>
+        <label><!-- Network User Activity 2.0 --></label>
+        <name>Network_User_Activity_2_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- User Feed --></label>
+            <name>User Feed</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network User Activity 3.0 --></description>
+        <label><!-- Network User Activity 3.0 --></label>
+        <name>Network_User_Activity_3_0</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- User Feed --></label>
+            <name>User Feed</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network User Licenses 1.0 --></description>
+        <label><!-- Network User Licenses 1.0 --></label>
+        <name>Network_User_Licenses_1_0</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Network User Daily Participation --></description>
+        <label><!-- Network User Daily Participation --></label>
+        <name>Network_User_Participitai</name>
+        <sections>
+            <label><!-- Network User participation Daily Metrics --></label>
+            <name>Network User participation Daily Metrics</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- New Members --></description>
+        <label><!-- New Members --></label>
+        <name>New_Members</name>
+        <sections>
+            <label><!-- Chatter Activity --></label>
+            <name>Chatter Activity</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+        <sections>
+            <label><!-- User Login --></label>
+            <name>User Login</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Related Questions CTR 1.0 --></description>
+        <label><!-- Related Questions CTR 1.0 --></label>
+        <name>Related_Questions_CTR_1_0</name>
+        <sections>
+            <label><!-- Related Content Metrics --></label>
+            <name>Related Content Metrics</name>
+        </sections>
+    </reportTypes>
+    <flowDefinitions>
+        <flows>
+            <fullName>Opportunity_Status_Change-1</fullName>
+        </flows>
+        <fullName>Opportunity_Status_Change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>New_Contact-1</fullName>
+            <screens>
+                <fields>
+                    <name>Account</name>
+                </fields>
+                <fields>
+                    <name>contactName</name>
+                </fields>
+                <fields>
+                    <name>update_toggle</name>
+                </fields>
+                <name>Contact_Info</name>
+            </screens>
+        </flows>
+        <fullName>New_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Advertise_New_Property-2</fullName>
+        </flows>
+        <fullName>Advertise_New_Property</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Price_Change_Push_Notification-1</fullName>
+        </flows>
+        <fullName>Price_Change_Push_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Post_Price_Changes_to_Slack-1</fullName>
+        </flows>
+        <fullName>Post_Price_Changes_to_Slack</fullName>
+    </flowDefinitions>
 </Translations>

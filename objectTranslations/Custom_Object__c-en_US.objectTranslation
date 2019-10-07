@@ -11,4 +11,26 @@
         <label><!-- boolean --></label>
         <name>boolean__c</name>
     </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Custom Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- auto --></label>
+        <name>auto__c</name>
+    </fields>
+    <fields>
+        <label><!-- not auto --></label>
+        <name>not_auto__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Objects</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

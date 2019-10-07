@@ -3,4 +3,13 @@
         <label><!-- ArticleBody --></label>
         <name>ArticleBody__c</name>
     </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Knowledge</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

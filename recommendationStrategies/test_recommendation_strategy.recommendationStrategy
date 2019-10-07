@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>test recommendation strategy</label>
+    <recommendationLoad>
+        <label>test</label>
+        <name>test</name>
+        <condition>
+            <field>Recommendation.CreatedDate</field>
+            <operator>EQUALS</operator>
+            <value>
+                <type>DATE_TIME</type>
+                <value>2020-01-01T00:00:00.000Z</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+    </recommendationLoad>
+    <union>
+        <childNode>test</childNode>
+        <label>Output</label>
+        <name>Output_3ee70351bff14e319b5babffa0e64ce1</name>
+    </union>
+</RecommendationStrategy>

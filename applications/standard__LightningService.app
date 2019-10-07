@@ -12,9 +12,29 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
+    <tabs>NewObjectLookup__c</tabs>
+    <tabs>TestObjectForDataFiltering__c</tabs>
+    <tabs>LoopA__c</tabs>
+    <tabs>LoopB__c</tabs>
+    <tabs>Junction__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Junction__c</tab>
+        </mappings>
+        <mappings>
+            <tab>LoopA__c</tab>
+        </mappings>
+        <mappings>
+            <tab>LoopB__c</tab>
+        </mappings>
+        <mappings>
+            <tab>NewObjectLookup__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestObjectForDataFiltering__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

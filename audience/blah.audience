@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>blah</audienceName>
+    <container>rtesteswrewr3wr</container>
+    <criterion>
+        <criteriaNumber>1</criteriaNumber>
+        <criterionValue>
+            <entityField>Contact.Account.CreatedBy.CompanyName</entityField>
+            <entityType>User</entityType>
+            <fieldValue>aaa</fieldValue>
+        </criterionValue>
+        <operator>Equal</operator>
+        <type>FieldBased</type>
+    </criterion>
+    <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+</Audience>

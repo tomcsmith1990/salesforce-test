@@ -8,8 +8,8 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHome</tabs>
     <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Quote</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-File</tabs>
@@ -24,5 +24,10 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>NewObjectLookup__c</tabs>
+    <tabs>TestObjectForDataFiltering__c</tabs>
+    <tabs>LoopA__c</tabs>
+    <tabs>LoopB__c</tabs>
+    <tabs>Junction__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

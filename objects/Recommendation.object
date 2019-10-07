@@ -157,9 +157,4 @@
         <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <listViews>
-        <fullName>All_Recommendations</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Recommendations</label>
-    </listViews>
 </CustomObject>

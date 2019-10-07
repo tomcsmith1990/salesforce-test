@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Current Generator(s) --></label>
         <name>CurrentGenerators__c</name>
@@ -31,21 +31,8 @@
         <label><!-- Tracking Number --></label>
         <name>TrackingNumber__c</name>
     </fields>
-    <layouts>
-        <layout>Training Opportunity Layout</layout>
-        <sections>
-            <label><!-- Recalculating --></label>
-            <section>Recalculating</section>
-        </sections>
-        <sections>
-            <label><!-- Salesforce CPQ Information --></label>
-            <section>Salesforce CPQ Information</section>
-        </sections>
-    </layouts>
-    <quickActions>
-        <label><!-- New Quote --></label>
-        <name>New_Quote</name>
-    </quickActions>
+    
+    
     <webLinks>
         <label><!-- DeliveryStatus --></label>
         <name>DeliveryStatus</name>

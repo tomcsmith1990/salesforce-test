@@ -9,4 +9,13 @@
         <name>User__c</name>
         <relationshipLabel><!-- Favorites --></relationshipLabel>
     </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Favorite</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Favorites</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
