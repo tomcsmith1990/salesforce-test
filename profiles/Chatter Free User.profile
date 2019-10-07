@@ -97,6 +97,16 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>GIFter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>iamtom__GIFter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -2787,6 +2797,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProductRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>GIFter</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>iamtom__GIFter</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>

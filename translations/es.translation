@@ -3,6 +3,10 @@
         <label><!-- DreamHouse --></label>
         <name>DreamHouse</name>
     </customApplications>
+    <customApplications>
+        <label><!-- GIFter: GIFs2Chatter --></label>
+        <name>GIFter</name>
+    </customApplications>
     <customTabs>
         <label><!-- Command Center --></label>
         <name>Command_Center</name>
@@ -30,6 +34,10 @@
     <customTabs>
         <label><!-- Data Import --></label>
         <name>Sample_Data_Import</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Search --></label>
+        <name>GIFter</name>
     </customTabs>
     <quickActions>
         <label><!-- LogACall --></label>
@@ -75,28 +83,4 @@
         <label><!-- SendEmail --></label>
         <name>SendEmail</name>
     </quickActions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Opportunity_Status_Change-1</fullName>
-        </flows>
-        <fullName>Opportunity_Status_Change</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Advertise_New_Property-2</fullName>
-        </flows>
-        <fullName>Advertise_New_Property</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Price_Change_Push_Notification-1</fullName>
-        </flows>
-        <fullName>Price_Change_Push_Notification</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Post_Price_Changes_to_Slack-1</fullName>
-        </flows>
-        <fullName>Post_Price_Changes_to_Slack</fullName>
-    </flowDefinitions>
 </Translations>

@@ -61,6 +61,16 @@
         <apexPage>FileNotFound</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <applicationVisibilities>
+        <application>GIFter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>iamtom__GIFter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.DeliveryInstallationStatus__c</field>
@@ -1724,5 +1734,13 @@
     <tabVisibilities>
         <tab>standard-Idea</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>GIFter</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>iamtom__GIFter</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
 </Profile>
