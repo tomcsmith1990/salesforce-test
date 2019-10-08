@@ -99,22 +99,23 @@
     </applicationVisibilities>
     
     <applicationVisibilities>
-        <application>iamtom__GIFter</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    
     <applicationVisibilities>
-        <application>iamtom__GIFter2</application>
+        <application>standard__SalesforceCMS</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__SalesforceCMS</application>
+        <application>GIFter</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>GIFter2</application>
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
@@ -853,7 +854,6 @@
         <field>WorkOrderLineItem.ReturnOrderId</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkOrder.AssetId</field>
@@ -3382,13 +3382,10 @@
         <tab>standard-ServiceTerritory</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Sample_Data_Import</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-AuthorizationFormConsent</tab>
         <visibility>DefaultOn</visibility>
@@ -3413,8 +3410,6 @@
         <tab>Junction__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>Hidden</visibility>
@@ -3423,7 +3418,6 @@
         <tab>standard-WorkBadge</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
@@ -3440,7 +3434,6 @@
         <tab>standard-ServiceAppointment</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
@@ -3449,18 +3442,10 @@
         <tab>standard-Recommendation</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
-    
-    
-    
-    
     <tabVisibilities>
         <tab>standard-Case</tab>
         <visibility>Hidden</visibility>
@@ -3521,7 +3506,6 @@
         <tab>standard-Contact</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
         <visibility>DefaultOn</visibility>
@@ -3612,10 +3596,6 @@
     </tabVisibilities>
     
     <tabVisibilities>
-        <tab>iamtom__GIFter</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3681,6 +3661,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Survey</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>GIFter</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LID__LinkedIn_Activity</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>

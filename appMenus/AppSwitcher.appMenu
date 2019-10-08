@@ -121,11 +121,11 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>iamtom__GIFter</name>
+        <name>GIFter</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>iamtom__GIFter2</name>
+        <name>GIFter2</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
