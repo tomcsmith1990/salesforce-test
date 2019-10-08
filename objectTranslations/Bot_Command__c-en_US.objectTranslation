@@ -15,6 +15,15 @@
         <label><!-- Sample Utterance --></label>
         <name>Sample_Utterance__c</name>
     </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Bot Command</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bot Commands</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
     <layouts>
         <layout>Bot Action Layout</layout>
         <sections>

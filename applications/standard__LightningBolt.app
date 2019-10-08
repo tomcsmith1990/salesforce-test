@@ -6,5 +6,10 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>NewObjectLookup__c</tabs>
+    <tabs>TestObjectForDataFiltering__c</tabs>
+    <tabs>LoopA__c</tabs>
+    <tabs>LoopB__c</tabs>
+    <tabs>Junction__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

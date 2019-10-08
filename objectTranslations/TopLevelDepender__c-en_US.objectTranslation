@@ -4,4 +4,13 @@
         <name>TopLevelToBeDependedOn__c</name>
         <relationshipLabel><!-- TopLevelDependers --></relationshipLabel>
     </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>TopLevelDepender</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TopLevelDependers</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

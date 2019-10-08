@@ -65,11 +65,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>CPQIntegrationUserApp</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>SBQQ__QuoteQuickly</name>
+        <name>DreamHouse</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -103,5 +99,33 @@
     <appMenuItems>
         <name>Workbench</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Gearset_Deploy_Test</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>bot</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__SalesforceCMS</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>rtesteswrewr3wr</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_agd4h5eyaa5kw5luexfn</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>GIFter</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>GIFter2</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

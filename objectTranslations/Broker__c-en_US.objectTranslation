@@ -27,6 +27,15 @@
         <label><!-- Title --></label>
         <name>Title__c</name>
     </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Broker</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brokers</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
     <layouts>
         <layout>Broker Layout</layout>
         <sections>
