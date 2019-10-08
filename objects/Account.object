@@ -892,7 +892,7 @@
         <deprecated>false</deprecated>
         <externalId>false</externalId>
         <label>MyCustomField1</label>
-        <length>255</length>
+        <length>252</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
