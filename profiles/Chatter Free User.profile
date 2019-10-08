@@ -102,7 +102,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -113,7 +112,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -744,7 +742,6 @@
     <readable>false</readable>
     <field>Quote.Tax</field>
 </fieldPermissions>
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -2579,13 +2576,10 @@
         <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    
     <tabVisibilities>
         <tab>standard-TimeSheet</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-Metric</tab>
         <visibility>DefaultOn</visibility>
@@ -2598,12 +2592,10 @@
         <tab>standard-QuickText</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Recommendation</tab>
         <visibility>Hidden</visibility>
@@ -2612,13 +2604,10 @@
         <tab>standard-WorkBadgeDefinition</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-WorkBadge</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-ProductRequestLineItem</tab>
         <visibility>Hidden</visibility>
@@ -2639,14 +2628,10 @@
         <tab>standard-ContactRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>Heat_Map_Mock</tab>
         <visibility>Hidden</visibility>
@@ -2663,8 +2648,6 @@
         <tab>standard-ServiceResource</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>Einstein_Vision</tab>
         <visibility>Hidden</visibility>
@@ -2729,7 +2712,6 @@
         <tab>standard-MaintenancePlan</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
@@ -2746,7 +2728,6 @@
         <tab>standard-Pricebook2</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Dashboard</tab>
         <visibility>Hidden</visibility>
@@ -2815,7 +2796,6 @@
         <tab>GIFter</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>Hidden</visibility>

@@ -113,7 +113,6 @@
         <apexClass>BotMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotRecord</apexClass>
         <enabled>true</enabled>
@@ -130,7 +129,6 @@
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotHandler</apexClass>
         <enabled>true</enabled>
@@ -284,7 +282,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -295,7 +292,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedEmail</field>
@@ -1241,7 +1237,6 @@
     <readable>false</readable>
     <field>WorkOrderLineItem.EndDate</field>
 </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Quote.Property_ID__c</field>
@@ -3353,7 +3348,6 @@
         <tab>standard-ProductTransfer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
         <visibility>DefaultOn</visibility>
@@ -3386,7 +3380,6 @@
         <tab>standard-Macro</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
         <visibility>Hidden</visibility>
@@ -3395,7 +3388,6 @@
         <tab>standard-ServiceTerritory</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ProductRequest</tab>
         <visibility>Hidden</visibility>
@@ -3412,11 +3404,6 @@
         <tab>standard-TimeSheet</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
-    
-    
     <tabVisibilities>
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
@@ -3437,9 +3424,6 @@
         <tab>standard-ProductRequestLineItem</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-WorkBadge</tab>
         <visibility>DefaultOn</visibility>
@@ -3488,17 +3472,14 @@
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Property_Explorer1</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Heat_Map_Mock</tab>
         <visibility>DefaultOn</visibility>
@@ -3523,7 +3504,6 @@
         <tab>standard-Metric</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
@@ -3564,7 +3544,6 @@
         <tab>standard-StreamingChannel</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Campaign</tab>
         <visibility>Hidden</visibility>
@@ -3577,7 +3556,6 @@
         <tab>GIFter</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>DefaultOn</visibility>

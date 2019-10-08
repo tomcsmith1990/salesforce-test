@@ -102,7 +102,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -113,7 +112,6 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -1009,7 +1007,6 @@
         <field>Order.Name</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.OpportunityId</field>
@@ -2714,7 +2711,6 @@
         <recordType>VEhicle__c.record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Pricebook2</tab>
         <visibility>DefaultOff</visibility>
@@ -2755,7 +2751,6 @@
         <tab>standard-Dashboard</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Asset</tab>
         <visibility>DefaultOff</visibility>
@@ -2772,7 +2767,6 @@
         <tab>standard-ProductRequestLineItem</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
@@ -2809,9 +2803,6 @@
         <tab>standard-ServiceTerritory</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>Junction__c</tab>
         <visibility>Hidden</visibility>
@@ -2820,9 +2811,6 @@
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-TimeSheet</tab>
         <visibility>Hidden</visibility>
@@ -2851,7 +2839,6 @@
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Property__c</tab>
         <visibility>Hidden</visibility>
@@ -2860,7 +2847,6 @@
         <tab>Broker__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
         <visibility>DefaultOn</visibility>
@@ -2869,8 +2855,6 @@
         <tab>standard-ContactRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>Sample_Data_Import</tab>
         <visibility>Hidden</visibility>
@@ -2879,7 +2863,6 @@
         <tab>standard-WorkBadgeDefinition</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>DefaultOn</visibility>
@@ -2924,8 +2907,6 @@
         <tab>standard-Document</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
@@ -2954,7 +2935,6 @@
         <tab>GIFter</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>Hidden</visibility>

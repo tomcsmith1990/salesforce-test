@@ -9,7 +9,6 @@
         <apexClass>BotMessageButton</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
@@ -26,7 +25,6 @@
         <apexClass>BotMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotHandler</apexClass>
         <enabled>true</enabled>
@@ -284,7 +282,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -295,7 +292,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Asset.StockKeepingUnit</field>
@@ -1311,7 +1307,6 @@
         <field>OpportunityLineItem.ServiceDate</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.ListPrice</field>
@@ -3161,7 +3156,6 @@
         <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
-    
     <tabVisibilities>
         <tab>standard-TimeSheet</tab>
         <visibility>DefaultOn</visibility>
@@ -3174,7 +3168,6 @@
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
         <visibility>DefaultOn</visibility>
@@ -3183,7 +3176,6 @@
         <tab>standard-WorkOrder</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-WorkBadgeDefinition</tab>
         <visibility>DefaultOn</visibility>
@@ -3196,13 +3188,10 @@
         <tab>standard-ServiceTerritory</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>Junction__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ProductTransfer</tab>
         <visibility>DefaultOn</visibility>
@@ -3211,13 +3200,10 @@
         <tab>standard-ServiceResource</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-ProductRequestLineItem</tab>
         <visibility>DefaultOn</visibility>
@@ -3250,21 +3236,14 @@
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-Recommendation</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-Task</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-StreamingChannel</tab>
         <visibility>DefaultOff</visibility>
@@ -3421,7 +3400,6 @@
         <tab>GIFter</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>DefaultOn</visibility>

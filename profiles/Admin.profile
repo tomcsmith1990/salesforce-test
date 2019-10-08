@@ -37,7 +37,6 @@
         <apexClass>BotRecord</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>PropertyControllerTest135</apexClass>
         <enabled>true</enabled>
@@ -106,7 +105,6 @@
         <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>HandlerCostCenter</apexClass>
         <enabled>true</enabled>
@@ -2504,7 +2502,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -2515,7 +2512,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -2781,7 +2777,6 @@
     <readable>false</readable>
     <field>WorkOrder.Description</field>
 </fieldPermissions>
-    
     <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
@@ -5602,7 +5597,6 @@
         <tab>standard-ServiceResource</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ProductTransfer</tab>
         <visibility>DefaultOn</visibility>
@@ -5611,7 +5605,6 @@
         <tab>standard-MaintenancePlan</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
@@ -5624,8 +5617,6 @@
         <tab>standard-Task</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-ProductRequest</tab>
         <visibility>DefaultOn</visibility>
@@ -5638,7 +5629,6 @@
         <tab>standard-TimeSheet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ProductRequestLineItem</tab>
         <visibility>DefaultOn</visibility>
@@ -5647,8 +5637,6 @@
         <tab>standard-StreamingChannel</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-AuthorizationFormConsent</tab>
         <visibility>DefaultOn</visibility>
@@ -5665,23 +5653,14 @@
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
-    
-    
     <tabVisibilities>
         <tab>standard-ServiceAppointment</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-ContactRequest</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>DefaultOn</visibility>
@@ -5846,7 +5825,6 @@
         <tab>GIFter</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>DefaultOn</visibility>

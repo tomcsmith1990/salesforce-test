@@ -9,7 +9,6 @@
         <apexClass>BotMessageButton</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
@@ -26,7 +25,6 @@
         <apexClass>BotMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>BotHandler</apexClass>
         <enabled>true</enabled>
@@ -284,7 +282,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -295,7 +292,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ParentId</field>
@@ -1241,7 +1237,6 @@
     <readable>false</readable>
     <field>WorkOrderLineItem.EndDate</field>
 </fieldPermissions>
-    
     <fieldPermissions>
         <editable>true</editable>
         <field>Quote.Property_ID__c</field>
@@ -3177,7 +3172,6 @@
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-WorkBadge</tab>
         <visibility>DefaultOn</visibility>
@@ -3186,7 +3180,6 @@
         <tab>Heat_Map_Mock</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>Property_Explorer1</tab>
         <visibility>DefaultOn</visibility>
@@ -3215,9 +3208,6 @@
         <tab>standard-AuthorizationFormConsent</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
@@ -3230,13 +3220,10 @@
         <tab>standard-Quote</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-WorkOrder</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>DefaultOn</visibility>
@@ -3245,7 +3232,6 @@
         <tab>Junction__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-ProductRequest</tab>
         <visibility>DefaultOn</visibility>
@@ -3254,20 +3240,14 @@
         <tab>standard-MaintenancePlan</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-ProductTransfer</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-Task</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-TimeSheet</tab>
         <visibility>DefaultOn</visibility>
@@ -3324,7 +3304,6 @@
         <tab>standard-DuplicateRecordSet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Event</tab>
         <visibility>DefaultOn</visibility>
@@ -3421,7 +3400,6 @@
         <tab>GIFter</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>LoopA__c</tab>
         <visibility>DefaultOn</visibility>
