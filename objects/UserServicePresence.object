@@ -63,5 +63,6 @@
         <type>Lookup</type>
     </fields>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Read</externalSharingModel>
     <sharingModel>Read</sharingModel>
 </CustomObject>

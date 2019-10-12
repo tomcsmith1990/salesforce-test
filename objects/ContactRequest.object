@@ -157,6 +157,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <sharingModel>ReadWrite</sharingModel>
     <listViews>
         <fullName>My_ContactRequests</fullName>
