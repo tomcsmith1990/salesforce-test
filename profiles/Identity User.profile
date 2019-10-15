@@ -2657,6 +2657,11 @@
         <field>Account.MyCustomField2__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.MyCustomField3__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>VEhicle__c-VEhicle Layout</layout>
     </layoutAssignments>

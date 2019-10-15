@@ -685,6 +685,17 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>MyCustomField3__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>MyCustomField3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
