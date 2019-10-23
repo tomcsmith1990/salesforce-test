@@ -2676,6 +2676,11 @@
         <field>Account.MyCustomField3__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.external_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.LID__PointDrive_Presentation_Created</recordType>

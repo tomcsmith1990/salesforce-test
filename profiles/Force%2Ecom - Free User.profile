@@ -2222,6 +2222,11 @@
         <field>SomeApprovalProcessDependsOnMe__c.MyField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.external_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>custom_metadata__mdt-custom metadata Layout</layout>
     </layoutAssignments>
