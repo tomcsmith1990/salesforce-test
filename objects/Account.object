@@ -902,7 +902,7 @@
         <fullName>MyCustomField2__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>MyCustomField2bbb</label>
+        <label>MyCustomField2</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
