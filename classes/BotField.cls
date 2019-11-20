@@ -1,4 +1,4 @@
-public class botfield {
+global class botfield {
 
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
