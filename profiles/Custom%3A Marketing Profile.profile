@@ -2742,6 +2742,11 @@
         <field>DataUseLegalBasis.X2323__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SalesDemoField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.LID__PointDrive_Presentation_Viewed</recordType>
