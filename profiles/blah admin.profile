@@ -6021,6 +6021,10 @@
     <layoutAssignments>
         <layout>webhook__c-webhook Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.NewLeadRecordType</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -6845,6 +6849,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.NewLeadRecordType</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

@@ -4109,6 +4109,10 @@
     <layoutAssignments>
         <layout>Team__c-Team Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.NewLeadRecordType</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
@@ -4162,6 +4166,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.NewLeadRecordType</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

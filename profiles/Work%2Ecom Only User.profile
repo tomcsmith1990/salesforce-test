@@ -3639,6 +3639,10 @@
     <layoutAssignments>
         <layout>Team__c-Team Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.NewLeadRecordType</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
@@ -3693,6 +3697,11 @@
         <default>true</default>
         <recordType>VEhicle__c.record_type</recordType>
         <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.NewLeadRecordType</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Pricebook2</tab>
