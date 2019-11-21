@@ -1,4 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -43,950 +169,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>SBQQ__QuantityEditable__c</fullName>
-        <defaultValue>true</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Flag that determines whether the quantity is editable.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Allow or prevent changing the quantity for this product.</inlineHelpText>
-        <label>Quantity Editable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DefaultPricingTable__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Default Pricing Table</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Segmented</fullName>
-                    <default>false</default>
-                    <label>Segmented</label>
-                </value>
-                <value>
-                    <fullName>Standard</fullName>
-                    <default>false</default>
-                    <label>Standard</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__PricingMethodEditable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Specifies whether Pricing Method may be changed when this product is added to quote.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Select if Pricing Method can be changed when this product is added to quote.</inlineHelpText>
-        <label>Pricing Method Editable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__PriceEditable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates this product allows for price to be freely editable when building a quote</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Indicates this product allows for price to be freely editable when building a quote.</inlineHelpText>
-        <label>Price Editable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DiscountCategory__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Discount category assigned to this product.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specify discount category for this product.</inlineHelpText>
-        <label>Discount Category</label>
-        <referenceTo>SBQQ__DiscountCategory__c</referenceTo>
-        <relationshipLabel>Products</relationshipLabel>
-        <relationshipName>Products</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionPricing__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Type of pricing to use for this subscription. "None" means this product is not a subscription.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Type of pricing to use for this subscription. "None" means this product is not a subscription.</inlineHelpText>
-        <label>Subscription Pricing</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Fixed Price</fullName>
-                    <default>false</default>
-                    <label>Fixed Price</label>
-                </value>
-                <value>
-                    <fullName>Percent Of Total</fullName>
-                    <default>false</default>
-                    <label>Percent Of Total</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__TermDiscountSchedule__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Schedule for discounts based on subscription term.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Schedule for discounts based on subscription term.</inlineHelpText>
-        <label>Term Discount Schedule</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>SBQQ__DiscountSchedule__c.SBQQ__UserDefined__c</field>
-                <operation>equals</operation>
-                <value>False</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
-        <relationshipLabel>Term Discounted Products</relationshipLabel>
-        <relationshipName>TermDiscountedProducts</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__TermDiscountLevel__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Level of subscription term that's used to calculated term discount.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specify subscription term level that should be used in calculating term discount. Leave blank to indicate default.</inlineHelpText>
-        <label>Term Discount Level</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Line</fullName>
-                    <default>false</default>
-                    <label>Line</label>
-                </value>
-                <value>
-                    <fullName>Group</fullName>
-                    <default>false</default>
-                    <label>Group</label>
-                </value>
-                <value>
-                    <fullName>Quote</fullName>
-                    <default>false</default>
-                    <label>Quote</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__CompoundDiscountRate__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Discount rate compounded by quantity.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Discount rate compounded by quantity.</inlineHelpText>
-        <label>Compound Discount (%)</label>
-        <precision>8</precision>
-        <required>false</required>
-        <scale>3</scale>
-        <trackHistory>false</trackHistory>
-        <type>Percent</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__PricingMethod__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Pricing method that should be applied to this product.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Pricing method that should be applied to this product.</inlineHelpText>
-        <label>Pricing Method</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>List</fullName>
-                    <default>true</default>
-                    <label>List</label>
-                </value>
-                <value>
-                    <fullName>Cost</fullName>
-                    <default>false</default>
-                    <label>Cost</label>
-                </value>
-                <value>
-                    <fullName>Block</fullName>
-                    <default>false</default>
-                    <label>Block</label>
-                </value>
-                <value>
-                    <fullName>Percent Of Total</fullName>
-                    <default>false</default>
-                    <label>Percent Of Total</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionTerm__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Term length of this subscription. Only applicable if the product is a subscription.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Term length of this subscription. Only applicable if the product is a subscription.</inlineHelpText>
-        <label>Subscription Term</label>
-        <precision>5</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__NonDiscountable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Marks this product as non discountable.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Marks this product as not discountable.</inlineHelpText>
-        <label>Non Discountable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__HidePriceInSearchResults__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates whether the product price should be displayed in the Product Search Results.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Select checkbox to hide this product's price in the Product Search Results.</inlineHelpText>
-        <label>Hide Price in Search Results</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__GenerateContractedPrice__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Will generate a contracted price based on the adjusted quote line if flagged.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Will generate a contracted price based on the adjusted quote line if flagged.</inlineHelpText>
-        <label>Generate Contracted Price</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Price</fullName>
-                    <default>false</default>
-                    <label>Price</label>
-                </value>
-                <value>
-                    <fullName>Discount Schedule</fullName>
-                    <default>false</default>
-                    <label>Discount Schedule</label>
-                </value>
-                <value>
-                    <fullName>Do Not Generate</fullName>
-                    <default>false</default>
-                    <label>Do Not Generate</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__BillingFrequency__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines how often this product will be invoiced.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Determines how often this product will be invoiced.</inlineHelpText>
-        <label>Billing Frequency</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>SBQQ__BillingFrequency</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__BillingType__c</fullName>
-        <deprecated>false</deprecated>
-        <description>The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>The billing type that defines when the billing occurs. Billing in advance lets you bill your customers for products or services before you provide them; Billing in arrears lets you bill your customers after the products or services are provided.</inlineHelpText>
-        <label>Billing Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>SBQQ__BillingType</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__BlockPricingField__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Field used to calculate block pricing.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Field used to calculate block pricing.</inlineHelpText>
-        <label>Block Pricing Field</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Quantity</fullName>
-                    <default>true</default>
-                    <label>Quantity</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__AssetConversion__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines how this product is converted to asset.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Indicates how this product is converted to asset.</inlineHelpText>
-        <label>Asset Conversion</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>One per quote line</fullName>
-                    <default>true</default>
-                    <label>One per quote line</label>
-                </value>
-                <value>
-                    <fullName>One per unit</fullName>
-                    <default>false</default>
-                    <label>One per unit</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__AssetAmendmentBehavior__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates how assets representing this product behave on amendments.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Select a behavior when amending assets representing this product. By default, asset quantities cannot decrease unless an upgrade is added, and no refund is applied.</inlineHelpText>
-        <label>Asset Amendment Behavior</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Default</fullName>
-                    <default>true</default>
-                    <label>Default</label>
-                </value>
-                <value>
-                    <fullName>Allow Refund</fullName>
-                    <default>false</default>
-                    <label>Allow Refund</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionBase__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines whether dynamic subscriptions are calculated off List or Net product price.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Determines whether Percent of Total is calculated off List or Net product prices.</inlineHelpText>
-        <label>Percent Of Total Base</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>List</fullName>
-                    <default>true</default>
-                    <label>List</label>
-                </value>
-                <value>
-                    <fullName>Regular</fullName>
-                    <default>false</default>
-                    <label>Regular</label>
-                </value>
-                <value>
-                    <fullName>Customer</fullName>
-                    <default>false</default>
-                    <label>Customer</label>
-                </value>
-                <value>
-                    <fullName>Net</fullName>
-                    <default>false</default>
-                    <label>Net</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ConfigurationType__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</inlineHelpText>
-        <label>Configuration Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Required</fullName>
-                    <default>false</default>
-                    <label>Required</label>
-                </value>
-                <value>
-                    <fullName>Allowed</fullName>
-                    <default>false</default>
-                    <label>Allowed</label>
-                </value>
-                <value>
-                    <fullName>Disabled</fullName>
-                    <default>false</default>
-                    <label>Disabled</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionCategory__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Subscription category for this product. Applies to all products and used to limit percent of total subscriptions to certain products.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use this to limit percent of total calculations to certain product categories. For example, software maintenance should only calculate percentage on products with a software maintenance percent of total category.</inlineHelpText>
-        <label>Percent Of Total Category</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Hardware</fullName>
-                    <default>false</default>
-                    <label>Hardware</label>
-                </value>
-                <value>
-                    <fullName>Software</fullName>
-                    <default>false</default>
-                    <label>Software</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__Hidden__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Excludes this product from appearing on the quote PDF.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Excludes this product from appearing on the quote PDF.</inlineHelpText>
-        <label>Hidden</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ConfigurationEvent__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Specifies when user is prompted to configure this product.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use this to control when Configure Products screen shows up for this product. Choose "Add" to limit to initial configuration. Choose "Edit" to subsequent configuration.</inlineHelpText>
-        <label>Configuration Event</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <controllingField>SBQQ__ConfigurationType__c</controllingField>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Always</fullName>
-                    <default>false</default>
-                    <label>Always</label>
-                </value>
-                <value>
-                    <fullName>Add</fullName>
-                    <default>false</default>
-                    <label>Add</label>
-                </value>
-                <value>
-                    <fullName>Edit</fullName>
-                    <default>false</default>
-                    <label>Edit</label>
-                </value>
-            </valueSetDefinition>
-            <valueSettings>
-                <controllingFieldValue>Required</controllingFieldValue>
-                <controllingFieldValue>Allowed</controllingFieldValue>
-                <controllingFieldValue>Disabled</controllingFieldValue>
-                <valueName>Always</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Allowed</controllingFieldValue>
-                <valueName>Add</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Allowed</controllingFieldValue>
-                <valueName>Edit</valueName>
-            </valueSettings>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ChargeType__c</fullName>
-        <deprecated>false</deprecated>
-        <description>The type of the product charge.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>The type of the product charge.</inlineHelpText>
-        <label>Charge Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>SBQQ__ChargeType</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DynamicPricingConstraint__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Specifies constraints on dynamically calculated pricing.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use to place constraints on dynamically calculated prices.</inlineHelpText>
-        <label>Percent Of Total Constraint</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>List price is minimum</fullName>
-                    <default>false</default>
-                    <label>List price is minimum</label>
-                </value>
-                <value>
-                    <fullName>List price is maximum</fullName>
-                    <default>false</default>
-                    <label>List price is maximum</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__OptionSelectionMethod__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines how user selects options attached to this product. "Click" method presents options with checkboxes next to them. "Add" renders a button which brings up a dialog box with available options.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Determines how user selects options attached to this product. "Click" method presents options with checkboxes next to them. "Add" renders a button which brings up a dialog box with available options.</inlineHelpText>
-        <label>Option Selection Method</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Click</fullName>
-                    <default>true</default>
-                    <label>Click</label>
-                </value>
-                <value>
-                    <fullName>Add</fullName>
-                    <default>false</default>
-                    <label>Add</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionType__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</inlineHelpText>
-        <label>Subscription Type</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Renewable</fullName>
-                    <default>true</default>
-                    <label>Renewable</label>
-                </value>
-                <value>
-                    <fullName>One-time</fullName>
-                    <default>false</default>
-                    <label>One-time</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__IncludeInMaintenance__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Includes products in percent of total calculations that are normally excluded (e.g.: subscription products).</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Check to always include this product in percent of total calculations (normally subscription products are excluded from percent of total calculations).</inlineHelpText>
-        <label>Include In Percent Of Total</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ConfiguredCodePattern__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Pattern used to generate product code (SKU) for configured products.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Pattern used to generate product code (SKU) for configured products.</inlineHelpText>
-        <label>Configured Code Pattern</label>
-        <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ConfiguredDescriptionPattern__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Pattern used to generate dynamic product description for configured products.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Pattern used to generate dynamic product description for configured products.</inlineHelpText>
-        <label>Configured Description Pattern</label>
-        <length>1000</length>
-        <trackHistory>false</trackHistory>
-        <type>Html</type>
-        <visibleLines>10</visibleLines>
-    </fields>
-    <fields>
-        <fullName>SBQQ__NonPartnerDiscountable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Marks this product as non-discountable for partners.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Check to make this product non-discountable for partners.</inlineHelpText>
-        <label>Non Partner Discountable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ConfigurationFormTitle__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Title of the configuration form rendered from specified configuration fields.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Title of the configuration form rendered from specified configuration fields.</inlineHelpText>
-        <label>Configuration Form Title</label>
-        <length>100</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SortOrder__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines a default sort order of products in the Product Lookup page, and therefore the order in which they are added to the quote.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Determines a default sort order of products in the Product Lookup page, and therefore the order in which they are added to the quote.</inlineHelpText>
-        <label>Sort Order</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__RenewalProduct__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Product that replaces this product on renewal.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Product that replaces this product on renewal. Use this to quote a different SKU when renewing.</inlineHelpText>
-        <label>Renewal Product</label>
-        <referenceTo>Product2</referenceTo>
-        <relationshipLabel>Original Products</relationshipLabel>
-        <relationshipName>OriginalProducts</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionTarget__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Effective product on which maintenance should calculate.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Use this field to override a product that is included in a percent of total calculation. Point this lookup to a product with a list price you would like to use for the current product’s Percent of Total calculations.</inlineHelpText>
-        <label>Percent Of Total Target</label>
-        <referenceTo>Product2</referenceTo>
-        <relationshipLabel>Subscription Targeting Products</relationshipLabel>
-        <relationshipName>SubscriptionTargetingProducts</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__OptionLayout__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Determines how options are presented to users.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Determines how options are presented to users.</inlineHelpText>
-        <label>Option Layout</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Sections</fullName>
-                    <default>false</default>
-                    <label>Sections</label>
-                </value>
-                <value>
-                    <fullName>Tabs</fullName>
-                    <default>false</default>
-                    <label>Tabs</label>
-                </value>
-                <value>
-                    <fullName>Wizard</fullName>
-                    <default>false</default>
-                    <label>Wizard</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>SBQQ__TaxCode__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Specifies the tax code for taxation rules.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specifies the tax code for taxation rules.</inlineHelpText>
-        <label>Tax code</label>
-        <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__Taxable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates whether this product is taxable.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Indicates whether this product is taxable.</inlineHelpText>
-        <label>Taxable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DiscountSchedule__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Discount schedule for use with this product</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Discount schedule for use with this product</inlineHelpText>
-        <label>Discount Schedule</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>SBQQ__DiscountSchedule__c.SBQQ__UserDefined__c</field>
-                <operation>equals</operation>
-                <value>False</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
-        <relationshipLabel>Quantity Discounted Products</relationshipLabel>
-        <relationshipName>Products</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__CostEditable__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Controls whether cost for this product may be modified on individual quotes.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Controls whether cost for this product may be modified on individual quotes.</inlineHelpText>
-        <label>Cost Editable</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__CostSchedule__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Discount schedule used as a Cost Schedule with this product.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Discount schedule used as a Cost Schedule with this product.</inlineHelpText>
-        <label>Cost Schedule</label>
-        <lookupFilter>
-            <active>true</active>
-            <filterItems>
-                <field>SBQQ__DiscountSchedule__c.SBQQ__UserDefined__c</field>
-                <operation>equals</operation>
-                <value>False</value>
-            </filterItems>
-            <isOptional>false</isOptional>
-        </lookupFilter>
-        <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>
-        <relationshipLabel>Products (Cost Schedule)</relationshipLabel>
-        <relationshipName>Products1</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__Optional__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates whether this product is optional or not by default. Optional products don't contribute to quote total or get transferred to the opportunity.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Select if this product is optional by default. Optional products don't contribute to quote total or get transferred to the opportunity.</inlineHelpText>
-        <label>Optional</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ExcludeFromMaintenance__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Excludes this product from percent of total maintenance calculations.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Check to always exclude this product from percent of total calculations (normally non-subscription products are included in percent of total calculations).</inlineHelpText>
-        <label>Exclude From Percent Of Total</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionPercent__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Percent of non-subscription total to be used as the price of this subscription.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Percent of non-subscription total to be used as the price of this subscription.</inlineHelpText>
-        <label>Percent Of Total (%)</label>
-        <precision>7</precision>
-        <required>false</required>
-        <scale>3</scale>
-        <trackHistory>false</trackHistory>
-        <type>Percent</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DescriptionLocked__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Flag that indicates this product's description is locked (not editable on the quote).</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Flag that indicates this product's description is locked (not editable on the quote).</inlineHelpText>
-        <label>Lock Description</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__ExcludeFromOpportunity__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates this product should be excluded from transfer to the Opportunity.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Indicates this product should not be transferred to the opportunity.</inlineHelpText>
-        <label>Exclude From Opportunity</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__DefaultQuantity__c</fullName>
-        <defaultValue>1</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Specifies the starting quantity of the product when added.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specify the starting quantity of the product when added.</inlineHelpText>
-        <label>Default Quantity</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>5</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__BatchQuantity__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Quantity in one batch for products sold in batches. Quantity entered in quote line will be divided by this number.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Non-blank value designates this product is sold in batches. Enter quantity in each batch. Quantity entered in quote will be divided by this value and rounded up to the nearest integer.</inlineHelpText>
-        <label>Batch Quantity</label>
-        <precision>12</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__Component__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Marks this product as a component, excluding it from selection in product lookup.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Marks this product as a component, excluding it from selection in product lookup.</inlineHelpText>
-        <label>Component</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__QuantityScale__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Specifies the number of decimal places used in the Quantity field.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Specifies the number of decimal places used in the Quantity field.</inlineHelpText>
-        <label>Quantity Scale</label>
-        <precision>1</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>external_id__c</fullName>
         <externalId>false</externalId>
         <formula>Id</formula>
@@ -997,132 +179,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <actionOverrides>
-        <actionName>Add</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Add</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Add</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>List</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>List</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>List</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>

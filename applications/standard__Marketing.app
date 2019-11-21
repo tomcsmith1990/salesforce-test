@@ -17,4 +17,6 @@
     <tabs>LoopA__c</tabs>
     <tabs>LoopB__c</tabs>
     <tabs>Junction__c</tabs>
+    <tabs>Medication__c</tabs>
+    <tabs>Patient__c</tabs>
 </CustomApplication>

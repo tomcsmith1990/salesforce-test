@@ -185,6 +185,8 @@
     <tabs>LoopA__c</tabs>
     <tabs>LoopB__c</tabs>
     <tabs>Junction__c</tabs>
+    <tabs>Medication__c</tabs>
+    <tabs>Patient__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Junction__c</tab>
@@ -196,7 +198,13 @@
             <tab>LoopB__c</tab>
         </mappings>
         <mappings>
+            <tab>Medication__c</tab>
+        </mappings>
+        <mappings>
             <tab>NewObjectLookup__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Patient__c</tab>
         </mappings>
         <mappings>
             <tab>TestObjectForDataFiltering__c</tab>

@@ -11,6 +11,10 @@
         <label><!-- GIFter: GIFs2Chatter --></label>
         <name>GIFter2</name>
     </customApplications>
+    <customApplications>
+        <label><!-- GIFter: GIFs2Chatter --></label>
+        <name>GIFter3</name>
+    </customApplications>
     <customTabs>
         <label><!-- Command Center --></label>
         <name>Command_Center</name>
@@ -95,46 +99,4 @@
         <label><!-- Snapins_Contact_PrechatQuickAction_08h1t000000TO1a --></label>
         <name>Snapins_Contact_PrechatQuickAction_08h1t000000TO1a</name>
     </quickActions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Opportunity_Status_Change-1</fullName>
-        </flows>
-        <fullName>Opportunity_Status_Change</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>New_Contact-1</fullName>
-            <screens>
-                <fields>
-                    <name>Account</name>
-                </fields>
-                <fields>
-                    <name>contactName</name>
-                </fields>
-                <fields>
-                    <name>update_toggle</name>
-                </fields>
-                <name>Contact_Info</name>
-            </screens>
-        </flows>
-        <fullName>New_Contact</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Advertise_New_Property-2</fullName>
-        </flows>
-        <fullName>Advertise_New_Property</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Price_Change_Push_Notification-1</fullName>
-        </flows>
-        <fullName>Price_Change_Push_Notification</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <fullName>Post_Price_Changes_to_Slack-1</fullName>
-        </flows>
-        <fullName>Post_Price_Changes_to_Slack</fullName>
-    </flowDefinitions>
 </Translations>
