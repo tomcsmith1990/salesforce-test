@@ -3624,6 +3624,10 @@
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.NewLeadRecordType</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.AnotherNewRecordType</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Task.LID__LinkedIn_Call</recordType>

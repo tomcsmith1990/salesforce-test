@@ -4103,6 +4103,10 @@
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.NewLeadRecordType</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.AnotherNewRecordType</recordType>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Metric.Progress</recordType>
