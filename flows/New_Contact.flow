@@ -182,6 +182,7 @@
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>Contact_Info</startElementReference>
+    <start></start>
     <status>Obsolete</status>
     <variables>
         <name>contact</name>
