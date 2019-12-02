@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Sélectionnez la case pour appliquer immédiatement les modifications à cette option. À utiliser avec précaution afin d'éviter de ralentir l'expérience utilisateur.</help>
+        <label><!-- Apply Immediately --></label>
+        <name>SBQQ__AppliedImmediately__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez la case pour appliquer la sélection d'attributs de configuration aux options produit.</help>
+        <label><!-- Apply To Product Options --></label>
+        <name>SBQQ__ApplyToProductOptions__c</name>
+    </fields>
+    <fields>
+        <help>Définissez la valeur de cet attribut lors de l'ajout d'un produit à partir d'une fonctionnalité dynamique en utilisant la valeur du champ de correspondance du produit ajouté.</help>
+        <label><!-- Auto-Select --></label>
+        <name>SBQQ__AutoSelect__c</name>
+    </fields>
+    <fields>
+        <help>Les colonnes sont composées d'une liste de sélection (1, 2 ou 3) pour chaque attribut de configuration. Trois colonnes maximum sont autorisées.</help>
+        <label><!-- Column Order --></label>
+        <name>SBQQ__ColumnOrder__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>L’API du champ cible dans l’objet par défaut pour la valeur par défaut de l’attribut.</help>
+        <label><!-- Default Field --></label>
+        <name>SBQQ__DefaultField__c</name>
+    </fields>
+    <fields>
+        <help>Objet cible de la valeur par défaut de l’attribut.</help>
+        <label><!-- Default Object --></label>
+        <name>SBQQ__DefaultObject__c</name>
+        <picklistValues>
+            <masterLabel>Quote</masterLabel>
+            <translation>Quote__c</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Line Group</masterLabel>
+            <translation>QuoteLineGroup__c</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si aucun ordre d'affichage n'est associé à un attribut de configuration, l'ordre est déterminé par le nom du contenu associé.</help>
+        <label><!-- Row Order --></label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Spécifiez la fonctionnalité dans laquelle cet attribut doit être saisi.</help>
+        <label><!-- Feature --></label>
+        <name>SBQQ__Feature__c</name>
+        <relationshipLabel><!-- Configuration Attributes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Indique si cet attribut a un champ cible global.</help>
+        <label><!-- Global --></label>
+        <name>SBQQ__Global__c</name>
+    </fields>
+    <fields>
+        <help>Saisissez les valeurs du champ de liste de sélection correspondant dans l'objet Option produit que vous souhaitez masquer dans cette offre groupée.</help>
+        <label><!-- Hidden Values --></label>
+        <name>SBQQ__HiddenValues__c</name>
+    </fields>
+    <fields>
+        <help>S'il est défini sur masqué, l'attribut de configuration n'est pas affiché dans la page du configurateur du produit.</help>
+        <label><!-- Hidden --></label>
+        <name>SBQQ__Hidden__c</name>
+    </fields>
+    <fields>
+        <help>Spécifiez la position de cet attribut. En haut affiche l'attribut au-dessus des options, En bas l'affiche sous les options.</help>
+        <label><!-- Position --></label>
+        <name>SBQQ__Position__c</name>
+        <picklistValues>
+            <masterLabel>Bottom</masterLabel>
+            <translation>En bas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top</masterLabel>
+            <translation>En haut</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Spécifiez le produit dans lequel vous créez l'attribut.</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel><!-- Configuration Attributes --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Spécifiez si cet attribut nécessite une valeur.</help>
+        <label><!-- Required --></label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help>Saisissez les valeurs du champ de liste de sélection correspondant dans l'objet Option produit, que vous souhaitez afficher dans cette offre groupée.</help>
+        <label><!-- Shown Values --></label>
+        <name>SBQQ__ShownValues__c</name>
+    </fields>
+    <fields>
+        <help>Spécifiez le champ de l'Option produit qui doit contenir la valeur de cet attribut.</help>
+        <label><!-- Target Field --></label>
+        <name>SBQQ__TargetField__c</name>
+        <picklistValues>
+            <masterLabel>Discount (%)</masterLabel>
+            <translation>Remise (%)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discount (Amt)</masterLabel>
+            <translation>Remise (montant)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit Price</masterLabel>
+            <translation>Prix unitaire</translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Attribut de configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attribut de configuration</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom de l'attribut</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <layouts>
+        <layout>Training Configuration Attribute Layout</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Configuration Attribute associated to a product --></description>
+        <label><!-- Configuration Attribute --></label>
+        <name>SBQQ__Configuration_Attribute</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Definition of an Attribute Item --></description>
+        <label><!-- Global Attribute --></label>
+        <name>SBQQ__Global_Attribute</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Column Order is required. --></errorMessage>
+        <name>SBQQ__Column_Order_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Product is required. --></errorMessage>
+        <name>SBQQ__Product_is_required_if_not_global</name>
+    </validationRules>
+</CustomObjectTranslation>

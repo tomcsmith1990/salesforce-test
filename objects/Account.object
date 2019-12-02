@@ -670,6 +670,47 @@
         <trackFeedHistory>false</trackFeedHistory>
         <type>Date</type>
     </fields>
+    <fields>
+        <fullName>SBQQ__DefaultOpportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Default opportunity for this account used by an e-Commerce module to obtain the customer's price book and associate with "shopping cart" quotes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Default opportunity for this account used by an e-Commerce module to obtain the customer's price book and associate with "shopping cart" quotes.</inlineHelpText>
+        <label>Default Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>WebAccounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__TaxExempt__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Selected if this account has active certificates</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Selected if this account has active certificates</inlineHelpText>
+        <label>Tax-Exempt</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -750,5 +791,28 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.genwatt.com/genwatt/billing.htm?actname={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Amend_Assets</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Amend Assets</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__AssetSelectorAmend</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Renew_Assets</fullName>
+        <availability>online</availability>
+        <description>It is used to renew assets from an account when Global Settings - Renewal Model is set to Asset Based.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Renew Assets</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__AssetSelector</page>
+        <protected>false</protected>
     </webLinks>
 </CustomObject>

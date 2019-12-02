@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Le produit couvert par cette attribution de carte de taux</help>
+        <label><!-- Product --></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel><!-- Usage Rate Card Assignments --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>La carte de taux d'utilisation associée à ce produit commandé</help>
+        <label><!-- Usage Rate Card --></label>
+        <name>SBQQ__UsageRateCard__c</name>
+        <relationshipLabel><!-- Usage Rate Card Assignments --></relationshipLabel>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Attribution de carte de taux d'utilisation (réservé)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attributions de carte de taux d'utilisation (réservé)</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Numéro</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

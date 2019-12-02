@@ -1214,6 +1214,166 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>SBQQ__ConfigurationFieldSet__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The API name of the field set that will be used for this product during configuration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The API name of the field set that will be used for this product during configuration.</inlineHelpText>
+        <label>Configuration Field Set</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>OptionConfiguration</fullName>
+                    <default>false</default>
+                    <label>OptionConfiguration</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ConfigurationFields__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Additional fields collected during configuration of this product. All of these fields must exist on Product Option and Quote Line objects.</description>
+        <externalId>false</externalId>
+        <label>Configuration Fields</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ConfigurationValidator__c</fullName>
+        <deprecated>false</deprecated>
+        <description>JavaScript function used to validate configuration of this product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>JavaScript function used to validate configuration of this product.</inlineHelpText>
+        <label>Configuration Validator</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CustomConfigurationPage__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Custom Configuration Page</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__CustomConfigurationRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Custom Configuration Required</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__EnableLargeConfiguration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable large bundle configuration.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Should be enabled if you experience performance errors during bundle configuration. Bundle will be processed asynchronously.</inlineHelpText>
+        <label>Enable Large Configuration</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ExternallyConfigurable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>When checked, indicates that configuring this Product automatically launches the External Configuration URL, defined in Salesforce CPQ settings.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When checked, indicates that configuring this Product automatically launches the External Configuration URL, defined in Salesforce CPQ settings.</inlineHelpText>
+        <label>Externally Configurable</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__HasConfigurationAttributes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checks to see if Product has Configuration Attributes</description>
+        <externalId>false</externalId>
+        <label>Has Configuration Attributes</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__HasConsumptionSchedule__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates if Product is assigned to at least 1 active Consumption Schedule</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if this product has at least one consumption schedule</inlineHelpText>
+        <label>Has Consumption Schedules</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__NewQuoteGroup__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Forces this product to be in its own group on a quote.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Check to create a new quote group when this product is added (unless the current group is empty).</inlineHelpText>
+        <label>New Quote Group</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PricingGuidance__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Pricing guidance for use with this product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Pricing guidance for use with this product.</inlineHelpText>
+        <label>Pricing Guidance</label>
+        <referenceTo>SBQQ__PricingGuidance__c</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ProductPictureID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>ID of Document or Content record that holds the picture for this product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>ID of Document or Content record that holds the picture for this product.</inlineHelpText>
+        <label>Product Picture Id</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__UpgradeRatio__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The conversion rate between this upgrade product and its source product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The conversion rate between this product's quantity and that of its source product.</inlineHelpText>
+        <label>Upgrade Ratio</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
@@ -1234,9 +1394,255 @@
         <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <fieldSets>
+        <fullName>SBQQ__ConfiguratorFilter</fullName>
+        <availableFields>
+            <field>SBQQ__HasConsumptionSchedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Fields that are used as search filters in configurator product lookup.</description>
+        <displayedFields>
+            <field>ProductCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Family</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Configurator Filters</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SBQQ__ConfiguratorLookup</fullName>
+        <availableFields>
+            <field>SBQQ__HasConsumptionSchedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Fields that are used in configurator product lookup.</description>
+        <displayedFields>
+            <field>ProductCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Configurator Lookup</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SBQQ__SearchFilters</fullName>
+        <availableFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__HasConsumptionSchedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Fields that are used as search filters in quote product lookup.</description>
+        <displayedFields>
+            <field>ProductCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Family</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Search Filters</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SBQQ__SearchResults</fullName>
+        <availableFields>
+            <field>SBQQ__HasConsumptionSchedule__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__Hidden__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__NonDiscountable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__NonPartnerDiscountable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__Optional__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__PricingMethod__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__Specifications__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__SubscriptionBase__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__SubscriptionCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__SubscriptionPercent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__SubscriptionPricing__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__SubscriptionTerm__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>SBQQ__Taxable__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Fields displayed in search results in quote product lookup.</description>
+        <displayedFields>
+            <field>ProductCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Family</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Description</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Search Results</label>
+    </fieldSets>
     <listViews>
         <fullName>AllProducts</fullName>
         <filterScope>Everything</filterScope>
         <label>All Products</label>
     </listViews>
+    <validationRules>
+        <fullName>SBQQ__Include_or_Exclude_Maintenance</fullName>
+        <active>true</active>
+        <description>Validates that either Includes In Maintenance or Excludes From Maintenance checkbox is checked but not both.</description>
+        <errorConditionFormula>AND(SBQQ__IncludeInMaintenance__c,SBQQ__ExcludeFromMaintenance__c)</errorConditionFormula>
+        <errorMessage>You must check either Include In Maintenance or Exclude From Maintenance checkbox.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__RecurringChargeTypeMustHaveBillingType</fullName>
+        <active>true</active>
+        <description>When Charge Type is Recurring, a Billing Type must be selected.</description>
+        <errorConditionFormula>AND(ISPICKVAL(SBQQ__ChargeType__c, 'Recurring'), ISPICKVAL(SBQQ__BillingType__c, ''))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingType__c</errorDisplayField>
+        <errorMessage>When Charge Type is Recurring, a Billing Type must be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__Term_schedule_requires_subscription</fullName>
+        <active>true</active>
+        <description>Ensures only subscription products have Term Discount Schedule field populated.</description>
+        <errorConditionFormula>AND(ISPICKVAL(SBQQ__SubscriptionPricing__c, ''),NOT(ISBLANK(SBQQ__TermDiscountSchedule__c)))</errorConditionFormula>
+        <errorDisplayField>SBQQ__TermDiscountSchedule__c</errorDisplayField>
+        <errorMessage>Only subscription products may specify term discount schedule</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__Validate_billing_frequency</fullName>
+        <active>true</active>
+        <description>When Charge Type is selected as One-Time, Billing Frequency must not be selected.</description>
+        <errorConditionFormula>AND(ISPICKVAL(SBQQ__ChargeType__c, 'One-Time'), NOT(ISPICKVAL(SBQQ__BillingFrequency__c, '')))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingFrequency__c</errorDisplayField>
+        <errorMessage>When Charge Type is One-Time, a Billing Frequency value cannot be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__Validate_billing_type</fullName>
+        <active>true</active>
+        <description>When Charge Type is One-Time or Usage, a Billing Type cannot be selected.</description>
+        <errorConditionFormula>OR( 
+AND(ISPICKVAL(SBQQ__ChargeType__c, 'One-Time'), NOT(ISPICKVAL(SBQQ__BillingType__c, ""))), 
+AND(ISPICKVAL(SBQQ__ChargeType__c, 'Usage'), NOT(ISPICKVAL(SBQQ__BillingType__c, ""))))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingType__c</errorDisplayField>
+        <errorMessage>When Charge Type is One-Time or Usage, a Billing Type value cannot be selected.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>SBQQ__CloneWithRelated</fullName>
+        <availability>online</availability>
+        <description>Inserts a copy of current record with related child records, then opens the new record for further modifications.  Required for Lightning Desktop.</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Clone with Related</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>../apex/SBQQ__CloneProductChildren?id={!Product2.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__CloneWithRelatedClassic</fullName>
+        <availability>online</availability>
+        <description>Clones this product with related Salesforce CPQ records such as Features, Options, Costs and Block Prices</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Clone with Related</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>{!URLFOR($Action.Product2.Clone, Product2.Id, [saveURL='/apex/SBQQ__CloneProductChildren?id=' &amp; Product2.Id,cancelURL='' &amp; Product2.Id])}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Translate</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Translate</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>../apex/SBQQ__Translations?targetObject=Product&amp;targetId={!Product2.Id}&amp;supportUserDefined=false&amp;supportStandard=true</url>
+    </webLinks>
 </CustomObject>

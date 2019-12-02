@@ -97,11 +97,11 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
-    
-    
-    
-    
-    
+    <applicationVisibilities>
+        <application>SBQQ__QuoteQuickly</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
         <field>ProductRequestLineItem.NeedByDate</field>
@@ -3439,6 +3439,245 @@
     <layoutAssignments>
         <layout>Team__c-Team Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__AttributeSet__c-SBQQ__Attribute Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__AttributeValue__c-SBQQ__Attribute Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__BlockPrice__c-SBQQ__Block Price Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Configuration Attribute Layout</layout>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Configuration_Attribute</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationAttribute__c-SBQQ__Global Attribute Layout</layout>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ConfigurationRule__c-SBQQ__Configuration Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ContractedPrice__c-SBQQ__Contracted Price Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Cost__c-SBQQ__Cost Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomActionCondition__c-SBQQ__Custom Action Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomAction__c-SBQQ__Custom Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__CustomScript__c-SBQQ__Custom Script Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Dimension__c-SBQQ__Price Dimension Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountCategory__c-SBQQ__Discount Category Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountSchedule__c-SBQQ__Discount Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountTier__c-SBQQ__Discount Schedule Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ErrorCondition__c-SBQQ__Error Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__FavoriteProduct__c-SBQQ__Favorite Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__FavoriteShare__c-SBQQ__Favorite Share Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Favorite__c-SBQQ__Favorite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ImportColumn__c-SBQQ__Import Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ImportFormat__c-SBQQ__Import Format Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__InstallProcessorLog__c-SBQQ__Install Processor Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LineColumn__c-SBQQ__Line Column Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Localization__c-SBQQ__Localization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupData__c-SBQQ__Lookup Data Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OptionConstraint__c-SBQQ__Option Constraint Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OrderItemConsumptionRate__c-SBQQ__Order Item Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__OrderItemConsumptionSchedule__c-SBQQ__Order Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceSchedule__c-SBQQ__Price Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceTier__c-SBQQ__Price Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PricingGuidanceTier__c-SBQQ__Pricing Guidance Tier Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PricingGuidance__c-SBQQ__Pricing Guidance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInputCondition__c-SBQQ__Process Input Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInputValue__c-SBQQ__Process Input Values Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProcessInput__c-SBQQ__Process Input Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAction__c-SBQQ__Product Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAttributeSet__c-SBQQ__Product Attribute Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductAttribute__c-SBQQ__Product Attribute Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductFeature__c-SBQQ__Product Feature Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductOption__c-SBQQ__Product Option Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__ProductRule__c-SBQQ__Product Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteDocument__c-SBQQ__Quote Document Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineConsumptionRate__c-SBQQ__Quote Line Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineConsumptionSchedule__c-SBQQ__Quote Line Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLineGroup__c-SBQQ__Quote Line Group Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLinePricingGuidance__c-SBQQ__Quote Line Pricing Guidance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteLine__c-SBQQ__Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteProcess__c-SBQQ__Quote Process Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteTemplate__c-SBQQ__Quote Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__QuoteTerm__c-SBQQ__Quote Term Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Quote__c-SBQQ__Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__RecordJob__c-SBQQ__Record Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__RelatedContent__c-SBQQ__Related Content Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SearchFilter__c-SBQQ__Search Filter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SearchIndex__c-SBQQ__Search Index Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SolutionGroup__c-SBQQ__SolutionGroup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscribedAsset__c-SBQQ__Subscribed Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscribedQuoteLine__c-SBQQ__Subscribed Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscriptionConsumptionRate__c-SBQQ__Subscription Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SubscriptionConsumptionSchedule__c-SBQQ__Subscription Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Subscription__c-SBQQ__Subscription Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__SummaryVariable__c-SBQQ__Summary Variable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TaxExemptionCertificate__c-SBQQ__Tax Exemption Certificate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TemplateContent__c-SBQQ__Template Content Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TemplateSection__c-SBQQ__Template Section Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TermCondition__c-SBQQ__Term Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__Theme__c-SBQQ__Theme Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__TimingLog__c-SBQQ__Timing Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__UpgradeSource__c-SBQQ__Upgrade Source Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__UsageRateCardAssignment__c-SBQQ__Usage Rate Card Assignment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__UsageRateCard__c-SBQQ__Usage Rate Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__UsageRate__c-SBQQ__Usage Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__WebQuoteLine__c-SBQQ__Web Quote Line Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__WebQuote__c-SBQQ__Web Quote Layout</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.i_am_a_record_type</recordType>
@@ -3499,6 +3738,16 @@
         <recordType>Lead.NewLeadRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Configuration_Attribute</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-TimeSheet</tab>
         <visibility>Hidden</visibility>
@@ -3539,7 +3788,6 @@
         <tab>standard-ServiceTerritory</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-AuthorizationFormConsent</tab>
         <visibility>DefaultOn</visibility>
@@ -3552,7 +3800,6 @@
         <tab>standard-Individual</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
@@ -3565,7 +3812,6 @@
         <tab>standard-ServiceResource</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-AuthorizationForm</tab>
         <visibility>DefaultOn</visibility>
@@ -3578,7 +3824,6 @@
         <tab>standard-ProductTransfer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Contract</tab>
         <visibility>Hidden</visibility>
@@ -3599,14 +3844,10 @@
         <tab>standard-Case</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
     <tabVisibilities>
         <tab>standard-MaintenancePlan</tab>
         <visibility>Hidden</visibility>
@@ -3635,7 +3876,6 @@
         <tab>standard-Campaign</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Order</tab>
         <visibility>Hidden</visibility>
@@ -3656,12 +3896,10 @@
         <tab>standard-Scorecard</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-StreamingChannel</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
     <tabVisibilities>
         <tab>standard-Asset</tab>
         <visibility>Hidden</visibility>
@@ -3682,11 +3920,6 @@
         <tab>standard-ProductRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
-    
-    
-    
     <tabVisibilities>
         <tab>standard-ChannelProgram</tab>
         <visibility>DefaultOff</visibility>
@@ -3739,8 +3972,6 @@
         <tab>standard-Survey</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    
-    
     <tabVisibilities>
         <tab>standard-AuthorizationFormDataUse</tab>
         <visibility>DefaultOn</visibility>
@@ -3760,6 +3991,98 @@
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__AttributeSet__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__ConfigurationAttribute__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__CustomAction__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__CustomScript__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__DiscountCategory__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__DiscountSchedule__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__Favorite__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__ImportFormat__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__InstallProcessorLog__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__Localization__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__PriceRule__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__PricingGuidance__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__ProductRule__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__QuoteProcess__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__QuoteTemplate__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__QuoteTerm__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__Quote__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__SearchFilter__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__SolutionGroup__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__SummaryVariable__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__TemplateContent__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__Theme__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SBQQ__WebQuote__c</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>

@@ -428,6 +428,20 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>SBQQ__OrderGroupID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote's ID. This is not a reference.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The unique identifier for the Amend:Re-Quote transaction, which is the original primary quote's ID.</inlineHelpText>
+        <label>Order Group ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -562,5 +576,51 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Amend_Assets</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Amend Assets</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>../apex/SBQQ__AssetSelector?accountId={!Opportunity.AccountId}&amp;oppId={!Opportunity.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Amend_Contract</fullName>
+        <availability>online</availability>
+        <description>Redirects to a contract selector page to select contracts to amend.</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Amend Contract</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__SelectContractOpp</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__CreateOrder</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Create Order</masterLabel>
+        <openType>noSidebar</openType>
+        <page>SBQQ__GenerateOrder</page>
+        <protected>false</protected>
+    </webLinks>
+    <webLinks>
+        <fullName>SBQQ__Include_Document</fullName>
+        <availability>online</availability>
+        <description>Allow users to attach the PDF to the opportunity</description>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Include Document</masterLabel>
+        <openType>sidebar</openType>
+        <page>SBQQ__NewOpportunityRelatedContent</page>
+        <protected>false</protected>
     </webLinks>
 </CustomObject>

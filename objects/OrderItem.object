@@ -422,6 +422,400 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>SBQQ__Asset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Asset created from this order product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Asset created from this order product</inlineHelpText>
+        <label>Asset</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>OrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__BookingsIndicator__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether bookings are included.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates whether bookings are included.</inlineHelpText>
+        <label>Bookings Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SBQQ__BookingsIndicator</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__BundleRoot__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The root bundle parent Order Product of components. This component will be deleted if its bundle root is deleted.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>An internally used field that points to the root of its bundle parent.</inlineHelpText>
+        <label>Bundle Root</label>
+        <referenceTo>OrderItem</referenceTo>
+        <relationshipLabel>Order Products (Bundle Root)</relationshipLabel>
+        <relationshipName>BundleChildren</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Contract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The contract of the subscription that is created from this order product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The contract of the subscription that is created from this order product.</inlineHelpText>
+        <label>Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>OrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ContractingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Controls the contracting behavior of an Order Product. "Inherit" uses the behavior of the parent Order. "Contract Separately" generates a separate Contract for
+            the Order Product. "No Contract" skips the Order Product altogether during the contracting process.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Controls the contracting behavior of an Order Product.</inlineHelpText>
+        <label>Contracting Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inherit</fullName>
+                    <default>true</default>
+                    <label>Inherit</label>
+                </value>
+                <value>
+                    <fullName>Contract Separately</fullName>
+                    <default>false</default>
+                    <label>Contract Separately</label>
+                </value>
+                <value>
+                    <fullName>Do Not Contract</fullName>
+                    <default>false</default>
+                    <label>Do Not Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DefaultSubscriptionTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Term length of the subscription, which only applies if the product is a subscription. It is copied from the Subscription Term of the related product when the line item is first
+            generated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Term length of the subscription, which only applies if the product is a subscription. It is copied from the Subscription Term of the related product when the line item is first
+            generated.</inlineHelpText>
+        <label>Default Subscription Term</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__DimensionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For multi-segmented Products, this is the type of price dimeension (e.g. "YEAR", "MONTH", "QUARTER") of the order item.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For multi-segmented Products, this is the type of price dimeension (e.g. "YEAR", "MONTH", "QUARTER") of the order item.</inlineHelpText>
+        <label>Segment Type</label>
+        <length>8</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__OrderProductBookings__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Amount of the order product’s total price.</description>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(SBQQ__BookingsIndicator__c  , 'Include') , UnitPrice * Quantity , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Amount of the order product’s total price.</inlineHelpText>
+        <label>Order Product Bookings</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PriceDimension__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>References the price dimension applied to this order product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>References the price dimension applied to this order product.</inlineHelpText>
+        <label>Price Dimension</label>
+        <referenceTo>SBQQ__Dimension__c</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>OrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PriceSchedule__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Price schedule applied to this order product.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Price schedule applied to this order product.</inlineHelpText>
+        <label>Price Schedule</label>
+        <referenceTo>SBQQ__PriceSchedule__c</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>OrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__PricingMethod__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Determines how the price for this line item is set. "List" = calculated by subtracting discount from list price. "Cost"  = calculated by adding markup to cost.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates how the price for this line item is calculated. "List" = subtracting discount from list price. "Cost" = adding markup to cost.</inlineHelpText>
+        <label>Pricing Method</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>List</fullName>
+                    <default>true</default>
+                    <label>List</label>
+                </value>
+                <value>
+                    <fullName>Cost</fullName>
+                    <default>false</default>
+                    <label>Cost</label>
+                </value>
+                <value>
+                    <fullName>Block</fullName>
+                    <default>false</default>
+                    <label>Block</label>
+                </value>
+                <value>
+                    <fullName>Percent Of Total</fullName>
+                    <default>false</default>
+                    <label>Percent Of Total</label>
+                </value>
+                <value>
+                    <fullName>Custom</fullName>
+                    <default>false</default>
+                    <label>Custom</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ProductSubscriptionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Set the order item's product subscription type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set the order item's product subscription type.</inlineHelpText>
+        <label>Product Subscription Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SBQQ__SubscriptionType</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ProrateMultiplier__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Calculated ratio used to compute Prorated Price.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Calculated ratio used to compute Prorated Price.</inlineHelpText>
+        <label>Prorate Multiplier</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__SegmentKey__c</fullName>
+        <deprecated>false</deprecated>
+        <description>For multi-segmented Products, this is a shared key used to group multi-dimensional Quote Lines together.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For multi-segmented Products, this is a shared key used to group multi-dimensional Quote Lines together.</inlineHelpText>
+        <label>Segment Key</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__ShippingAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Shipping Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>ShippingAccountOrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__SubscriptionType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the subscription type to determine contract's pricing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the subscription type to determine contract's pricing.</inlineHelpText>
+        <label>Subscription Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SBQQ__ProductSubscriptionType__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>SBQQ__SubscriptionType</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Renewable</controllingFieldValue>
+                <controllingFieldValue>Renewable/Evergreen</controllingFieldValue>
+                <valueName>Renewable</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>One-time</controllingFieldValue>
+                <valueName>One-time</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Renewable/Evergreen</controllingFieldValue>
+                <controllingFieldValue>Evergreen</controllingFieldValue>
+                <valueName>Evergreen</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SBQQ__Subscription__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Subscription created from this order product</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Subscription created from this order product</inlineHelpText>
+        <label>Subscription</label>
+        <referenceTo>SBQQ__Subscription__c</referenceTo>
+        <relationshipLabel>Order Products</relationshipLabel>
+        <relationshipName>SubscriptionOrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__TaxAmount__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Estimated tax amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated tax amount</inlineHelpText>
+        <label>Estimated Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__TaxCode__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Specifies the tax code for taxation rules.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Specifies the tax code for taxation rules.</inlineHelpText>
+        <label>Tax code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SBQQ__TerminatedDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date that this order product's related subscription was terminated</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Date that this order product's related subscription was terminated</inlineHelpText>
+        <label>Terminated Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SBQQ__UpgradedSubscription__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Subscription being upgraded by this quote line.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Subscription being upgraded by this quote line. When the quote is contracted this subscription will have its Terminated Date field populated.</inlineHelpText>
+        <label>Upgraded Subscription</label>
+        <referenceTo>SBQQ__Subscription__c</referenceTo>
+        <relationshipLabel>Upgraded Order Products</relationshipLabel>
+        <relationshipName>OrderProducts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <validationRules>
+        <fullName>SBQQ__CannotChangeBookingIndicatorOnActivation</fullName>
+        <active>true</active>
+        <description>Can’t edit the bookings status on an activated order product.</description>
+        <errorConditionFormula>AND(SBQQ__Activated__c, ISCHANGED(SBQQ__BookingsIndicator__c))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BookingsIndicator__c</errorDisplayField>
+        <errorMessage>Can’t edit the bookings status on an activated order product.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__RecurringChargeTypeMustHaveBillingType</fullName>
+        <active>true</active>
+        <description>When Charge Type is Recurring, a Billing Type must be selected.</description>
+        <errorConditionFormula>AND(ISPICKVAL(SBQQ__ChargeType__c, 'Recurring'), ISPICKVAL(SBQQ__BillingType__c, ''))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingType__c</errorDisplayField>
+        <errorMessage>When Charge Type is Recurring, a Billing Type must be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__Validate_billing_frequency</fullName>
+        <active>true</active>
+        <description>When Charge Type is 'One-Time', a Billing Frequency value cannot be selected.</description>
+        <errorConditionFormula>AND(ISPICKVAL(SBQQ__ChargeType__c, 'One-Time'), NOT(ISPICKVAL(SBQQ__BillingFrequency__c, '')))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingFrequency__c</errorDisplayField>
+        <errorMessage>When Charge Type is 'One-Time', a Billing Frequency value cannot be selected.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SBQQ__Validate_billing_type</fullName>
+        <active>true</active>
+        <description>When Charge Type is One-Time or Usage, a Billing Type cannot be selected.</description>
+        <errorConditionFormula>OR(
+            AND(ISPICKVAL(SBQQ__ChargeType__c, 'One-Time'), NOT(ISPICKVAL(SBQQ__BillingType__c, ""))),
+            AND(ISPICKVAL(SBQQ__ChargeType__c, 'Usage'), NOT(ISPICKVAL(SBQQ__BillingType__c, ""))))</errorConditionFormula>
+        <errorDisplayField>SBQQ__BillingType__c</errorDisplayField>
+        <errorMessage>When Charge Type is One-Time or Usage, a Billing Type value cannot be selected.</errorMessage>
+    </validationRules>
 </CustomObject>

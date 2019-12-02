@@ -139,6 +139,19 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <fields>
+        <fullName>SBQQ__MaxDiscountRate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Maximum allowable discount for this product category.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the maximum allowable discount for this product category.</inlineHelpText>
+        <label>Max Discount (%)</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <customHelpPage>SBQQ__DiscountCategoryHelp</customHelpPage>
@@ -163,4 +176,11 @@
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <listViews>
+        <fullName>SBQQ__All</fullName>
+        <columns>NAME</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>
