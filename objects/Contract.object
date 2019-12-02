@@ -270,7 +270,7 @@
     </fields>
     <fields>
         <fullName>AccountId</fullName>
-        
+        <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
