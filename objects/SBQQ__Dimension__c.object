@@ -140,37 +140,6 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>SBQQ__CostEditable__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Controls whether cost for this product may be modified on individual quotes.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Controls whether cost for this product may be modified on individual quotes.</inlineHelpText>
-        <label>Cost Editable</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Inherit</fullName>
-                    <default>true</default>
-                    <label>Inherit</label>
-                </value>
-                <value>
-                    <fullName>Yes</fullName>
-                    <default>false</default>
-                    <label>Yes</label>
-                </value>
-                <value>
-                    <fullName>No</fullName>
-                    <default>false</default>
-                    <label>No</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>SBQQ__DefaultQuantity__c</fullName>
         <deprecated>false</deprecated>
         <description>Specify the starting quantity of the product when added.</description>
