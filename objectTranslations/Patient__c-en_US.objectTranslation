@@ -15,15 +15,6 @@
         <label><!-- LastName --></label>
         <name>LastName__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Patient</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Patients</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
     <layouts>
         <layout>Patient Layout</layout>
         <sections>

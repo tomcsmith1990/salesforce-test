@@ -3,13 +3,4 @@
         <label><!-- Is Setting Enabled --></label>
         <name>Is_Setting_Enabled__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>My Custom Setting</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>My Custom Setting</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

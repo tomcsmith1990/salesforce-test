@@ -19,37 +19,9 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>NewObjectLookup__c</tabs>
-    <tabs>TestObjectForDataFiltering__c</tabs>
-    <tabs>LoopA__c</tabs>
-    <tabs>LoopB__c</tabs>
-    <tabs>Junction__c</tabs>
-    <tabs>Medication__c</tabs>
-    <tabs>Patient__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Junction__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LoopA__c</tab>
-        </mappings>
-        <mappings>
-            <tab>LoopB__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Medication__c</tab>
-        </mappings>
-        <mappings>
-            <tab>NewObjectLookup__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Patient__c</tab>
-        </mappings>
-        <mappings>
-            <tab>TestObjectForDataFiltering__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

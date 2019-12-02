@@ -15,13 +15,4 @@
         <label><!-- Text --></label>
         <name>Text__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>TestObjectForDataFiltering</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>TestObjectForDataFiltering</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

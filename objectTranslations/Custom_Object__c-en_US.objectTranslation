@@ -24,13 +24,4 @@
         <label><!-- not auto --></label>
         <name>not_auto__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Custom Object</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Custom Objects</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

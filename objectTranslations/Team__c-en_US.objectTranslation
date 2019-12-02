@@ -11,13 +11,4 @@
         <label><!-- OwnerId --></label>
         <name>OwnerId__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Team</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Teams</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

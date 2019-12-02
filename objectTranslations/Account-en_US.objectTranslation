@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <label><!-- AFormula --></label>
-        <name>AFormula__c</name>
-    </fields>
+    
     <fields>
         <label><!-- Active --></label>
         <name>Active__c</name>
@@ -15,22 +12,7 @@
             <translation><!-- Yes --></translation>
         </picklistValues>
     </fields>
-    <fields>
-        <label><!-- Country --></label>
-        <name>Country__c</name>
-        <picklistValues>
-            <masterLabel>a</masterLabel>
-            <translation><!-- a --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>b</masterLabel>
-            <translation><!-- b --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>c</masterLabel>
-            <translation><!-- c --></translation>
-        </picklistValues>
-    </fields>
+    
     <fields>
         <label><!-- Customer Priority --></label>
         <name>CustomerPriority__c</name>
@@ -51,46 +33,19 @@
             <translation><!-- hello --></translation>
         </picklistValues>
     </fields>
-    <fields>
-        <label><!-- DiscountPercentage --></label>
-        <name>DiscountPercentage__c</name>
-    </fields>
-    <fields>
-        <label><!-- DiscountRate --></label>
-        <name>DiscountRate__c</name>
-    </fields>
-    <fields>
-        <label><!-- ExternalId --></label>
-        <name>ExternalId__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mobile --></label>
-        <name>Mobile__c</name>
-    </fields>
-    <fields>
-        <label><!-- MyCustomField1 --></label>
-        <name>MyCustomField1__c</name>
-    </fields>
-    <fields>
-        <label><!-- MyCustomField2bbb --></label>
-        <name>MyCustomField2__c</name>
-    </fields>
-    <fields>
-        <label><!-- MyCustomField3 --></label>
-        <name>MyCustomField3__c</name>
-    </fields>
+    
+    
+    
+    
+    
+    
+    
     <fields>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
-    <fields>
-        <label><!-- OwnerIsActive --></label>
-        <name>OwnerIsActive__c</name>
-    </fields>
-    <fields>
-        <label><!-- Recent accounts for textiles department --></label>
-        <name>Recent_accounts_for_textiles_department__c</name>
-    </fields>
+    
+    
     <fields>
         <label><!-- SLA Expiration Date --></label>
         <name>SLAExpirationDate__c</name>
@@ -119,26 +74,8 @@
             <translation><!-- Silver --></translation>
         </picklistValues>
     </fields>
-    <fields>
-        <label><!-- SalesDemoField --></label>
-        <name>SalesDemoField__c</name>
-    </fields>
-    <fields>
-        <label><!-- State --></label>
-        <name>State__c</name>
-        <picklistValues>
-            <masterLabel>1</masterLabel>
-            <translation><!-- 1 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>2</masterLabel>
-            <translation><!-- 2 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>3</masterLabel>
-            <translation><!-- 3 --></translation>
-        </picklistValues>
-    </fields>
+    
+    
     <fields>
         <label><!-- Upsell Opportunity --></label>
         <name>UpsellOpportunity__c</name>
@@ -155,53 +92,17 @@
             <translation><!-- Yes --></translation>
         </picklistValues>
     </fields>
-    <fields>
-        <label><!-- a date field --></label>
-        <name>a_date_field__c</name>
-    </fields>
-    <fields>
-        <label><!-- a date time field --></label>
-        <name>a_date_time_field__c</name>
-    </fields>
-    <fields>
-        <label><!-- blah --></label>
-        <name>blah2__c</name>
-    </fields>
-    <fields>
-        <label><!-- blah --></label>
-        <name>blah__c</name>
-    </fields>
-    <fields>
-        <label><!-- boolean --></label>
-        <name>boolean__c</name>
-    </fields>
-    <fields>
-        <label><!-- compound geolocation --></label>
-        <name>compound_geolocation__c</name>
-    </fields>
-    <fields>
-        <label><!-- test --></label>
-        <name>test__c</name>
-    </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Account</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Accountsa</value>
-    </caseValues>
-    <startsWith>Vowel</startsWith>
-    <recordTypes>
-        <label><!-- i am a record type --></label>
-        <name>i_am_a_record_type</name>
-    </recordTypes>
+    
+    
+    
+    
+    
+    
+    
+    
     <webLinks>
         <label><!-- Billing --></label>
         <name>Billing</name>
     </webLinks>
-    <webLinks>
-        <label><!-- blah_search_layout --></label>
-        <name>blah_search_layout</name>
-    </webLinks>
+    
 </CustomObjectTranslation>

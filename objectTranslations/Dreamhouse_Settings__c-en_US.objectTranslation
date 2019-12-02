@@ -27,13 +27,4 @@
         <label><!-- Slack Property Webhook URL --></label>
         <name>Slack_Property_Webhook_URL__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Dreamhouse</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Dreamhouse</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -23,13 +23,4 @@
         <label><!-- Supplier --></label>
         <name>Supplier__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Medication</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Medications</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

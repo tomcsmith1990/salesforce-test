@@ -7,13 +7,4 @@
         <label><!-- Target Close Date --></label>
         <name>Target_Close_Date__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Offer</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Offers</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

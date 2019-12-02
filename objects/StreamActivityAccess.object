@@ -18,6 +18,5 @@
         <type>Lookup</type>
     </fields>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
     <sharingModel>Private</sharingModel>
 </CustomObject>

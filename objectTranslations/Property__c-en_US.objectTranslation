@@ -120,15 +120,6 @@
         <label><!-- Zip --></label>
         <name>Zip__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Property</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Properties</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
     <layouts>
         <layout>Property Layout</layout>
         <sections>

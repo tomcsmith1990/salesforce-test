@@ -3,13 +3,4 @@
         <label><!-- MyField --></label>
         <name>MyField__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>SomeApprovalProcessDependsOnMe</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>SomeApprovalProcessDependsOnUs</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -11,12 +11,4 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-Quote</tabs>
-    <tabs>NewObjectLookup__c</tabs>
-    <tabs>TestObjectForDataFiltering__c</tabs>
-    <tabs>LoopA__c</tabs>
-    <tabs>LoopB__c</tabs>
-    <tabs>Junction__c</tabs>
-    <tabs>Medication__c</tabs>
-    <tabs>Patient__c</tabs>
 </CustomApplication>
