@@ -150,8 +150,16 @@
         <fullName>SummaryAuthFormText</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>blah__c</fullName>
+        <externalId>false</externalId>
+        <label>blah</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
         <customTabListAdditionalFields>SummaryAuthFormText</customTabListAdditionalFields>

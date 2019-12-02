@@ -137,8 +137,16 @@
         <fullName>Source</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>X2323__c</fullName>
+        <externalId>false</externalId>
+        <label>2323</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>Source</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
