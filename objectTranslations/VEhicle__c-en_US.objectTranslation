@@ -3,15 +3,6 @@
         <label><!-- test --></label>
         <name>test__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Vehicle</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Vehicles</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
     <recordTypes>
         <label><!-- record type --></label>
         <name>record_type</name>
