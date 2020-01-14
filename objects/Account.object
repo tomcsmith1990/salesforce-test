@@ -258,6 +258,12 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
+        <fullName>aaa_something__c</fullName>
+        <externalId>false</externalId>
+        <label>aaa_something</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
