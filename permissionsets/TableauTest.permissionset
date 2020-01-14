@@ -3,13 +3,13 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>TableauTest</label>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Description</field>
+        <editable>true</editable>
+        <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.AccountNumber</field>
+        <field>Account.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <objectPermissions>
