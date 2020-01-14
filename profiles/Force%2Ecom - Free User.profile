@@ -3202,6 +3202,11 @@
         <field>Account.bb_aaaa__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.aaa_something__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>custom_metadata__mdt-custom metadata Layout</layout>
     </layoutAssignments>

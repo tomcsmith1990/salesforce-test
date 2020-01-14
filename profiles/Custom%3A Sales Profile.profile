@@ -15044,6 +15044,11 @@
         <field>Account.bb_aaaa__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.aaa_something__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.LID__PointDrive_Presentation_Viewed</recordType>
