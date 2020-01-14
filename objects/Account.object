@@ -290,6 +290,12 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>bb_aaaa__c</fullName>
+        <externalId>false</externalId>
+        <label>bb__aaaa</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>BillingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
