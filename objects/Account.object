@@ -240,6 +240,12 @@
         <type>DateTime</type>
     </fields>
     <fields>
+        <fullName>aa_something__c</fullName>
+        <externalId>false</externalId>
+        <label>aa_something</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>aa_someting__c</fullName>
         <externalId>false</externalId>
         <label>aa_someting</label>
