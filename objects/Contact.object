@@ -360,6 +360,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>external_id__c</fullName>
+        <externalId>true</externalId>
+        <label>external_ida</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Fax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -370,6 +381,12 @@
     <fields>
         <fullName>HasOptedOutOfFax</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>hello__c</fullName>
+        <externalId>false</externalId>
+        <label>hello</label>
+        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>HomePhone</fullName>
@@ -487,17 +504,6 @@
         <scale>7</scale>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Location</type>
-    </fields>
-    <fields>
-        <fullName>external_id__c</fullName>
-        <externalId>true</externalId>
-        <label>external_id</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Prequalified__c</fullName>
