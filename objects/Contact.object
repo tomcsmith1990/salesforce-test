@@ -501,7 +501,7 @@
     </fields>
     <fields>
         <fullName>Prequalified__c</fullName>
-        <defaultValue>true</defaultValue>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Prequalified?</label>
         <trackFeedHistory>false</trackFeedHistory>
