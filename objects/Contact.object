@@ -509,12 +509,6 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>Information__c</fullName>
-        <externalId>false</externalId>
-        <label>Information</label>
-        <type>AutoNumber</type>
-    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
