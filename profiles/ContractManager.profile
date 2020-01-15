@@ -15053,6 +15053,16 @@
         <field>Account.aaa_something__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Information__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.hello__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.LID__PointDrive_Presentation_Created</recordType>
