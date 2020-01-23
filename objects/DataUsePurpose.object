@@ -163,7 +163,7 @@
     </listViews>
     <validationRules>
         <fullName>test</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>FALSE</errorConditionFormula>
         <errorMessage>test</errorMessage>
     </validationRules>
