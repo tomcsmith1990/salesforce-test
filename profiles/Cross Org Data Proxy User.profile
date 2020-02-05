@@ -15044,6 +15044,11 @@
         <field>Contact.hello__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Oardvark__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Website__c-Website Layout</layout>
     </layoutAssignments>
