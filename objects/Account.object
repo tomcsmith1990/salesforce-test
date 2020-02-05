@@ -224,12 +224,6 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>Oardvark__c</fullName>
-        <externalId>false</externalId>
-        <label>Oardvark</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
