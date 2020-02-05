@@ -224,6 +224,12 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
+        <fullName>Aardvark__c</fullName>
+        <externalId>false</externalId>
+        <label>Aardvark</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
