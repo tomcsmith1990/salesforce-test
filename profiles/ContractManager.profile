@@ -3865,6 +3865,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Orange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>MaintenancePlan.DoesGenerateUponCompletion</field>
         <readable>true</readable>
     </fieldPermissions>

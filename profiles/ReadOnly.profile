@@ -3855,6 +3855,11 @@
         <name>SBQQ__HideGlobalHeader</name>
     </customPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Orange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.HasOptedOutOfFax</field>
         <readable>false</readable>

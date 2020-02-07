@@ -6104,6 +6104,11 @@
     </customPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Orange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TimeSheet.TimeSheetEntryCount</field>
         <readable>true</readable>
     </fieldPermissions>
