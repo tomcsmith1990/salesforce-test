@@ -275,7 +275,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.MyCustomField2__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -425,10 +425,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.bb_aaaa__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+    <editable>false</editable>
+    <readable>false</readable>
+    <field>Account.bb_aaaa__c</field>
+</fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.blah2__c</field>
@@ -447,6 +447,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.compound_geolocation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.test__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
