@@ -1001,6 +1001,23 @@
         <type>Location</type>
     </fields>
     <fields>
+        <fullName>external_id__c</fullName>
+        <externalId>true</externalId>
+        <label>external id</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>externalidaaa__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>externalid</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>test__c</fullName>
         <externalId>false</externalId>
         <label>test</label>

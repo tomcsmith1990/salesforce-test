@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <userLicense>Work.com Only</userLicense>
     <pageAccesses>
@@ -105,6 +105,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Orange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.external_id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.externalidaaa__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3197,7 +3207,6 @@
         <field>VEhicle__c.test__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.bb_aaaa__c</field>
