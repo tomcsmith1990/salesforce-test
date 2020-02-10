@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Selecione a caixa de seleção caso todos os produtos do pacote devam ser impressos em documentos de cotação, caso contrário, apenas aqueles que forem diferentes de zero serão impressos.</help>
         <label><!-- Show All Package Product --></label>
@@ -688,41 +688,7 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Nome do modelo</nameFieldLabel>
-    <layouts>
-        <layout>Quote Template Layout</layout>
-        <sections>
-            <label>Informações corporativas</label>
-            <section>Corporate Information</section>
-        </sections>
-        <sections>
-            <label>Informações de estilo do grupo</label>
-            <section>Group Style Information</section>
-        </sections>
-        <sections>
-            <label>Informações de cabeçalho/rodapé</label>
-            <section>Header/Footer Information</section>
-        </sections>
-        <sections>
-            <label>Informações da página</label>
-            <section>Page Information</section>
-        </sections>
-        <sections>
-            <label>Opções de impressão</label>
-            <section>Print Options</section>
-        </sections>
-        <sections>
-            <label>Títulos da seção</label>
-            <section>Section Titles</section>
-        </sections>
-        <sections>
-            <label>Informações de estilo</label>
-            <section>Style Information</section>
-        </sections>
-        <sections>
-            <label>Termos e condições</label>
-            <section>Terms &amp;amp; Conditions</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Footer Height can not be blank if Page Number Position is set to Footer. --></errorMessage>
         <name>SBQQ__Blank_Footer_Height</name>

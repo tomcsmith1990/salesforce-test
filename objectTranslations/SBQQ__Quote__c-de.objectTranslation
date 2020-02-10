@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Der Kundenaccount für dieses Angebot. Standardwert ist der Account für die Opportunity beim Erstellen eines Angebots.</help>
         <label><!-- Account --></label>
@@ -624,29 +624,7 @@
         <label><!-- Non-Current Quote Locked Fields --></label>
         <name>SBQQ__NonCurrentQuoteLockedFields</name>
     </fieldSets>
-    <layouts>
-        <layout>Quote Layout</layout>
-        <sections>
-            <label>Zusatztext</label>
-            <section>Additional Text</section>
-        </sections>
-        <sections>
-            <label>Rabattinformationen</label>
-            <section>Discount Information</section>
-        </sections>
-        <sections>
-            <label>Partnerinformationen</label>
-            <section>Partner Information</section>
-        </sections>
-        <sections>
-            <label>Angebotsoptionen</label>
-            <section>Quote Options</section>
-        </sections>
-        <sections>
-            <label>Neuberechnung</label>
-            <section>Recalculating</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Quote Layout</layout>
         <sections>

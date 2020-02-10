@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Description --></label>
         <name>SBQQ__Description__c</name>
@@ -117,11 +117,5 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nutzungsrate</nameFieldLabel>
-    <layouts>
-        <layout>Usage Rate Layout</layout>
-        <sections>
-            <label>Klasseninformationen</label>
-            <section>Tier Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Original Price --></label>
         <name>Original_Price_Formula__c</name>
@@ -828,25 +828,7 @@
         <label><!-- Summary Fields --></label>
         <name>SBQQ__SummaryFields</name>
     </fieldSets>
-    <layouts>
-        <layout>Quote Line Layout</layout>
-        <sections>
-            <label>割引情報</label>
-            <section>Discount Information</section>
-        </sections>
-        <sections>
-            <label>価格設定情報</label>
-            <section>Pricing Information</section>
-        </sections>
-        <sections>
-            <label>再計算</label>
-            <section>Recalculating</section>
-        </sections>
-        <sections>
-            <label>サブスクリプション情報</label>
-            <section>Subscription Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- You may not specify additional discount as both percentage and absolute amount. --></errorMessage>
         <name>SBQQ__Additional_discount_percent_or_amount</name>

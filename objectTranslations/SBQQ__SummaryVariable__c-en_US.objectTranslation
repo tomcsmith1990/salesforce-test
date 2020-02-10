@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Quote Line field that&apos;s acted upon by the aggregate function. --></help>
         <label><!-- Aggregate Field --></label>
@@ -171,15 +171,5 @@
         <label><!-- Value Element --></label>
         <name>SBQQ__ValueElement__c</name>
     </fields>
-    <layouts>
-        <layout>Summary Variable Layout</layout>
-        <sections>
-            <label><!-- Composite Information --></label>
-            <section>Composite Information</section>
-        </sections>
-        <sections>
-            <label><!-- Filter Information --></label>
-            <section>Filter Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

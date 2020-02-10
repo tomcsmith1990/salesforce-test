@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Select the checkbox to activate this process input. --></help>
         <label><!-- Active --></label>
@@ -139,13 +139,7 @@
         <name>SBQQ__QuoteProcess__c</name>
         <relationshipLabel><!-- Process Inputs --></relationshipLabel>
     </fields>
-    <layouts>
-        <layout>Process Input Layout</layout>
-        <sections>
-            <label><!-- Product Filter --></label>
-            <section>Product Filter</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Both Product Field and Operator must be set if either are set. --></errorMessage>
         <name>SBQQ__ProductFieldAndOperatorSet</name>

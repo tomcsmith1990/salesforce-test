@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Compte auquel ce barème de remise s'applique. Utilisé uniquement avec Remplacement du barème de remise dans l'interface utilisateur de l'éditeur de ligne de devis.</help>
         <label><!-- Account --></label>
@@ -175,13 +175,7 @@
     <gender>Masculine</gender>
     <nameFieldLabel>Nom du barème</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label>Paramètres avancés</label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

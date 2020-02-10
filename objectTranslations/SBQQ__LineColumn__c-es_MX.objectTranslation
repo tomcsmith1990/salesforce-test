@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Determina el modo en que se alinean la etiqueta y los valores de las columnas.</help>
         <label><!-- Alignment --></label>
@@ -284,17 +284,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Encabezado de columna</nameFieldLabel>
-    <layouts>
-        <layout>Line Column Layout</layout>
-        <sections>
-            <label>Opciones de columna</label>
-            <section>Column Options</section>
-        </sections>
-        <sections>
-            <label>Información de estilo</label>
-            <section>Style Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- Translate --></label>
         <name>SBQQ__Translate</name>

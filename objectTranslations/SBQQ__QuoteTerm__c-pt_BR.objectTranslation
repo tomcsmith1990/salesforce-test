@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Indica se o termo da cotação está disponível para uso.</help>
         <label><!-- Active --></label>
@@ -101,13 +101,7 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Nº do termo</nameFieldLabel>
-    <layouts>
-        <layout>Quote Term Layout</layout>
-        <sections>
-            <label>Corpo</label>
-            <section>Body</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- Translate --></label>
         <name>SBQQ__Translate</name>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Cuenta a la que se aplica esta programación de descuentos. Solo se utiliza en combinación con Invalidación de programación de descuentos en el Editor de partidas de presupuesto de la interfaz de usuario.</help>
         <label><!-- Account --></label>
@@ -174,13 +174,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nombre de programación</nameFieldLabel>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label>Configuración avanzada</label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

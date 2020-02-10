@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>この割引率表が適用される取引先。必ず見積品目エディタ UI の [割引率表の上書き] と組み合わせて使用します。</help>
         <label><!-- Account --></label>
@@ -169,13 +169,7 @@
         <value>割引率表</value>
     </caseValues>
     <nameFieldLabel>表名</nameFieldLabel>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label>高度な設定</label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

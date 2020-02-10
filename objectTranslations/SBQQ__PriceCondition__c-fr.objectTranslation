@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Sélectionnez le champ qui doit contenir la valeur que vous saisissez dans le champ Valeur.</help>
         <label><!-- Field --></label>
@@ -144,13 +144,7 @@
     <gender>Feminine</gender>
     <nameFieldLabel>N° de condition</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Price Condition Layout</layout>
-        <sections>
-            <label>Informations sur le filtre</label>
-            <section>Filter Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- If Filter Type is Formula, then Filter Formula cannot be empty. --></errorMessage>
         <name>SBQQ__Filter_formula_field_null</name>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>このブロック価格が有効になる日付。この値はブロック価格のスナップショットが注文作成時に作成されたときに取得されます。</help>
         <label><!-- Effective Date --></label>
@@ -54,13 +54,7 @@
         <value>ブロック価格</value>
     </caseValues>
     <nameFieldLabel>価格名</nameFieldLabel>
-    <layouts>
-        <layout>Block Price Layout</layout>
-        <sections>
-            <label>スナップショット情報</label>
-            <section>Snapshot Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- EditAll --></label>
         <name>SBQQ__EditAll</name>

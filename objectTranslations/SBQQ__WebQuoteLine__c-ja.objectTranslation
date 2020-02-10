@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>この品目に適用される追加の顧客割引の絶対額。</help>
         <label><!-- Additional Disc. (Amt) --></label>
@@ -661,19 +661,5 @@
         <label><!-- Segmented Line Editor Summary --></label>
         <name>SBQQ__SegmentedLineEditorSummary</name>
     </fieldSets>
-    <layouts>
-        <layout>Web Quote Line Layout</layout>
-        <sections>
-            <label>割引情報</label>
-            <section>Discount Information</section>
-        </sections>
-        <sections>
-            <label>価格設定情報</label>
-            <section>Pricing Information</section>
-        </sections>
-        <sections>
-            <label>サブスクリプション情報</label>
-            <section>Subscription Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

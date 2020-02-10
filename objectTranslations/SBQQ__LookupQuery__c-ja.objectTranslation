@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>クエリで使用されるカスタム項目の API 参照名。</help>
         <label><!-- Lookup Field --></label>
@@ -120,13 +120,7 @@
         <value>ルックアップクエリ</value>
     </caseValues>
     <nameFieldLabel>ルックアップクエリ番号</nameFieldLabel>
-    <layouts>
-        <layout>Lookup Query Layout</layout>
-        <sections>
-            <label>ルックアップ情報</label>
-            <section>Lookup Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Testing Configuration Attributes is only supported for Lookup Queries associated with Product Rules. --></errorMessage>
         <name>SBQQ__Configuration_Attribute_Validation</name>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>列の表示ラベルと値の位置揃えを決定します。</help>
         <label><!-- Alignment --></label>
@@ -279,17 +279,7 @@
         <value>品目列</value>
     </caseValues>
     <nameFieldLabel>列ヘッダー</nameFieldLabel>
-    <layouts>
-        <layout>Line Column Layout</layout>
-        <sections>
-            <label>列オプション</label>
-            <section>Column Options</section>
-        </sections>
-        <sections>
-            <label>スタイル情報</label>
-            <section>Style Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- Translate --></label>
         <name>SBQQ__Translate</name>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Discount amount applied when quantity falls in this tier. --></help>
         <label><!-- Discount ({0}) --></label>
@@ -62,11 +62,5 @@
         <label><!-- Volume Discount --></label>
         <name>SBQQ__VolumnDiscount__c</name>
     </fields>
-    <layouts>
-        <layout>Price Tier Layout</layout>
-        <sections>
-            <label><!-- Price Information --></label>
-            <section>Price Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

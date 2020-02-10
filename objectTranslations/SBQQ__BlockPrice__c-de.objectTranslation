@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Das Datum, ab dem dieser Zonenpreis gilt. Der Wert wird verwendet, wenn beim Erstellen des Aufttrags ein Zonenpreis-Snapshot erstellt wird.</help>
         <label><!-- Effective Date --></label>
@@ -91,13 +91,7 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Name des Preises</nameFieldLabel>
-    <layouts>
-        <layout>Block Price Layout</layout>
-        <sections>
-            <label>Snapshot-Informationen</label>
-            <section>Snapshot Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- EditAll --></label>
         <name>SBQQ__EditAll</name>

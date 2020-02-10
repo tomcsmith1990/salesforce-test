@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Aktivieren Sie das Kontrollkästchen, wenn alle Paketprodukte auf Angebotsdokumenten ausgegeben werden sollen. Andernfalls werden nur die Produkte ausgegeben, bei denen Werte angegeben wurden.</help>
         <label><!-- Show All Package Product --></label>
@@ -720,41 +720,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Vorlagenname</nameFieldLabel>
-    <layouts>
-        <layout>Quote Template Layout</layout>
-        <sections>
-            <label>Firmeninformationen</label>
-            <section>Corporate Information</section>
-        </sections>
-        <sections>
-            <label>Stilinformationen für Gruppe</label>
-            <section>Group Style Information</section>
-        </sections>
-        <sections>
-            <label>Informationen für Kopf-/Fußzeile</label>
-            <section>Header/Footer Information</section>
-        </sections>
-        <sections>
-            <label>Seiteninformationen</label>
-            <section>Page Information</section>
-        </sections>
-        <sections>
-            <label>Druckoptionen</label>
-            <section>Print Options</section>
-        </sections>
-        <sections>
-            <label>Abschnittstitel</label>
-            <section>Section Titles</section>
-        </sections>
-        <sections>
-            <label>Stilinformationen</label>
-            <section>Style Information</section>
-        </sections>
-        <sections>
-            <label>Nutzungsbedingungen</label>
-            <section>Terms &amp;amp; Conditions</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Footer Height can not be blank if Page Number Position is set to Footer. --></errorMessage>
         <name>SBQQ__Blank_Footer_Height</name>

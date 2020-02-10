@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>このコンテンツの API 参照名。</help>
         <label><!-- API Name --></label>
@@ -97,15 +97,5 @@
         <value>ローカライズ</value>
     </caseValues>
     <nameFieldLabel>ローカライズ番号</nameFieldLabel>
-    <layouts>
-        <layout>Localization Layout</layout>
-        <sections>
-            <label>サポートされるオブジェクト</label>
-            <section>Supported Objects</section>
-        </sections>
-        <sections>
-            <label>値</label>
-            <section>Values</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

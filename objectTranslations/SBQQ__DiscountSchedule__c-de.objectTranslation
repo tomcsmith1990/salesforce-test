@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Account, für den diese Rabattregelung gilt. Wird nur in Verbindung mit "Rabattregelung überschreiben" in der Benutzeroberfläche des Angebotsbelegposten-Editors verwendet.</help>
         <label><!-- Account --></label>
@@ -206,13 +206,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Name der Regelung</nameFieldLabel>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label>Erweiterte Einstellungen</label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

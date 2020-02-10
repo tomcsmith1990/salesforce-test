@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Account, für den diese Preisregelung gilt. Wird nur in Verbindung mit "Preisregelung überschreiben" in der Benutzeroberfläche des Angebotsbelegposten-Editors verwendet.</help>
         <label><!-- Account --></label>
@@ -203,13 +203,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Name der Regelung</nameFieldLabel>
-    <layouts>
-        <layout>Price Schedule Layout</layout>
-        <sections>
-            <label>Snapshot-Informationen</label>
-            <section>Snapshot Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- EditTiers --></label>
         <name>SBQQ__EditTiers</name>

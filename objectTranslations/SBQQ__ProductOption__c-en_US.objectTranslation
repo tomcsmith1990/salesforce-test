@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- &apos;Apply Immediately on Select&apos; applies changes immediately on selection of product, whereas &apos;Apply Immediately on Quantity Change&apos; does that on change of quantity. &apos;Always&apos; applies changes both the times, on selection of product and on change of quantity. --></help>
         <label><!-- Apply Immediately Context --></label>
@@ -266,17 +266,7 @@
         <label><!-- SearchFilters --></label>
         <name>SBQQ__SearchFilters</name>
     </fieldSets>
-    <layouts>
-        <layout>Product Option Layout</layout>
-        <sections>
-            <label><!-- Advanced Settings --></label>
-            <section>Advanced Settings</section>
-        </sections>
-        <sections>
-            <label><!-- Optional SKU Information --></label>
-            <section>Optional SKU Information</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Product Option Layout</layout>
         <sections>

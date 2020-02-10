@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Groupez les taux d'utilisation par le champ sélectionné durant la génération du document et la facturation</help>
         <label><!-- Attribute Field --></label>
@@ -64,13 +64,7 @@
     <gender>Feminine</gender>
     <nameFieldLabel>Nom de la carte de taux d'utilisation</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Usage Rate Card Layout</layout>
-        <sections>
-            <label>Associations</label>
-            <section>Associations</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- CloneWithRelated --></label>
         <name>SBQQ__CloneWithRelated</name>

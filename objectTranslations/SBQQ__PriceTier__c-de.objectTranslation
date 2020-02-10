@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Rabattbetrag, der zur Anwendung kommt, wenn die Menge in diese Rabattklasse fällt.</help>
         <label><!-- Discount ({0}) --></label>
@@ -104,11 +104,5 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Name der Klasse</nameFieldLabel>
-    <layouts>
-        <layout>Price Tier Layout</layout>
-        <sections>
-            <label>Preisinformationen</label>
-            <section>Price Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

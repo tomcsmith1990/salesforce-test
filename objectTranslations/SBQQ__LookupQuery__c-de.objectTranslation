@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>API-Name des benutzerdefinierten Felds, das in der Abfrage verwendet wird.</help>
         <label><!-- Lookup Field --></label>
@@ -157,13 +157,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nummer der Nachschlageabfrage</nameFieldLabel>
-    <layouts>
-        <layout>Lookup Query Layout</layout>
-        <sections>
-            <label>Informationen nachschlagen</label>
-            <section>Lookup Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Testing Configuration Attributes is only supported for Lookup Queries associated with Product Rules. --></errorMessage>
         <name>SBQQ__Configuration_Attribute_Validation</name>

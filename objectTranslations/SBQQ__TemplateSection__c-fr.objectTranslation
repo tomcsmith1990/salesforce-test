@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Couleur des bordures du tableau exprimée en valeur hexadécimale.</help>
         <label><!-- Border Color --></label>
@@ -211,17 +211,7 @@
     <gender>Feminine</gender>
     <nameFieldLabel>Nom de la section</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Template Section Layout</layout>
-        <sections>
-            <label>Informations sur le filtrage</label>
-            <section>Filtering Information</section>
-        </sections>
-        <sections>
-            <label>Sauts de page</label>
-            <section>Page Breaks</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- IncludeDocument --></label>
         <name>SBQQ__IncludeDocument</name>

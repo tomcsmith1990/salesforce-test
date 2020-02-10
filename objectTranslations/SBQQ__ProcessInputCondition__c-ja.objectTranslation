@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>このルールが有効か無効かを示すフラグ。</help>
         <label><!-- Active --></label>
@@ -67,11 +67,5 @@
         <value>プロセス入力条件</value>
     </caseValues>
     <nameFieldLabel>プロセス入力条件名</nameFieldLabel>
-    <layouts>
-        <layout>Process Input Condition Layout</layout>
-        <sections>
-            <label>条件情報</label>
-            <section>Filter Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

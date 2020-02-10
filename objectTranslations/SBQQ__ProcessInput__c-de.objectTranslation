@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Aktivieren Sie dieses Kontrollkästchen, um diese Prozesseingabe zu aktivieren.</help>
         <label><!-- Active --></label>
@@ -181,13 +181,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Eingabename</nameFieldLabel>
-    <layouts>
-        <layout>Process Input Layout</layout>
-        <sections>
-            <label>Produktfilter</label>
-            <section>Product Filter</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Both Product Field and Operator must be set if either are set. --></errorMessage>
         <name>SBQQ__ProductFieldAndOperatorSet</name>

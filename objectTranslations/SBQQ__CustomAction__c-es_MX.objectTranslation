@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Acción que realiza esta acción personalizada.</help>
         <label><!-- Action --></label>
@@ -1259,13 +1259,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nombre</nameFieldLabel>
-    <layouts>
-        <layout>Custom Action Layout</layout>
-        <sections>
-            <label>Formato</label>
-            <section>Layout</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- URL can&apos;t be empty for Custom Action &quot;Save and Navigate&quot; --></errorMessage>
         <name>SBQQ__Non_empty_URL_for_Save_and_Navigate</name>

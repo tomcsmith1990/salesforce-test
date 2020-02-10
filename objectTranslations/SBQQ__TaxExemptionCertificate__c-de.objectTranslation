@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Account --></label>
         <name>SBQQ__Account__c</name>
@@ -107,19 +107,5 @@
     </caseValues>
     <gender>Neuter</gender>
     <nameFieldLabel>Name des Steuerbefreiungszertifikats</nameFieldLabel>
-    <layouts>
-        <layout>Tax Exemption Certificate Layout</layout>
-        <sections>
-            <label>Firmeninformationen</label>
-            <section>Company Information</section>
-        </sections>
-        <sections>
-            <label>Steuerzertifikat</label>
-            <section>Tax Certificate</section>
-        </sections>
-        <sections>
-            <label>Steuerzertifikatdetails</label>
-            <section>Tax Certificate Details</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Conta à qual esse cronograma de descontos se aplica. Usada apenas em combinação à Substituição do cronograma de descontos na UI do Editor de linha de cotação.</help>
         <label><!-- Account --></label>
@@ -174,13 +174,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nome do cronograma</nameFieldLabel>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label>Configurações avançadas</label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

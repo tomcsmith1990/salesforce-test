@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Nom d'API du champ personnalisé utilisé dans la requête.</help>
         <label><!-- Lookup Field --></label>
@@ -126,13 +126,7 @@
     <gender>Feminine</gender>
     <nameFieldLabel>N° de requête de référence</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Lookup Query Layout</layout>
-        <sections>
-            <label>Informations sur la référence</label>
-            <section>Lookup Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Testing Configuration Attributes is only supported for Lookup Queries associated with Product Rules. --></errorMessage>
         <name>SBQQ__Configuration_Attribute_Validation</name>

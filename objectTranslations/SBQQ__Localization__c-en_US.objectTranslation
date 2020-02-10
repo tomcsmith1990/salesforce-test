@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- The API Name of this content. --></help>
         <label><!-- API Name --></label>
@@ -92,15 +92,5 @@
         <label><!-- User Defined --></label>
         <name>SBQQ__UserDefined__c</name>
     </fields>
-    <layouts>
-        <layout>Localization Layout</layout>
-        <sections>
-            <label><!-- Supported Objects --></label>
-            <section>Supported Objects</section>
-        </sections>
-        <sections>
-            <label><!-- Values --></label>
-            <section>Values</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Action to which this filter applies. Blank value means the filter is global. --></help>
         <label><!-- Action --></label>
@@ -151,13 +151,7 @@
             <translation><!-- Subscription --></translation>
         </picklistValues>
     </fields>
-    <layouts>
-        <layout>Search Filter Layout</layout>
-        <sections>
-            <label><!-- Advanced Information --></label>
-            <section>Advanced Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- You must select Filter Source Object when Filter Source Field is selected. --></errorMessage>
         <name>SBQQ__Require_filter_object_for_filter_field</name>

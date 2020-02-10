@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Agrupa intervalos de uso por el campo seleccionado durante la creación y facturación del documento</help>
         <label><!-- Attribute Field --></label>
@@ -63,13 +63,7 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nombre de tarjeta de intervalo de uso</nameFieldLabel>
-    <layouts>
-        <layout>Usage Rate Card Layout</layout>
-        <sections>
-            <label>Asociaciones</label>
-            <section>Associations</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- CloneWithRelated --></label>
         <name>SBQQ__CloneWithRelated</name>

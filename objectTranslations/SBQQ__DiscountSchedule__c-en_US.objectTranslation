@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Account that this discount schedule applies to. Only used in combination with Discount Schedule Override on Quote Line Editor UI. --></help>
         <label><!-- Account --></label>
@@ -164,13 +164,7 @@
         <label><!-- User Defined --></label>
         <name>SBQQ__UserDefined__c</name>
     </fields>
-    <layouts>
-        <layout>Discount Schedule Layout</layout>
-        <sections>
-            <label><!-- Advanced Settings --></label>
-            <section>Advanced Settings</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Discount Schedule Layout</layout>
         <sections>

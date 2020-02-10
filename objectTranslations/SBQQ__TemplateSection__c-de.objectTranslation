@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Farbe von Tabellenrahmen, angegeben als Hexadezimalwert.</help>
         <label><!-- Border Color --></label>
@@ -242,17 +242,7 @@
     </caseValues>
     <gender>Masculine</gender>
     <nameFieldLabel>Abschnittsname</nameFieldLabel>
-    <layouts>
-        <layout>Template Section Layout</layout>
-        <sections>
-            <label>Filterinformationen</label>
-            <section>Filtering Information</section>
-        </sections>
-        <sections>
-            <label>Seitenumbrüche</label>
-            <section>Page Breaks</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- IncludeDocument --></label>
         <name>SBQQ__IncludeDocument</name>

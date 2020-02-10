@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Date à laquelle ce prix par bloc entre en vigueur. Cette valeur est appliquée lorsqu'un instantané de prix par bloc est pris au moment de la création de la commande.</help>
         <label><!-- Effective Date --></label>
@@ -60,13 +60,7 @@
     <gender>Masculine</gender>
     <nameFieldLabel>Nom du prix</nameFieldLabel>
     <startsWith>Consonant</startsWith>
-    <layouts>
-        <layout>Block Price Layout</layout>
-        <sections>
-            <label>Informations sur les instantanés</label>
-            <section>Snapshot Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- EditAll --></label>
         <name>SBQQ__EditAll</name>

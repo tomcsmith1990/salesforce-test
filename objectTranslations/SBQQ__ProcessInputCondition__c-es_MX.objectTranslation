@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Etiqueta que indica si esta regla está activa o inactiva.</help>
         <label><!-- Active --></label>
@@ -72,11 +72,5 @@
     </caseValues>
     <gender>Feminine</gender>
     <nameFieldLabel>Nombre de condiciones de entrada de proc</nameFieldLabel>
-    <layouts>
-        <layout>Process Input Condition Layout</layout>
-        <sections>
-            <label>Información de filtro</label>
-            <section>Filter Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>このプロセス入力を有効にする場合は、チェックボックスをオンにします。</help>
         <label><!-- Active --></label>
@@ -144,13 +144,7 @@
         <value>プロセス入力</value>
     </caseValues>
     <nameFieldLabel>入力名</nameFieldLabel>
-    <layouts>
-        <layout>Process Input Layout</layout>
-        <sections>
-            <label>商品条件</label>
-            <section>Product Filter</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Both Product Field and Operator must be set if either are set. --></errorMessage>
         <name>SBQQ__ProductFieldAndOperatorSet</name>

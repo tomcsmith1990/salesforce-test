@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Code that can be executed by an outside resource. --></help>
         <label><!-- Code --></label>
@@ -33,11 +33,5 @@
         <label><!-- Transpiled Code --></label>
         <name>SBQQ__TranspiledCode__c</name>
     </fields>
-    <layouts>
-        <layout>Custom Script Layout</layout>
-        <sections>
-            <label><!-- Transpiling --></label>
-            <section>Transpiling</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help><!-- Account that this Price Schedule applies to. Only used in combination with Price Schedule Override on Quote Line Editor UI. --></help>
         <label><!-- Account --></label>
@@ -161,13 +161,7 @@
         <label><!-- User Defined --></label>
         <name>SBQQ__UserDefined__c</name>
     </fields>
-    <layouts>
-        <layout>Price Schedule Layout</layout>
-        <sections>
-            <label><!-- Snapshot Information --></label>
-            <section>Snapshot Information</section>
-        </sections>
-    </layouts>
+    
     <webLinks>
         <label><!-- EditTiers --></label>
         <name>SBQQ__EditTiers</name>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Account, der Inhaber dieses Abonnements ist. Diese Beziehung wird zur Berechnung von Mengenrabatten herangezogen.</help>
         <label><!-- Account --></label>
@@ -492,21 +492,7 @@
         <label><!-- Subscription Search Results --></label>
         <name>SBQQ__SubscriptionSearchResults</name>
     </fieldSets>
-    <layouts>
-        <layout>Subscription Layout</layout>
-        <sections>
-            <label>Preisinformationen</label>
-            <section>Pricing Info</section>
-        </sections>
-        <sections>
-            <label>Verlängerungsinformationen</label>
-            <section>Renewal Info</section>
-        </sections>
-        <sections>
-            <label>Segmentinformationen</label>
-            <section>Segment Info</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Preserve Bundle Structure is checked on Contract, Renewal Quantity cannot be different from Quantity. --></errorMessage>
         <name>SBQQ__Renewal_Quantity_cannot_be_editable</name>

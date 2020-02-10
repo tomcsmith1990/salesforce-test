@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Date of Birth --></label>
         <name>Date_of_Birth__c</name>
@@ -15,13 +15,7 @@
         <label><!-- LastName --></label>
         <name>LastName__c</name>
     </fields>
-    <layouts>
-        <layout>Patient Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- The patient&apos;s date of birth must be on or after 1st January 1900. --></errorMessage>
         <name>Date_Of_Birth_After_1900</name>

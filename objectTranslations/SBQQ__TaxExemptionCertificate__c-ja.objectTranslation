@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Account --></label>
         <name>SBQQ__Account__c</name>
@@ -70,19 +70,5 @@
         <value>免税証明書</value>
     </caseValues>
     <nameFieldLabel>免税証明書名</nameFieldLabel>
-    <layouts>
-        <layout>Tax Exemption Certificate Layout</layout>
-        <sections>
-            <label>組織情報</label>
-            <section>Company Information</section>
-        </sections>
-        <sections>
-            <label>納税証明書</label>
-            <section>Tax Certificate</section>
-        </sections>
-        <sections>
-            <label>納税証明書の詳細</label>
-            <section>Tax Certificate Details</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>

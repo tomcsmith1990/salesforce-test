@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Sélectionnez le champ à mettre à jour lorsque la règle est déclenchée.</help>
         <label><!-- Filter Field --></label>
@@ -155,13 +155,7 @@
     <gender>Feminine</gender>
     <nameFieldLabel>N° d'action du produit</nameFieldLabel>
     <startsWith>Vowel</startsWith>
-    <layouts>
-        <layout>Product Action Layout</layout>
-        <sections>
-            <label>Informations sur le filtre</label>
-            <section>Filter Information</section>
-        </sections>
-    </layouts>
+    
     <validationRules>
         <errorMessage><!-- Value Attribute required since the Value Field is a global Configuration Attribute field. --></errorMessage>
         <name>SBQQ__Value_attr_required_if_global_field</name>

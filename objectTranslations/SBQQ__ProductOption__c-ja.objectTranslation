@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>[選択時] を選択すると、商品を選択したときに変更がすぐに適用されます。[数量変更時] を選択すると、数量を変更したときに変更がすぐに適用されます。[常に] を選択すると、商品の選択と数量の変更の両方の場合に変更が適用されます。</help>
         <label><!-- Apply Immediately Context --></label>
@@ -271,17 +271,7 @@
         <label><!-- SearchFilters --></label>
         <name>SBQQ__SearchFilters</name>
     </fieldSets>
-    <layouts>
-        <layout>Product Option Layout</layout>
-        <sections>
-            <label>高度な設定</label>
-            <section>Advanced Settings</section>
-        </sections>
-        <sections>
-            <label>オプション SKU の情報</label>
-            <section>Optional SKU Information</section>
-        </sections>
-    </layouts>
+    
     <layouts>
         <layout>Training Product Option Layout</layout>
         <sections>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <help>Zusätzlicher Kundenrabatt, der in Form eines absoluten Betrags für diesen Belegposten gewährt wird.</help>
         <label><!-- Additional Disc. (Amt) --></label>
@@ -698,19 +698,5 @@
         <label><!-- Segmented Line Editor Summary --></label>
         <name>SBQQ__SegmentedLineEditorSummary</name>
     </fieldSets>
-    <layouts>
-        <layout>Web Quote Line Layout</layout>
-        <sections>
-            <label>Rabattinformationen</label>
-            <section>Discount Information</section>
-        </sections>
-        <sections>
-            <label>Preisinformationen</label>
-            <section>Pricing Information</section>
-        </sections>
-        <sections>
-            <label>Abonnementinformationen</label>
-            <section>Subscription Information</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>
