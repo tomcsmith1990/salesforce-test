@@ -485,6 +485,7 @@
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>ORDERS.ORDER_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
