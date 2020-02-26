@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
+    <loginIpRanges>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <classAccesses>
         <apexClass>HandlerSOQL</apexClass>
@@ -5469,7 +5473,7 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Account.i_am_a_record_type</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -5509,7 +5513,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Account.Test</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -5684,7 +5688,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>
-        <visibility>DefaultOff</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Case</tab>
@@ -5748,7 +5752,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Recommendation</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Bot_Command__c</tab>
@@ -6027,9 +6031,9 @@
     <name>SubmitForTranslation</name>
 </userPermissions>
     <userPermissions>
-    <enabled>false</enabled>
-    <name>Packaging2PromoteVersion</name>
-</userPermissions>
+        <enabled>true</enabled>
+        <name>Packaging2PromoteVersion</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditMyDashboards</name>
