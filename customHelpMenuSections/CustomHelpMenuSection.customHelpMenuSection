@@ -2,8 +2,13 @@
 <CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
     <customHelpMenuItems>
         <linkUrl>https://www.google.co.uk</linkUrl>
-        <masterLabel>aaa</masterLabel>
+        <masterLabel>Test</masterLabel>
         <sortOrder>1</sortOrder>
     </customHelpMenuItems>
-    <masterLabel>hello</masterLabel>
+    <customHelpMenuItems>
+        <linkUrl>https://www.google.co.uk</linkUrl>
+        <masterLabel>Test2</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>MyStuff</masterLabel>
 </CustomHelpMenuSection>
