@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
-    <userLicense>Work.com Only</userLicense>
     <pageAccesses>
         <apexPage>HeatMapMock</apexPage>
         <enabled>false</enabled>
@@ -4353,6 +4352,7 @@
         <tab>SBQQ__WebQuote__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
+    <userLicense>Work.com Only</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>

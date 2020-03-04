@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <custom>false</custom>
-    <userLicense>Silver Partner</userLicense>
     <classAccesses>
         <apexClass>SBQQ__APIable</apexClass>
         <enabled>true</enabled>
@@ -3237,6 +3235,7 @@
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <custom>false</custom>
     <pageAccesses>
         <apexPage>HeatMapMock</apexPage>
         <enabled>true</enabled>
@@ -7860,6 +7859,7 @@
         <tab>SBQQ__WebQuote__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Silver Partner</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>WorkDotComUserPerm</name>
