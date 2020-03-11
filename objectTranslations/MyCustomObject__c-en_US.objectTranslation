@@ -1,14 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <label><!-- SomeNumber --></label>
-        <name>SomeNumber__c</name>
-    </fields>
-    <fields>
-        <label><!-- boolean --></label>
-        <name>boolean__c</name>
-    </fields>
-    <webLinks>
-        <label><!-- hello --></label>
-        <name>hello</name>
-    </webLinks>
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
 </CustomObjectTranslation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
         <label><!-- Email --></label>
         <name>Email__c</name>
@@ -27,15 +27,5 @@
         <label><!-- Title --></label>
         <name>Title__c</name>
     </fields>
-    <layouts>
-        <layout>Broker Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label><!-- Picture --></label>
-            <section>Picture</section>
-        </sections>
-    </layouts>
+    
 </CustomObjectTranslation>
