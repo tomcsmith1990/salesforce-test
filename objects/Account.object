@@ -679,7 +679,7 @@
     </fields>
     <fields>
         <fullName>AccountSource</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
     </fields>
     <fields>
