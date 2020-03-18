@@ -684,7 +684,7 @@
     </fields>
     <fields>
         <fullName>AnnualRevenue</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>ChannelProgramLevelName</fullName>
@@ -694,7 +694,7 @@
     </fields>
     <fields>
         <fullName>CleanStatus</fullName>
-        <trackFeedHistory>true</trackFeedHistory>
+        <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Country__c</fullName>
@@ -748,11 +748,6 @@
                     <fullName>Medium</fullName>
                     <default>false</default>
                     <label>Medium</label>
-                </value>
-                <value>
-                    <fullName>hello</fullName>
-                    <default>false</default>
-                    <label>hello</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
