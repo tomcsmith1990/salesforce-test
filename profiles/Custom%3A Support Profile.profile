@@ -15,7 +15,6 @@
         <apexClass>HandlerTravelApproval</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>JWT</apexClass>
         <enabled>true</enabled>

@@ -535,13 +535,11 @@
     </fields>
     <fields>
         <fullName>ActivatedById</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ActivatedDate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -551,7 +549,6 @@
     </fields>
     <fields>
         <fullName>CompanySignedDate</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
     </fields>
     <fields>

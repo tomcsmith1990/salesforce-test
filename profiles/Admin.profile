@@ -47,10 +47,7 @@
         <apexClass>BotHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLandingController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>PropertyControllerTest131</apexClass>
         <enabled>true</enabled>
@@ -91,10 +88,7 @@
         <apexClass>PostPriceChangeToSlackTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLandingControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>HandlerHelpTopic</apexClass>
         <enabled>true</enabled>
@@ -135,7 +129,6 @@
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>HandlerTravelApproval</apexClass>
         <enabled>true</enabled>
@@ -464,7 +457,6 @@
         <apexClass>PropertyControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>PropertyControllerTest1</apexClass>
         <enabled>true</enabled>
@@ -505,10 +497,7 @@
         <apexClass>PropertyControllerTest14</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLoginControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>PropertyControllerTest150</apexClass>
         <enabled>true</enabled>
@@ -525,10 +514,7 @@
         <apexClass>PropertyControllerTest104</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLoginController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
     <classAccesses>
         <apexClass>PropertyControllerTest154</apexClass>
         <enabled>true</enabled>

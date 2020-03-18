@@ -123,7 +123,6 @@
         <apexClass>PropertyController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>HandlerTravelApproval</apexClass>
         <enabled>true</enabled>

@@ -115,7 +115,6 @@
         <apexClass>LIFXController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>LIFXControllerTest</apexClass>
         <enabled>true</enabled>

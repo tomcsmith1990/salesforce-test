@@ -7,7 +7,6 @@
         <apexClass>JWT</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>LIFXController</apexClass>
         <enabled>true</enabled>

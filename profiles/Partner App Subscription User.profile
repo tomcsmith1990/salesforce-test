@@ -127,7 +127,6 @@
         <apexClass>HandlerNext</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    
     <classAccesses>
         <apexClass>PropertyController</apexClass>
         <enabled>true</enabled>
