@@ -360,7 +360,6 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <description>bbb</description>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>

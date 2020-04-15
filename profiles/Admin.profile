@@ -19132,9 +19132,9 @@
         <name>ManageContentProperties</name>
     </userPermissions>
     <userPermissions>
-    <enabled>false</enabled>
-    <name>AssignUserToSkill</name>
-</userPermissions>
+        <enabled>true</enabled>
+        <name>AssignUserToSkill</name>
+    </userPermissions>
     <userPermissions>
     <enabled>false</enabled>
     <name>ManageQuotas</name>
