@@ -125,6 +125,9 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Address</fullName>
         <trackHistory>false</trackHistory>
@@ -165,9 +168,16 @@
         <fullName>TypicalInTerritoryTravelTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <listViews>
+        <fullName>All_ServiceTerritories</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Service Territories</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ServiceTerritories</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Service Territories</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
         <customTabListAdditionalFields>OperatingHours</customTabListAdditionalFields>
@@ -191,14 +201,4 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <listViews>
-        <fullName>All_ServiceTerritories</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Service Territories</label>
-    </listViews>
-    <listViews>
-        <fullName>My_ServiceTerritories</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Service Territories</label>
-    </listViews>
 </CustomObject>

@@ -5,4 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-AppLauncher</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>SomeObject__c</tabs>
+    <tabs>mutliupsert__c</tabs>
 </CustomApplication>

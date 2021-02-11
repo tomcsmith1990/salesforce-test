@@ -111,6 +111,8 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Description</fullName>
     </fields>
@@ -119,6 +121,9 @@
     </fields>
     <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
     </fields>
     <fields>
         <fullName>OpportunityId</fullName>
@@ -146,44 +151,4 @@
     <fields>
         <fullName>UnitPrice</fullName>
     </fields>
-    <fields>
-        <fullName>SBQQ__ParentID__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <inlineHelpText>ID of the opportunity product that came from this product's bundle.</inlineHelpText>
-        <label>Parent ID</label>
-        <length>18</length>
-        <required>false</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>SBQQ__QuoteLine__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <description>Quote line that generated this Opportunity Product.</description>
-        <externalId>false</externalId>
-        <label>Quote Line</label>
-        <referenceTo>SBQQ__QuoteLine__c</referenceTo>
-        <relationshipLabel>Opportunity Product</relationshipLabel>
-        <relationshipName>OpportunityProducts</relationshipName>
-        <required>false</required>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>SBQQ__SubscriptionType__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates the subscription type to determine contract's pricing.</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Indicates the subscription type to determine contract's pricing.</inlineHelpText>
-        <label>Subscription Type</label>
-        <required>false</required>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>SBQQ__SubscriptionType</valueSetName>
-        </valueSet>
-    </fields>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
 </CustomObject>

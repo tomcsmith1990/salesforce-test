@@ -1138,7 +1138,7 @@
     </standardValue>
     <standardValue>
         <fullName>US</fullName>
-        <default>false</default>
+        <default>true</default>
         <label>United States</label>
     </standardValue>
     <standardValue>

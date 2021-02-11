@@ -1447,6 +1447,11 @@
         <label>Tasmania</label>
     </standardValue>
     <standardValue>
+        <fullName>TG</fullName>
+        <default>false</default>
+        <label>Telangana</label>
+    </standardValue>
+    <standardValue>
         <fullName>TN</fullName>
         <default>false</default>
         <label>Tennessee</label>

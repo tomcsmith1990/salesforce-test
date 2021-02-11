@@ -6,5 +6,7 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>SomeObject__c</tabs>
+    <tabs>mutliupsert__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

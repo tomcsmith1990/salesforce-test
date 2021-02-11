@@ -326,6 +326,27 @@
     <enableHistory>false</enableHistory>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>Account2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account2</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Contacts (Account2)</relationshipLabel>
+        <relationshipName>Contacts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountCreatedDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AccountCreatedDate</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
@@ -347,6 +368,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -360,18 +385,64 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <description>bbb</description>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Primary_Academic_Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Academic Program</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Students</relationshipLabel>
+        <relationshipName>Academic_Program_Members</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Department__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Department</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Department Members</relationshipLabel>
+        <relationshipName>Department_Members</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Educational_Institution__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Educational Institution</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Institution Members</relationshipLabel>
+        <relationshipName>Institution_Members</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Sports_Organization__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Sports Organization</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Organization Members</relationshipLabel>
+        <relationshipName>Sport_Organization_Members</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>external_id__c</fullName>
         <externalId>true</externalId>
-        <label>external_ida</label>
-        <precision>18</precision>
+        <label>external id</label>
+        <length>20</length>
         <required>false</required>
-        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -387,20 +458,8 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>hello__c</fullName>
-        <externalId>false</externalId>
-        <label>hello</label>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>HomePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
-        <fullName>Information__c</fullName>
-        <externalId>false</externalId>
-        <label>Information</label>
-        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>Jigsaw</fullName>
@@ -490,34 +549,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Loan_Amount__c</fullName>
-        <externalId>false</externalId>
-        <label>Loan Amount</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Location__c</fullName>
-        <displayLocationInDecimal>true</displayLocationInDecimal>
-        <externalId>false</externalId>
-        <label>Location</label>
-        <required>false</required>
-        <scale>7</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Location</type>
-    </fields>
-    <fields>
-        <fullName>Prequalified__c</fullName>
-        <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
-        <label>Prequalified?</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
@@ -540,6 +571,15 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>BulkMessageContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE3</columns>
+        <columns>CONTACT.LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <label>Bulk_SMS_Contacts</label>
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>
@@ -582,7 +622,6 @@
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>

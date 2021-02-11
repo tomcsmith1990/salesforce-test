@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account2 --></label>
+        <name>Account2__c</name>
+        <relationshipLabel><!-- Contacts (Account2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AccountCreatedDate --></label>
+        <name>AccountCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages --></label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Programa acadèmic primari</label>
+        <name>Primary_Academic_Program__c</name>
+        <relationshipLabel>Estudiants</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Departament primari</label>
+        <name>Primary_Department__c</name>
+        <relationshipLabel>Membres del departament</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Institució educativa primària</label>
+        <name>Primary_Educational_Institution__c</name>
+        <relationshipLabel>Membres de la institució</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Organització esportiva primària</label>
+        <name>Primary_Sports_Organization__c</name>
+        <relationshipLabel>Membres de l'organització</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- external id --></label>
+        <name>external_id__c</name>
+    </fields>
+</CustomObjectTranslation>

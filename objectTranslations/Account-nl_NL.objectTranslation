@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccountExternalId --></label>
+        <name>AccountExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- autonumber --></label>
+        <name>autonumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- custom_lookup --></label>
+        <name>custom_lookup__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- external --></label>
+        <name>external__c</name>
+    </fields>
+    <fields>
+        <label><!-- long field --></label>
+        <name>long_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- some number --></label>
+        <name>some_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- test_external_id --></label>
+        <name>test_external_id__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- An Academic Program offered at the educational institution. --></description>
+        <label><!-- Academic Program --></label>
+        <name>Academic_Program</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An administrative account. --></description>
+        <label><!-- Administrative --></label>
+        <name>Administrative</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A business organization. --></description>
+        <label><!-- Business Organization --></label>
+        <name>Business_Organization</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An educational institution. --></description>
+        <label><!-- Educational Institution --></label>
+        <name>Educational_Institution</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A Household containing one or more individuals. --></description>
+        <label><!-- Household Account --></label>
+        <name>HH_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A sports organization. --></description>
+        <label><!-- Sports Organization --></label>
+        <name>Sports_Organization</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A department in the educational institution. --></description>
+        <label><!-- University Department --></label>
+        <name>University_Department</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>

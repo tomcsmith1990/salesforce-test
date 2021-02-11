@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SomeObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SomeObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- CreateableNotUpdateable --></label>
+        <name>CreateableNotUpdateable__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalId --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- MasterDetailToAccount --></label>
+        <name>MasterDetailToAccount__c</name>
+        <relationshipLabel><!-- SomeObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MasterDetailToContactCanReparent --></label>
+        <name>MasterDetailToContactCanReparent__c</name>
+        <relationshipLabel><!-- SomeObjects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Picklist --></label>
+        <name>Picklist__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation><!-- b --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

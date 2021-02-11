@@ -9,4 +9,6 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>SomeObject__c</tabs>
+    <tabs>mutliupsert__c</tabs>
 </CustomApplication>

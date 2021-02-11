@@ -6,5 +6,7 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>SomeObject__c</tabs>
+    <tabs>mutliupsert__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

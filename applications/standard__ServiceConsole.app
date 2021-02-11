@@ -179,7 +179,15 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>SomeObject__c</tabs>
+    <tabs>mutliupsert__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>SomeObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>mutliupsert__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
