@@ -1,4 +1,4 @@
-global without sharing class BotController {
+public with sharing class BotController {
 
     class HandlerMapping {
         
@@ -29,7 +29,7 @@ global without sharing class BotController {
         
         try {
             
-            if (session == null) {
+            if (session != null) {
                 String nextCommand = session.get('nextCommand');
                 if (nextCommand != null) {
                     Type t = Type.forName('', nextCommand);

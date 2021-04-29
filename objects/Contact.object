@@ -360,18 +360,16 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <description>bbb</description>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>external_id__c</fullName>
-        <externalId>true</externalId>
-        <label>external_ida</label>
-        <precision>18</precision>
+        <externalId>false</externalId>
+        <label>external id</label>
+        <length>20</length>
         <required>false</required>
-        <scale>0</scale>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -582,7 +580,6 @@
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>

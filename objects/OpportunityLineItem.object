@@ -111,6 +111,8 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Description</fullName>
     </fields>
@@ -119,6 +121,9 @@
     </fields>
     <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
     </fields>
     <fields>
         <fullName>OpportunityId</fullName>
@@ -184,6 +189,4 @@
             <valueSetName>SBQQ__SubscriptionType</valueSetName>
         </valueSet>
     </fields>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
 </CustomObject>

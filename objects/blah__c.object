@@ -152,6 +152,18 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>blahasdasflookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>blahasdasf</label>
+        <referenceTo>blah__c</referenceTo>
+        <relationshipLabel>blah</relationshipLabel>
+        <relationshipName>blah</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>blahasdasf</label>
     <nameField>
         <label>blah Name</label>

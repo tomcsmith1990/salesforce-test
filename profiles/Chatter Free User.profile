@@ -103,6 +103,11 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.AccountExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ProductRequestLineItem.NeedByDate</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -103,6 +103,11 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.AccountExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Orange__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -114,6 +119,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.externalidaaa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.textarea__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3229,6 +3239,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Oardvark__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>aaa_circular__c.aaa_circular__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>blah__c.blahasdasflookup__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>

@@ -3854,6 +3854,11 @@
         <name>SBQQ__HideGlobalHeader</name>
     </customPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AccountExternalId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
     <editable>false</editable>
     <readable>false</readable>
     <field>WorkOrder.DurationInMinutes</field>
